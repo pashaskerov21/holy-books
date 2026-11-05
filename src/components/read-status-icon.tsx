@@ -2,9 +2,7 @@ interface ReadStatusIconProps {
   active: boolean;
 }
 
-// Non-interactive status indicator — read state is set automatically as the
-// user reads, never by clicking this icon, so it deliberately has no
-// onClick/hover affordance.
+// Status display; the verse card provides the interactive button around it.
 export function ReadStatusIcon({ active }: ReadStatusIconProps) {
   return (
     <span

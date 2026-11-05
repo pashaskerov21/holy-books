@@ -5,9 +5,10 @@ interface PageHeaderProps {
   title: string;
   backHref?: string;
   actions?: React.ReactNode;
+  titleClassName?: string;
 }
 
-export function PageHeader({ title, backHref, actions }: PageHeaderProps) {
+export function PageHeader({ title, backHref, actions, titleClassName }: PageHeaderProps) {
   return (
     <header className="flex items-center justify-between px-5 py-5 sm:px-10 sm:py-6">
       <div className="flex items-center gap-2">
@@ -30,11 +31,11 @@ export function PageHeader({ title, backHref, actions }: PageHeaderProps) {
           </Link>
         )}
         <h1
-          className={
+          className={titleClassName ?? (
             backHref
               ? "text-[15px] font-medium text-foreground/90 sm:text-base"
               : "text-[15px] font-medium tracking-widest text-foreground/90 sm:text-base"
-          }
+          )}
         >
           {title}
         </h1>

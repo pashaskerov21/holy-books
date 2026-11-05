@@ -18,10 +18,12 @@ export function VerseResultCard({
   query,
 }: VerseResultCardProps) {
   const { before, match, after } = buildSnippet(text, query);
+  const href = new URLSearchParams({ verse: String(verseNumber) });
+  if (query) href.set("highlight", query);
 
   return (
     <Link
-      href={`${basePath}/${chapterId}?verse=${verseNumber}`}
+      href={`${basePath}/${chapterId}?${href.toString()}`}
       className="flex flex-col gap-1.5 border-b border-border py-4 transition duration-300 ease-in-out first:pt-0 last:border-b-0 active:scale-[0.98] active:duration-100 sm:py-5"
     >
       <div className="flex items-baseline justify-between gap-3">

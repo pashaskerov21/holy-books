@@ -66,7 +66,7 @@ export default async function TenqrizmChapterPage({
   const prevChapterId = getChapterById(data.chapter - 1) ? data.chapter - 1 : null;
   const nextChapterId = getChapterById(data.chapter + 1) ? data.chapter + 1 : null;
 
-  // VerseReader/VerseSlider are shared with Quran/İncil/Tövrat and speak in
+  // VerseReader is shared with Quran/İncil/Tövrat and speaks in
   // terms of `verse`, so passages are mapped to that shape at this boundary.
   const verses = data.passages.map((passage) => ({
     chapter: passage.chapter,

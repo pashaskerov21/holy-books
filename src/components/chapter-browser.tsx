@@ -96,26 +96,32 @@ export function ChapterBrowser({
 
   return (
     <div className="flex flex-1 flex-col bg-background text-foreground transition-colors duration-300">
-      <header className="flex items-center justify-between px-5 py-5 sm:px-10 sm:py-6">
-        <Link
-          href={backHref}
-          aria-label="Geri"
-          className="flex shrink-0 items-center justify-center rounded-full text-foreground/55 transition-colors duration-300 hover:text-foreground"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            className="h-4 w-4"
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-          </svg>
-        </Link>
+      <div className="sticky top-0 z-20 bg-background/95 backdrop-blur-sm">
+        <header className="flex items-center justify-between px-5 py-5 sm:px-10 sm:py-6">
+          <div className="flex min-w-0 items-center gap-3">
+            <Link
+              href={backHref}
+              aria-label="Geri"
+              className="flex shrink-0 items-center justify-center rounded-full text-foreground/55 transition-colors duration-300 hover:text-foreground"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                className="h-4 w-4"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+              </svg>
+            </Link>
+            <h1 className="truncate font-serif text-xl font-semibold text-foreground/90 sm:text-2xl">
+              {book.name}
+            </h1>
+          </div>
 
-        <div className="flex items-center gap-4">
-          <button
+          <div className="ml-4 flex shrink-0 items-center gap-4">
+            <button
             type="button"
             onClick={() => {
               setSearchOpen((open) => {
@@ -147,10 +153,10 @@ export function ChapterBrowser({
                 </>
               )}
             </svg>
-          </button>
-          <ThemeToggle />
-        </div>
-      </header>
+            </button>
+            <ThemeToggle />
+          </div>
+        </header>
 
       <div
         className={`overflow-hidden px-5 transition-[grid-template-rows] duration-300 ease-in-out sm:px-10 ${
@@ -196,12 +202,10 @@ export function ChapterBrowser({
           </div>
         </div>
       </div>
+      </div>
 
       <main className="flex flex-1 flex-col px-5 pb-24 sm:px-10">
         <div className="mb-6 sm:mb-8">
-          <h1 className="font-serif text-3xl text-foreground sm:text-4xl">
-            {book.name}
-          </h1>
           <p className="mt-3 text-sm leading-relaxed text-muted sm:text-base">
             {book.info}
           </p>

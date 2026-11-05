@@ -76,6 +76,23 @@ export function markVerseRead(
   writeBook(bookKey, { ...data, [chapterId]: [...existing, verse] });
 }
 
+export function toggleVersesReadThrough(
+  bookKey: string,
+  chapterId: number,
+  verse: number,
+): void {
+  const data = readBook(bookKey);
+  const existing = data[chapterId] ?? [];
+  if (existing.includes(verse)) {
+    const { [chapterId]: _removed, ...remaining } = data;
+    writeBook(bookKey, remaining);
+    return;
+  }
+  const readThrough = Array.from({ length: verse }, (_, index) => index + 1);
+  if (readThrough.length === existing.length && readThrough.every((item, index) => item === existing[index])) return;
+  writeBook(bookKey, { ...data, [chapterId]: readThrough });
+}
+
 export function isChapterFullyRead(
   bookKey: string,
   chapterId: number,
