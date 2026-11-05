@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #fafaf8;
+  --foreground: #1a1a1a;
+  --muted: #6b6b6b;
+  --surface: #ffffff;
+  --border: #e8e6e1;
+  --accent: #1a1a1a;
+}
+
+.dark {
+  --background: #121212;
+  --foreground: #f2f2f0;
+  --muted: #9b9b9b;
+  --surface: #1c1c1c;
+  --border: #2c2c2c;
+  --accent: #f2f2f0;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --font-serif: var(--font-newsreader);
+  --font-sans: var(--font-manrope);
+}
+
+html {
+  transition:
+    background-color 300ms ease-in-out,
+    color 300ms ease-in-out;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  transition:
+    background-color 300ms ease-in-out,
+    color 300ms ease-in-out;
+}
+
+@keyframes warning-glow {
+  0%,
+  100% {
+    border-color: var(--border);
+  }
+  50% {
+    border-color: rgba(196, 120, 40, 0.6);
+  }
+}
+
+.animate-warning-glow {
+  animation: warning-glow 1.8s ease-in-out infinite;
+}

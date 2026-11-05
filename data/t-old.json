@@ -1,0 +1,2670 @@
+{
+  "id": 6,
+  "slug": "tengrizm",
+  "name": "Tenqrizm",
+  "religion": "Qədim türk dini",
+  "info": "Qədim türk-monqol xalqlarının Göy Tanrı Tenqri ətrafında formalaşan inanc sistemi. Vahid müqəddəs kitabı yoxdur; bu məzmun Orxon-Yenisey kitabələri, İrk Bitiq, Divani-Lüğat-it-Türk, tarixi salnamələr və şifahi xalq ənənəsi əsasında sistemləşdirilmişdir.",
+  "total_books": 17,
+  "language_origin": "Qədim türk dili (Orxon türkcəsi) və şifahi ənənə",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Giriş",
+      "info": "Tenqriçiliyin (Tenqrizmin) mahiyyəti, tarixi inkişafı, yayılma coğrafiyası, əsas mənbələri və bu kitabın hazırlanma prinsipləri haqqında ümumi məlumat.",
+      "total_passages": 20,
+      "passages": [
+        {
+          "chapter": 1,
+          "passage": 1,
+          "text": "Tenqriçilik (elmi ədəbiyyatda həm də Tenqrizm adlanır) mərkəzində Göy Tanrı Tenqri inancı duran, Avrasiya çöllərində formalaşmış qədim türk və monqol xalqlarının dünyagörüşüdür. Tədqiqatçılar onu Orta Asiyanın ən qədim sənədləşdirilmiş inanc sistemlərindən biri hesab edirlər."
+        },
+        {
+          "chapter": 1,
+          "passage": 2,
+          "text": "Bu dünyagörüşünün müxtəlif formaları qədim Göytürk xaqanlığında, Uyğur xaqanlığında, Monqol imperiyasında, hunlar, bulqarlar və digər Avrasiya çöl xalqları arasında müşahidə olunur. Ayrı-ayrı tayfalar arasında inancın tətbiqi və mərasimləri fərqlənsə də, Tenqri anlayışı ümumi əsaslardan biri olmuşdur."
+        },
+        {
+          "chapter": 1,
+          "passage": 3,
+          "text": "Tenqriçiliyin müəyyən bir qurucusu, peyğəmbəri və ya rəsmi yaranma tarixi məlum deyil. Bu inanc uzun əsrlər ərzində köçəri həyat tərzi, təbiətlə sıx əlaqə və şifahi ənənələr əsasında tədricən formalaşmışdır."
+        },
+        {
+          "chapter": 1,
+          "passage": 4,
+          "text": "\"Tenqri\" sözü qədim türk dillərində həm \"göy\", həm də \"uca ilahi qüvvə\" mənalarında işlədilmişdir. Tenqri yalnız fiziki səmanı deyil, kainatın nizamını, taleyi və ali hakimiyyəti təmsil edən müqəddəs varlıq kimi qəbul olunurdu."
+        },
+        {
+          "chapter": 1,
+          "passage": 5,
+          "text": "Tenqriçiliyin dini xarakteri barədə alimlər arasında tam yekdil fikir yoxdur. Bəzi tədqiqatçılar onu əsasən monoteizmə yaxın sistem, digərləri isə henoteist və ya politeist xüsusiyyətlər daşıyan qədim inanc kimi qiymətləndirirlər. Bu mövzu müasir türkologiyada müzakirə olunmağa davam edir."
+        },
+        {
+          "chapter": 1,
+          "passage": 6,
+          "text": "Qədim türk kosmologiyasında kainat adətən üç əsas aləm şəklində təsəvvür edilirdi: yuxarı aləm (Tenqri və ilahi qüvvələrlə əlaqələndirilən səma), orta aləm (insanların yaşadığı Yer-Sub dünyası) və aşağı aləm (ölülər aləmi). Bu təsəvvür müxtəlif tarixi mənbələrdə və xalq ənənələrində əks olunmuşdur."
+        },
+        {
+          "chapter": 1,
+          "passage": 7,
+          "text": "Qədim türk xaqanları hakimiyyətlərini Tenqrinin iradəsi ilə aldıqlarına inanırdılar. Orxon kitabələrində xaqanın xalqı idarə etməsinin ilahi iradə ilə əlaqələndirildiyi açıq şəkildə ifadə olunur."
+        },
+        {
+          "chapter": 1,
+          "passage": 8,
+          "text": "Tenqriçilikdə insan təbiətin ayrılmaz hissəsi hesab edilirdi. Dağlar, çaylar, göllər, müqəddəs bulaqlar, qədim ağaclar və geniş çöllər hörmətlə qarşılanır, lakin bunların heç biri Tenqrinin özü hesab olunmurdu."
+        },
+        {
+          "chapter": 1,
+          "passage": 9,
+          "text": "İnsanla təbiət arasında tarazlığın qorunması mühüm əxlaqi prinsip sayılırdı. Təbiətə hörmət göstərmək, ov və köç zamanı müəyyən qaydalara riayət etmək, müqəddəs hesab olunan məkanlara ehtiramla yanaşmaq qədim türk ənənələrinin mühüm hissəsi olmuşdur."
+        },
+        {
+          "chapter": 1,
+          "passage": 10,
+          "text": "Uzun müddət elmi ədəbiyyatda Tenqriçilik ümumi şəkildə \"türk şamanizmi\" adı ilə təqdim olunurdu. Sonrakı araşdırmalar göstərdi ki, qamlıq (şamanlıq) Tenqriçilik daxilində mühüm yer tutsa da, bu iki anlayış tam eyni məna daşımır."
+        },
+        {
+          "chapter": 1,
+          "passage": 11,
+          "text": "1990-cı illərdən etibarən \"Tenqrizm\" termini beynəlxalq elmi ədəbiyyatda daha geniş istifadə olunmağa başladı. Bunun əsas səbəbi qədim türk dünyagörüşünü digər xalqların şaman ənənələrindən daha dəqiq fərqləndirmək idi."
+        },
+        {
+          "chapter": 1,
+          "passage": 12,
+          "text": "Tenqriçiliyin vahid müqəddəs kitabı olmayıb. İnanc əsasən şifahi ənənə yolu ilə qamlar, ağsaqqallar və tayfa rəhbərləri vasitəsilə nəsildən-nəslə ötürülmüşdür."
+        },
+        {
+          "chapter": 1,
+          "passage": 13,
+          "text": "Şifahi ənənənin üstünlük təşkil etməsi səbəbindən müxtəlif bölgələrdə eyni inancın fərqli mərasim və adət formaları meydana gəlmişdir. Buna görə Tenqriçilik vahid dini qanunlar toplusuna malik sistem hesab edilmir."
+        },
+        {
+          "chapter": 1,
+          "passage": 14,
+          "text": "Tenqriçilik haqqında ən mühüm birbaşa məlumat mənbələri VIII əsrə aid Orxon-Yenisey kitabələridir. Kül Tigin, Bilgə Xaqan və Tonyukuk abidələri qədim türklərin öz dillərində yazılmış ən etibarlı tarixi sənədlər hesab olunur."
+        },
+        {
+          "chapter": 1,
+          "passage": 15,
+          "text": "Digər mühüm mənbələrə \"İrk Bitiq\", Kaşğarlı Mahmudun \"Divani-Lüğat-it-Türk\" əsəri, \"Monqolların Gizli Tarixi\", Çin salnamələri, ərəb və fars tarixçilərinin qeydləri, həmçinin Altay, Yakut və Buryat xalqlarının qorunmuş şifahi ənənələri daxildir."
+        },
+        {
+          "chapter": 1,
+          "passage": 16,
+          "text": "Bəzi orta əsr Avropa səyyahlarının, o cümlədən Plano Karpini və Villem de Rubrukun qeydləri də monqol və türk xalqlarının dini təsəvvürləri barədə qiymətli məlumatlar verir. Lakin bu məlumatlar xarici müşahidəçilərin baxışları olduğuna görə ehtiyatla qiymətləndirilir."
+        },
+        {
+          "chapter": 1,
+          "passage": 17,
+          "text": "Tədqiqatçılar qeyd edirlər ki, Tenqriçilik vahid dini təşkilata və ya mərkəzi idarəetmə qurumuna malik olmayıb. İnancın tətbiqi tayfaların adətləri və yaşadıqları bölgələrin xüsusiyyətlərinə uyğun şəkildə dəyişə bilirdi."
+        },
+        {
+          "chapter": 1,
+          "passage": 18,
+          "text": "Bu səbəbdən bu kitabda təqdim olunan məlumatlar müəyyən bir tayfanın və ya dövrün deyil, müxtəlif tarixi mənbələrin müqayisəsi əsasında hazırlanmış ümumiləşdirilmiş mənzərəni əks etdirir."
+        },
+        {
+          "chapter": 1,
+          "passage": 19,
+          "text": "Bu bölmə Tenqriçiliyin müqəddəs kitabı deyil. Tarixdə belə vahid kitabın mövcud olduğuna dair etibarlı sübut yoxdur. Buradakı məzmun arxeoloji tapıntılar, tarixi yazılı mənbələr, şifahi ənənələr və müasir elmi araşdırmalar əsasında sistemləşdirilmiş məlumatlardan ibarətdir."
+        },
+        {
+          "chapter": 1,
+          "passage": 20,
+          "text": "Bu kitabın məqsədi Tenqriçiliyi təbliğ etmək və ya hər hansı dini mövqeyi müdafiə etmək deyil. Məqsəd qədim türk və monqol xalqlarının dünyagörüşünü tarixi mənbələr və müasir elmi araşdırmalar əsasında oxucuya neytral, dəqiq və sistemli şəkildə təqdim etməkdir."
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "title": "Tenqri — Göy Tanrı",
+      "info": "Göy Tanrı Tenqrinin mahiyyəti, qədim türk mənbələrində təsviri, qut anlayışı və Tenqri haqqında müasir elmi baxışlar.",
+      "total_passages": 19,
+      "passages": [
+        {
+          "chapter": 2,
+          "passage": 1,
+          "text": "Tenqri sözü qədim türk dilində həm \"göy\", həm də \"uca ilahi qüvvə\" mənalarında işlədilmişdir. Orxon kitabələrində bu söz \"teŋri\" şəklində yazılmışdır."
+        },
+        {
+          "chapter": 2,
+          "passage": 2,
+          "text": "Qədim türklər fiziki səmanı ifadə etmək üçün əsasən \"Kök\" sözündən istifadə edirdilər. Tenqri isə görünən səmanı deyil, kainat üzərində hökmranlıq edən ali varlığı ifadə edirdi."
+        },
+        {
+          "chapter": 2,
+          "passage": 3,
+          "text": "\"Kök Tenqri\" ifadəsi \"Göy Tenqri\" mənasını verir və qədim mənbələrdə geniş işlənmişdir. Müasir Azərbaycan dilindəki \"Tanrı\" sözünün də əksər dilçilərə görə \"Tenqri\" sözündən inkişaf etdiyi qəbul edilir."
+        },
+        {
+          "chapter": 2,
+          "passage": 4,
+          "text": "Tenqri haqqında ən etibarlı birbaşa məlumatlar VIII əsrə aid Orxon kitabələrində qorunub saxlanılmışdır. Kül Tigin, Bilgə Xaqan və Tonyukuk abidələri bu baxımdan əsas mənbələr hesab olunur."
+        },
+        {
+          "chapter": 2,
+          "passage": 5,
+          "text": "Orxon kitabələrinin giriş hissəsində belə deyilir: \"Yuxarıda mavi göy, aşağıda qara yer yaradıldıqda, ikisinin arasında insan oğlu yaradılmışdır.\" Bu ifadə qədim türklərin kainat təsəvvürünü əks etdirən ən qədim yazılı nümunələrdən biridir."
+        },
+        {
+          "chapter": 2,
+          "passage": 6,
+          "text": "Kitabələrdə Tenqrinin zahiri görünüşü təsvir olunmur. O, əsasən iradə sahibi, hökm verən və insan taleyinə təsir edən ali qüvvə kimi təqdim edilir."
+        },
+        {
+          "chapter": 2,
+          "passage": 7,
+          "text": "Orxon mətnlərində dövlətin yaranması, xaqanların hakimiyyətə gəlməsi və xalqın taleyi dəfələrlə Tenqrinin iradəsi ilə əlaqələndirilir. Bu fikir kitabələrin əsas mövzularından biridir."
+        },
+        {
+          "chapter": 2,
+          "passage": 8,
+          "text": "Bilgə Xaqan kitabəsində insanların müəyyən olunmuş vaxtda öldüyü bildirilir. Bu ifadə Tenqrinin insan taleyi üzərində ali hakimiyyətini göstərən nümunələrdən hesab olunur."
+        },
+        {
+          "chapter": 2,
+          "passage": 9,
+          "text": "Qədim türklər xaqanın hakimiyyətini yalnız siyasi güc hesab etmirdilər. Hakimiyyətin Tenqri tərəfindən verildiyinə inanılırdı."
+        },
+        {
+          "chapter": 2,
+          "passage": 10,
+          "text": "\"Qut\" (kut) anlayışı Tenqrinin insana bəxş etdiyi ilahi lütf, uğur və hakimiyyət haqqını ifadə edirdi. Xüsusilə xaqan üçün qut dövlət idarəçiliyinin mənəvi əsaslarından sayılırdı."
+        },
+        {
+          "chapter": 2,
+          "passage": 11,
+          "text": "Ədalətli və uğurlu hökmdarın qutunu qoruduğuna inanılırdı. Dövlətin zəifləməsi və ya xaqanın uğursuzluğu bəzən qutun itirilməsi ilə əlaqələndirilirdi."
+        },
+        {
+          "chapter": 2,
+          "passage": 12,
+          "text": "Qut anlayışı yalnız hökmdarlara aid edilmirdi. Müxtəlif türk ənənələrində bu söz insanın bəxti, uğuru və mənəvi qüvvəsi mənalarında da işlədilmişdir."
+        },
+        {
+          "chapter": 2,
+          "passage": 13,
+          "text": "Tarixi mənbələrdə Tenqrinin heykəlləri və ya təsvirləri haqqında etibarlı məlumat yoxdur. Buna görə tədqiqatçıların çoxu Tenqri inancında bütpərəst təsvirlərin mühüm yer tutmadığını qeyd edir."
+        },
+        {
+          "chapter": 2,
+          "passage": 14,
+          "text": "IX əsrə aid \"İrk Bitiq\" əlyazmasında Tenqri bir neçə dəfə \"Türük Tängrisi\" adı ilə xatırlanır. Burada O, ədaləti bərpa edən və insanlara kömək edən ali qüvvə kimi təqdim olunur."
+        },
+        {
+          "chapter": 2,
+          "passage": 15,
+          "text": "XI əsrdə Kaşğarlı Mahmud \"Divani-Lüğat-it-Türk\" əsərində Tenqri sözünü qeyd etmiş, həmçinin \"Uqan\", \"Bayat\" və \"İdi\" kimi adların da işlədildiyini göstərmişdir."
+        },
+        {
+          "chapter": 2,
+          "passage": 16,
+          "text": "Kaşğarlı Mahmud müsəlman alim olduğu üçün qədim türk inanclarına tənqidi yanaşmışdır. Buna baxmayaraq, onun əsəri Tenqriçilik haqqında ən mühüm tarixi mənbələrdən biri hesab edilir."
+        },
+        {
+          "chapter": 2,
+          "passage": 17,
+          "text": "Müasir tədqiqatçılar Tenqriçiliyin xarakteri barədə fərqli fikirlər irəli sürürlər. Bəziləri onu monoteizmə yaxın, digərləri isə henoteist və ya politeist xüsusiyyətlər daşıyan inanc sistemi hesab edirlər."
+        },
+        {
+          "chapter": 2,
+          "passage": 18,
+          "text": "Monqol imperiyası dövründə \"Mönkə Tenqri\" (Əbədi Göy Tenqri) ifadəsi geniş istifadə olunmuşdur. Bu anlayış xüsusilə Çingiz xanın siyasi yazışmalarında və sonrakı monqol ənənəsində mühüm yer tutur."
+        },
+        {
+          "chapter": 2,
+          "passage": 19,
+          "text": "Türk xalqlarının sonralar islam, xristianlıq, buddizm və digər dinləri qəbul etməsinə baxmayaraq, Tenqri anlayışının bəzi izləri dil və xalq ənənələrində qorunub qalmışdır. Məsələn, bir çox türk dillərində Allah mənasında \"Tanrı\" sözünün işlənməsi bu tarixi davamlılığın nümunələrindən hesab olunur."
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "title": "Kainat",
+      "info": "Tenqriçilikdə kainatın quruluşu, üç aləm anlayışı, Yer-Sub inancı, yaradılış təsəvvürləri və Dünya Ağacı simvolu.",
+      "total_passages": 18,
+      "passages": [
+        {
+          "chapter": 3,
+          "passage": 1,
+          "text": "Qədim türk kosmologiyasında kainat adətən üç əsas aləm şəklində təsəvvür edilirdi: yuxarı dünya, orta dünya və aşağı dünya. Bu model müxtəlif tarixi mənbələrdə və sonrakı türk xalqlarının şifahi ənənələrində qorunub saxlanmışdır."
+        },
+        {
+          "chapter": 3,
+          "passage": 2,
+          "text": "Yuxarı dünya Tenqri ilə əlaqələndirilən ilahi aləm hesab edilirdi. Bu aləm göyün ucalığını və kainatın ali nizamını təmsil edirdi."
+        },
+        {
+          "chapter": 3,
+          "passage": 3,
+          "text": "Orta dünya insanların, heyvanların və digər canlıların yaşadığı aləm idi. Qədim türklər gündəlik həyatlarını bu dünyanın bir hissəsi hesab edirdilər."
+        },
+        {
+          "chapter": 3,
+          "passage": 4,
+          "text": "\"Yer-Sub\" (Yer-Su) anlayışı orta dünyanın müqəddəs təbii qüvvələrini ifadə edirdi. Yer və su həyatın davamı üçün vacib olduğuna görə xüsusi hörmətlə qarşılanırdı."
+        },
+        {
+          "chapter": 3,
+          "passage": 5,
+          "text": "Orxon kitabələrində \"Yduk Yer-Sub\" (Müqəddəs Yer-Su) ifadəsi işlədilir. Bu, Yer-Sub anlayışının qədim türklərin dini təsəvvürlərində mühüm yer tutduğunu göstərir."
+        },
+        {
+          "chapter": 3,
+          "passage": 6,
+          "text": "Bəzi tarixi və etnoqrafik mənbələrdə Yer-Suba süd, qımız və digər nemətlərin təqdim edildiyi mərasimlər qeyd olunur. Bu adətlər bütün türk xalqları üçün eyni formada sənədləşdirilməmişdir."
+        },
+        {
+          "chapter": 3,
+          "passage": 7,
+          "text": "Aşağı dünya ölülər aləmi kimi təsəvvür edilirdi. Sonrakı Altay və Sibir türk ənənələrində bu aləmin Erliklə əlaqələndirildiyi rəvayətlər mövcuddur."
+        },
+        {
+          "chapter": 3,
+          "passage": 8,
+          "text": "Orxon kitabələrinin giriş hissəsində belə deyilir: \"Yuxarıda mavi göy, aşağıda qara yer yaradıldıqda, ikisinin arasında insan oğlu yaradılmışdır.\" Bu ifadə qədim türk kosmoloji düşüncəsinin ən qədim yazılı nümunələrindən biridir."
+        },
+        {
+          "chapter": 3,
+          "passage": 9,
+          "text": "Orxon kitabələri kainatın yaradılışını ətraflı təsvir etmir. Onlar daha çox kainatın nizamını və insanın bu nizam daxilindəki yerini vurğulayır."
+        },
+        {
+          "chapter": 3,
+          "passage": 10,
+          "text": "Sonrakı Altay türk mifologiyasında yaradılış haqqında daha geniş rəvayətlər qorunmuşdur. Bu rəvayətlər əsasən XIX–XX əsrlərdə etnoqraflar tərəfindən yazıya alınmışdır."
+        },
+        {
+          "chapter": 3,
+          "passage": 11,
+          "text": "Bəzi Altay rəvayətlərində başlanğıcda yalnız sonsuz suyun mövcud olduğu bildirilir. Sonra yaradıcı qüvvə suyun dibindən çıxarılan torpaq vasitəsilə yer üzünü formalaşdırır."
+        },
+        {
+          "chapter": 3,
+          "passage": 12,
+          "text": "Bu yaradılış rəvayətlərində yaradıcı obraz müxtəlif ənənələrdə fərqli adlarla xatırlanır. Bəzi mənbələrdə Kayra Xan, digərlərində isə Ülgen ön plana çıxır."
+        },
+        {
+          "chapter": 3,
+          "passage": 13,
+          "text": "Bəzi Altay miflərində torpağı gətirən köməkçi varlığın sonradan Erliklə əlaqələndirildiyi rəvayət edilir. Bu motiv Orxon kitabələrində deyil, daha sonrakı şifahi ənənələrdə qorunmuşdur."
+        },
+        {
+          "chapter": 3,
+          "passage": 14,
+          "text": "Sonrakı türk mifoloji ənənələrində yuxarı və aşağı dünyanın bir neçə qatdan ibarət olduğu barədə təsəvvürlər mövcuddur. Qatların sayı müxtəlif mənbələrdə fərqli göstərilir."
+        },
+        {
+          "chapter": 3,
+          "passage": 15,
+          "text": "Dünya Ağacı qədim türk mifologiyasının ən məşhur simvollarından biridir. O, yuxarı, orta və aşağı aləmləri bir-biri ilə əlaqələndirən kosmik ox kimi təsvir olunur."
+        },
+        {
+          "chapter": 3,
+          "passage": 16,
+          "text": "Altay rəvayətlərinin bəzilərində Dünya Ağacı doqquz budaqlı təsvir edilir. Bu budaqların insan nəslinin və ya tayfaların mənşəyi ilə əlaqələndirildiyi əfsanələr mövcuddur."
+        },
+        {
+          "chapter": 3,
+          "passage": 17,
+          "text": "Dünya Ağacı haqqında təsəvvürlər bütün türk xalqlarında eyni formada qorunmamışdır. Ağacın adı, görünüşü və simvolik mənası bölgələrə görə dəyişə bilir."
+        },
+        {
+          "chapter": 3,
+          "passage": 18,
+          "text": "Qədim türk kosmologiyasının əsas hissəsi Orxon kitabələri kimi erkən yazılı mənbələrə söykənir. Yaradılış əfsanələrinin və Dünya Ağacı ilə bağlı bir çox təfərrüatlar isə sonrakı Altay və Sibir türk xalqlarının şifahi ənənələrindən məlumdur."
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "title": "İnsan",
+      "info": "Tenqriçilikdə insanın mənşəyi, qut anlayışı, ruh təsəvvürləri, təbiətlə münasibəti və əcdadlara hörmət.",
+      "total_passages": 17,
+      "passages": [
+        {
+          "chapter": 4,
+          "passage": 1,
+          "text": "Orxon kitabələrində insanın göy ilə yer arasında yaradıldığı bildirilir. Bu ifadə insanın kainat nizamındakı xüsusi yerini göstərən ən qədim türk təsəvvürlərindən biridir."
+        },
+        {
+          "chapter": 4,
+          "passage": 2,
+          "text": "Tenqriçilikdə insan təbiətdən ayrı deyil, onun ayrılmaz hissəsi hesab olunurdu. İnsan, təbiət və kainat arasında qarşılıqlı ahəngin qorunması vacib sayılırdı."
+        },
+        {
+          "chapter": 4,
+          "passage": 3,
+          "text": "\"Qut\" qədim türk düşüncəsində ilahi lütf, həyat gücü, uğur və bəxt anlayışlarını ifadə edən mühüm terminlərdən biridir. Bu anlayış insanın mənəvi gücü ilə də əlaqələndirilirdi."
+        },
+        {
+          "chapter": 4,
+          "passage": 4,
+          "text": "Qut anlayışı yalnız xaqanlara aid deyildi. Müxtəlif mənbələrdə onun adi insanlara da bəxş edilən ilahi nemət olduğu qeyd olunur."
+        },
+        {
+          "chapter": 4,
+          "passage": 5,
+          "text": "Xaqan üçün qut hakimiyyətin ilahi əsasını ifadə edirdi. Ədalətli idarəçilik qutun qorunması, uğursuzluq isə onun itirilməsi ilə əlaqələndirilirdi."
+        },
+        {
+          "chapter": 4,
+          "passage": 6,
+          "text": "Qədim türk ənənələrində insanın ruhu haqqında müxtəlif təsəvvürlər mövcud olmuşdur. Ayrı-ayrı türk xalqları ruhun bir və ya bir neçə hissədən ibarət olduğuna inanırdılar."
+        },
+        {
+          "chapter": 4,
+          "passage": 7,
+          "text": "Etnoqrafik mənbələrdə ruh üçün \"özüt\", \"tin\", \"kut\", \"sür\", \"süne\", \"yula\" və digər adlara rast gəlinir. Bu terminlərin mənası və funksiyası bölgələrə görə dəyişə bilir."
+        },
+        {
+          "chapter": 4,
+          "passage": 8,
+          "text": "Kaşğarlı Mahmud \"özüt\" anlayışını həyat nəfəsi ilə əlaqələndirir. Bu, ruh və nəfəs arasında qədim türk düşüncəsində mövcud olan əlaqəni göstərir."
+        },
+        {
+          "chapter": 4,
+          "passage": 9,
+          "text": "Bəzi Altay və Sibir türk ənənələrində insanın bir neçə ruhdan ibarət olduğu barədə təsəvvürlər qorunmuşdur. Bu model bütün türk xalqları üçün vahid qəbul edilmir."
+        },
+        {
+          "chapter": 4,
+          "passage": 10,
+          "text": "Qədim türklər yalnız insanın deyil, heyvanların və təbiətin də öz qoruyucu ruhlarının olduğuna inanırdılar. Bu ruhlar bəzi mənbələrdə \"iyə\" və ya \"iyə ruhu\" adlandırılır."
+        },
+        {
+          "chapter": 4,
+          "passage": 11,
+          "text": "Bu inanc səbəbindən dağlara, çaylara, göllərə, meşələrə və qədim ağaclara hörmətlə yanaşmaq vacib hesab edilirdi. Təbiətə zərər verməyin mənəvi nəticələrinin olacağına inanılırdı."
+        },
+        {
+          "chapter": 4,
+          "passage": 12,
+          "text": "Ovçuluq, ağac kəsmək və su mənbələrindən istifadə zamanı bəzi qaydalara əməl olunurdu. Bu adətlər təbiətlə ahəngi qorumaq məqsədi daşıyırdı."
+        },
+        {
+          "chapter": 4,
+          "passage": 13,
+          "text": "Əcdadlara hörmət qədim türk dünyagörüşünün mühüm hissəsi idi. Dünyasını dəyişmiş ailə böyüklərinin xatirəsi müqəddəs sayılırdı."
+        },
+        {
+          "chapter": 4,
+          "passage": 14,
+          "text": "Bəzi ənənələrdə əcdad ruhlarının yaşayan nəslə qoruyuculuq etdiyi düşünülürdü. Onların tayfanın rifahına təsir göstərə biləcəyinə inanılırdı."
+        },
+        {
+          "chapter": 4,
+          "passage": 15,
+          "text": "İnsan həyatı yalnız fərdi taleyin deyil, ailənin, tayfanın və bütün cəmiyyətin bir hissəsi hesab olunurdu. Şəxsin davranışının ümumi rifaha təsir etdiyi qəbul edilirdi."
+        },
+        {
+          "chapter": 4,
+          "passage": 16,
+          "text": "İnsanın təbiət və cəmiyyət qarşısındakı məsuliyyəti Tenqriçilik dünyagörüşünün əsas prinsiplərindən biri idi. Ahəngin pozulmasının həm insana, həm də cəmiyyətə təsir göstərə biləcəyi düşünülürdü."
+        },
+        {
+          "chapter": 4,
+          "passage": 17,
+          "text": "İnsanın ölümü, ruhun taleyi və ölümdən sonrakı həyat haqqında təsəvvürlər Tenqriçilikdə ayrıca yer tutur. Bu mövzular növbəti bölmələrdə daha ətraflı izah olunur."
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "title": "Ruh",
+      "info": "Tenqriçilikdə ruh anlayışı, müxtəlif türk xalqlarında ruh haqqında təsəvvürlər və Saxa (Yakut) ənənəsində qorunmuş \"üç kut\" sistemi.",
+      "total_passages": 18,
+      "passages": [
+        {
+          "chapter": 5,
+          "passage": 1,
+          "text": "Tenqriçilikdə ruh anlayışı bütün türk xalqlarında eyni formada təsvir olunmur. Müxtəlif bölgələrdə ruhun quruluşu və funksiyaları haqqında fərqli təsəvvürlər mövcud olmuşdur."
+        },
+        {
+          "chapter": 5,
+          "passage": 2,
+          "text": "Bir çox türk ənənələrində insanın yalnız bədəndən ibarət olmadığına inanılırdı. Həyatın davamı ruhun varlığı ilə əlaqələndirilirdi."
+        },
+        {
+          "chapter": 5,
+          "passage": 3,
+          "text": "Qədim mənbələrdə ruh üçün \"tin\", \"özüt\", \"kut\", \"sür\", \"salkın\" və başqa terminlər işlədilmişdir. Bu sözlərin mənası və istifadəsi tayfalara görə dəyişirdi."
+        },
+        {
+          "chapter": 5,
+          "passage": 4,
+          "text": "Ruh anlayışının ən ətraflı təsvirlərindən biri Saxa (Yakut) xalqının ənənəsində qorunmuşdur. Müasir tədqiqatlarda bu sistem çox vaxt \"üç kut\" modeli kimi təqdim edilir."
+        },
+        {
+          "chapter": 5,
+          "passage": 5,
+          "text": "Saxa ənənəsinə görə insanın üç əsas kutu vardır: İyə-kut, Buor-kut və Salkın-kut. Onların hər biri insan həyatının fərqli tərəfi ilə əlaqələndirilir."
+        },
+        {
+          "chapter": 5,
+          "passage": 6,
+          "text": "İyə-kut əsas həyat ruhu hesab olunur. Bəzi ənənələrdə onun nəsil davamlılığı və insanın mənəvi varlığı ilə bağlı olduğu bildirilir."
+        },
+        {
+          "chapter": 5,
+          "passage": 7,
+          "text": "Buor-kut insanın bədəni və torpaq mənşəyi ilə əlaqələndirilir. Onun fiziki həyatın davamında mühüm rol oynadığına inanılırdı."
+        },
+        {
+          "chapter": 5,
+          "passage": 8,
+          "text": "Salkın-kut nəfəs, düşüncə və hərəkət qabiliyyəti ilə əlaqələndirilən ruh hissəsi hesab edilirdi. Bəzi rəvayətlərdə onun yuxu və trans zamanı bədəndən müvəqqəti ayrıla bildiyi qeyd olunur."
+        },
+        {
+          "chapter": 5,
+          "passage": 9,
+          "text": "Saxa mifologiyasında bu üç ruhun insan doğularkən ilahi qüvvələr tərəfindən birləşdirildiyi rəvayət edilir. Bu təsəvvür bütün türk xalqları üçün ortaq inanc hesab olunmur."
+        },
+        {
+          "chapter": 5,
+          "passage": 10,
+          "text": "Bəzi ənənələrdə ruh hissələri arasında tarazlığın pozulması xəstəliklə əlaqələndirilirdi. Sağlamlıq insanın ruh və bədən ahənginin nəticəsi hesab edilirdi."
+        },
+        {
+          "chapter": 5,
+          "passage": 11,
+          "text": "Ölümdən sonra ruhun taleyi haqqında müxtəlif təsəvvürlər mövcud olmuşdur. Bu barədə vahid Tenqriçi təlimi mövcud deyil."
+        },
+        {
+          "chapter": 5,
+          "passage": 12,
+          "text": "Saxa ənənəsinə görə ölüm zamanı Buor-kut torpağa qayıdır. Bu, insanın maddi başlanğıcının təbiətə qovuşmasını ifadə edir."
+        },
+        {
+          "chapter": 5,
+          "passage": 13,
+          "text": "Eyni ənənədə Salkın-kutun ilahi aləmə döndüyü bildirilir. İyə-kutun isə nəsil xətti ilə əlaqəsini davam etdirdiyinə inanılırdı."
+        },
+        {
+          "chapter": 5,
+          "passage": 14,
+          "text": "Ruhun tamamilə yox olmadığı, müxtəlif formalarda varlığını davam etdirdiyi fikri bir çox türk xalqlarının şifahi ənənələrində müşahidə olunur."
+        },
+        {
+          "chapter": 5,
+          "passage": 15,
+          "text": "İnsandan başqa heyvanların və təbiətdəki bəzi varlıqların da ruh sahibi olduğuna inanılırdı. Bu baxış insanla təbiət arasında mənəvi bağlılıq yaradırdı."
+        },
+        {
+          "chapter": 5,
+          "passage": 16,
+          "text": "Dağların, çayların, göllərin və qədim ağacların qoruyucu ruhları haqqında təsəvvürlər müxtəlif türk xalqlarının inanclarında geniş yayılmışdır. Bu mövzu Yer-Sub inancı ilə də əlaqələndirilir."
+        },
+        {
+          "chapter": 5,
+          "passage": 17,
+          "text": "Ruh anlayışı əcdadlara hörmət ənənəsinin formalaşmasında da mühüm yer tuturdu. Dünyasını dəyişmiş insanların ruhlarının müəyyən formada varlığını davam etdirdiyinə inanılırdı."
+        },
+        {
+          "chapter": 5,
+          "passage": 18,
+          "text": "Müasir tədqiqatçılar qeyd edirlər ki, ruh haqqında təsəvvürlər türk xalqları arasında vahid sistem təşkil etmir. Saxa \"üç kut\" modeli bu sahədə ən yaxşı qorunmuş nümunələrdən biri olsa da, bütün Tenqriçi xalqlara aid ümumi qayda hesab edilmir."
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "title": "Yer-Sub ruhları",
+      "info": "Yer-Sub inancı, müqəddəs torpaq və su anlayışı, Ötükenin əhəmiyyəti, iyələr və təbiət kultları.",
+      "total_passages": 16,
+      "passages": [
+        {
+          "chapter": 6,
+          "passage": 1,
+          "text": "Yer-Sub (Yer-Su) qədim türk inancında torpaq və su ilə bağlı müqəddəs qüvvələrin ümumi adıdır. Bu anlayış təbiətin canlı və müqəddəs hesab edilən tərəfini ifadə edirdi."
+        },
+        {
+          "chapter": 6,
+          "passage": 2,
+          "text": "Yer-Sub ayrıca bir tanrı kimi deyil, müqəddəs yerlərin və təbii varlıqların qoruyucu ruhlarının məcmusu kimi qəbul olunurdu. Dağların, çayların, göllərin və meşələrin öz müqəddəs himayəçilərinin olduğuna inanılırdı."
+        },
+        {
+          "chapter": 6,
+          "passage": 3,
+          "text": "Orxon kitabələrində bu anlayış \"Yduk Yer-Sub\" (Müqəddəs Yer-Su) adı ilə xatırlanır. Bu ifadə Yer-Sub inancının VIII əsrdə artıq mühüm dini anlayış olduğunu göstərir."
+        },
+        {
+          "chapter": 6,
+          "passage": 4,
+          "text": "Qədim türklər dövlətin, xalqın və torpağın rifahını Yer-Subun qoruması ilə əlaqələndirirdilər. Buna görə mühüm yürüşlər, köçlər və dövlət işləri zamanı müqəddəs yerlərə ehtiram göstərilməsi vacib hesab olunurdu."
+        },
+        {
+          "chapter": 6,
+          "passage": 5,
+          "text": "Yer-Sub Tenqri ilə qarşıdurmada deyil, Onun yaratdığı kosmik nizamın bir hissəsi kimi qəbul edilirdi. Göy və Yer birlikdə həyatın davamını təmin edən iki əsas başlanğıc hesab olunurdu."
+        },
+        {
+          "chapter": 6,
+          "passage": 6,
+          "text": "Yer-Sub inancının ən mühüm müqəddəs mərkəzi Ötüken idi. Bu ərazi Göytürk və Uyğur dövlətlərinin siyasi və mənəvi mərkəzi sayılırdı."
+        },
+        {
+          "chapter": 6,
+          "passage": 7,
+          "text": "Ötüken indiki Monqolustan ərazisində, Orxon vadisi və Xanqay dağları yaxınlığında yerləşirdi. Qədim türk dövlətlərinin paytaxtları da bu bölgəyə yaxın salınmışdı."
+        },
+        {
+          "chapter": 6,
+          "passage": 8,
+          "text": "Bilgə Xaqan kitabəsində Ötükendə oturan xaqanın dövləti uzun müddət idarə edə biləcəyi qeyd edilir. Tonyukuk kitabəsində də Ötüken təhlükəsiz və bərəkətli yurd kimi təsvir olunur."
+        },
+        {
+          "chapter": 6,
+          "passage": 9,
+          "text": "Bəzi tədqiqatçılar Ötükeni qutun yayıldığı müqəddəs mərkəz kimi izah edirlər. Bu fikir müasir elmi şərhlərə əsaslanır və Orxon kitabələrində birbaşa ifadə olunmur."
+        },
+        {
+          "chapter": 6,
+          "passage": 10,
+          "text": "\"İyə\" və ya \"iyə ruhu\" müəyyən məkanın və ya varlığın qoruyucu ruhu hesab edilirdi. Dağın, çayın, gölün, meşənin və hətta bəzi ağacların öz iyesinin olduğuna inanılırdı."
+        },
+        {
+          "chapter": 6,
+          "passage": 11,
+          "text": "Ovçuluq, köç və yeni yaşayış yerinin seçilməsi zamanı iyələrin razılığını qazanmağa yönəlmiş mərasimlər keçirilirdi. Bunun insanla təbiət arasında ahəngi qoruduğuna inanılırdı."
+        },
+        {
+          "chapter": 6,
+          "passage": 12,
+          "text": "Müqəddəs ağaclar Yer-Sub inancının mühüm simvollarından idi. Xüsusilə iri və uzunömürlü ağaclar ilahi bərəkət və qorunmanın nişanəsi hesab olunurdu."
+        },
+        {
+          "chapter": 6,
+          "passage": 13,
+          "text": "Müqəddəs ağaclara parça bağlamaq, onların yanında dua etmək və müxtəlif təqdimlər vermək bir çox türk xalqlarının ənənəsində bu günə qədər qorunub saxlanmışdır."
+        },
+        {
+          "chapter": 6,
+          "passage": 14,
+          "text": "Dağlar göyə yaxın olduqları üçün müqəddəs sayılırdı. Bir çox türk xalqı yüksək zirvələri dua, and və mərasim yerləri kimi qəbul edirdi."
+        },
+        {
+          "chapter": 6,
+          "passage": 15,
+          "text": "Çaylar, bulaqlar və göllər həyat mənbəyi hesab olunurdu. Onların çirkləndirilməsi və ya hörmətsiz davranış Yer-Sub ruhlarına qarşı ehtiramsızlıq sayılırdı."
+        },
+        {
+          "chapter": 6,
+          "passage": 16,
+          "text": "Yer-Sub daha çox müqəddəs torpaq və təbiətin qoruyucu qüvvələrini ifadə edir. Umay isə əsasən ailə, analıq və uşaqların himayədarı kimi qəbul olunur və bu iki anlayış bir-birindən fərqləndirilir."
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "title": "Umay",
+      "info": "Doğuşu, analığı və uşaqları qoruyan müqəddəs varlıq Umay, onun qədim türk mənbələrindəki yeri və sonrakı xalq ənənələrində davamı.",
+      "total_passages": 16,
+      "passages": [
+        {
+          "chapter": 7,
+          "passage": 1,
+          "text": "Umay qədim türk inancında analığı, doğuşu və körpələri qoruyan müqəddəs varlıq hesab olunurdu. Müasir tədqiqatlarda o, çox vaxt ilahə kimi təqdim edilsə də, qədim mənbələrdə daha çox qoruyucu ilahi qüvvə kimi görünür."
+        },
+        {
+          "chapter": 7,
+          "passage": 2,
+          "text": "\"Umay\" sözünün qədim türk dilində plasenta (cift) mənası ilə əlaqəli olduğu qəbul edilir. Bu əlaqə doğuş və yeni həyatın başlanğıcı ilə Umay arasında qədimdən mövcud olan bağlılığı göstərir."
+        },
+        {
+          "chapter": 7,
+          "passage": 3,
+          "text": "Umayın adı VIII əsrə aid Kül Tigin kitabəsində çəkilir. Bilgə Xaqanın anası Umaya bənzədilərək təriflənir ki, bu da Umayın yüksək mənəvi nüfuzunu göstərir."
+        },
+        {
+          "chapter": 7,
+          "passage": 4,
+          "text": "Tonyukuk kitabəsində Tenqri, Umay və Müqəddəs Yer-Sub birlikdə türk ordusuna kömək edən müqəddəs qüvvələr kimi xatırlanır. Bu, Umayın yalnız ailə ilə deyil, dövlət anlayışı ilə də əlaqələndirildiyini göstərir."
+        },
+        {
+          "chapter": 7,
+          "passage": 5,
+          "text": "Qədim türk cəmiyyətində xaqan xatununun Umaya bənzədilməsi hökmdar nəslinin davamlılığını və analığın müqəddəs sayıldığını ifadə edirdi."
+        },
+        {
+          "chapter": 7,
+          "passage": 6,
+          "text": "Umayın xüsusilə hamilə qadınların və yeni doğulmuş uşaqların himayədarı olduğuna inanılırdı. Körpənin ilk illərində onun qoruyucu rolunun daha güclü olduğu düşünülürdü."
+        },
+        {
+          "chapter": 7,
+          "passage": 7,
+          "text": "Bəzi türk xalqlarında uşağın sağlam böyüməsinin Umayın himayəsi ilə bağlı olduğuna inanılırdı. Xəstəlik və zəiflik bəzən bu himayənin azalması ilə izah edilirdi."
+        },
+        {
+          "chapter": 7,
+          "passage": 8,
+          "text": "Altay və digər türk xalqlarının ənənələrində övlad arzulayan qadınların müqəddəs ağaclara parça və ya beşik formasında nişan bağladıqları qeyd olunur. Bu adətlər çox vaxt Umay inancı ilə əlaqələndirilir."
+        },
+        {
+          "chapter": 7,
+          "passage": 9,
+          "text": "Kaşğarlı Mahmud \"Divani-Lüğat-it-Türk\" əsərində Umaya inanan qadınların sağlam övlad sahibi olacağına dair xalq inancını qeyd edir. Bu məlumat XI əsrdə Umay kultunun hələ də yaşadığını göstərir."
+        },
+        {
+          "chapter": 7,
+          "passage": 10,
+          "text": "Sonrakı xalq rəvayətlərində Umay bəzən günəş işığı, parlaqlıq və sarı rənglə əlaqələndirilir. Lakin bu təsvirlər Orxon kitabələrində deyil, əsasən sonrakı folklor nümunələrində qorunmuşdur."
+        },
+        {
+          "chapter": 7,
+          "passage": 11,
+          "text": "Bəzi Altay ənənələrində \"Qara Umay\" adlı obraz da xatırlanır. Bu obraz ümumtürk Tenqriçiliyinin əsas hissəsi deyil və yalnız müəyyən folklor mühitlərində qeydə alınmışdır."
+        },
+        {
+          "chapter": 7,
+          "passage": 12,
+          "text": "Umaya müxtəlif təqdimlərin verilməsi haqqında etnoqrafik məlumatlar mövcuddur. Bu mərasimlərin forması türk xalqlarına görə fərqlənirdi."
+        },
+        {
+          "chapter": 7,
+          "passage": 13,
+          "text": "İslam, xristianlıq və buddizmin yayılmasından sonra da Umayla bağlı bəzi adətlər yaşayaraq xalq ənənələrinin tərkib hissəsinə çevrilmişdir."
+        },
+        {
+          "chapter": 7,
+          "passage": 14,
+          "text": "Bu gün də bəzi türk xalqlarında müqəddəs ağaclara parça bağlamaq, uşaqlar üçün dua etmək və analığın bərəkətini diləmək kimi adətlər davam edir. Onların bir hissəsinin qədim Umay inancı ilə bağlı olduğu düşünülür."
+        },
+        {
+          "chapter": 7,
+          "passage": 15,
+          "text": "Umay Tenqri və Yer-Sub ilə birlikdə qədim türk dünyagörüşünün əsas müqəddəs anlayışlarından biri hesab olunur. O, həyatın davamını və nəslin qorunmasını təmsil edir."
+        },
+        {
+          "chapter": 7,
+          "passage": 16,
+          "text": "Umay haqqında məlumatların əsas hissəsi Orxon kitabələri, Kaşğarlı Mahmudun əsəri və sonrakı Altay-Sibir etnoqrafik materiallarından əldə olunur. Buna görə müxtəlif türk xalqlarında onun obrazı müəyyən fərqlərlə qorunmuşdur."
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "title": "Erlik",
+      "info": "Yeraltı aləmin hökmdarı Erlik, onun müxtəlif türk xalqlarındakı təsviri, ölüm dünyası ilə əlaqəsi və Altay-Sayan ənənəsində formalaşmış obrazı.",
+      "total_passages": 14,
+      "passages": [
+        {
+          "chapter": 8,
+          "passage": 1,
+          "text": "Erlik (bəzən Erlik Xan) türk xalqlarının bir çox mifoloji ənənəsində yeraltı aləmin və ölülər dünyasının hökmdarı hesab olunur. Onun adı çox vaxt yerin dərinliyi və ölülər aləmi ilə əlaqələndirilir."
+        },
+        {
+          "chapter": 8,
+          "passage": 2,
+          "text": "Erlik haqqında ən geniş məlumatlar Altay, Xakas, Tuva və digər Sibir türk xalqlarının şifahi ənənələrindən məlumdur. Orxon dövrünün yazılı mənbələrində isə bu obraz sonrakı rəvayətlərdə olduğu qədər ətraflı təsvir edilmir."
+        },
+        {
+          "chapter": 8,
+          "passage": 3,
+          "text": "Tenqriçilik vahid müqəddəs kitaba malik olmadığından Erlik haqqında təsəvvürlər bütün türk xalqlarında eyni deyil. Onun xüsusiyyətləri bölgədən-bölgəyə və dövrdən-dövrə dəyişə bilir."
+        },
+        {
+          "chapter": 8,
+          "passage": 4,
+          "text": "Altay-Sayan rəvayətlərində Erlik çox vaxt Kayra Xan tərəfindən yaradılmış və Ülgenlə qarşılaşdırılan qüvvə kimi təqdim olunur. Bu rəvayətlər Orxon dövründən xeyli sonrakı folklor ənənəsinə aiddir."
+        },
+        {
+          "chapter": 8,
+          "passage": 5,
+          "text": "Bəzi yaradılış əfsanələrində Erlik ilkin yaradılış prosesində iştirak edir. Sonradan itaətsizliyi və ya təkəbbürü səbəbindən yeraltı aləmin hökmdarına çevrildiyi nəql olunur."
+        },
+        {
+          "chapter": 8,
+          "passage": 6,
+          "text": "Erlik çox vaxt qaranlıq aləmin sahibi kimi təsvir olunsa da, o, bütün mənbələrdə mütləq şər qüvvəsi hesab edilmir. Bir sıra türk xalqlarının inanclarında o, ölülər dünyasının qanunlarını qoruyan hakim kimi də qəbul edilir."
+        },
+        {
+          "chapter": 8,
+          "passage": 7,
+          "text": "İnsanların ölüm vaxtının Tenqrinin iradəsi ilə müəyyən edildiyinə, ölənlərin ruhlarının isə Erlikin idarə etdiyi aləmə getdiyinə inanılırdı. Beləliklə Tenqri ilə Erlikin vəzifələri bir-birindən fərqləndirilirdi."
+        },
+        {
+          "chapter": 8,
+          "passage": 8,
+          "text": "Altay rəvayətlərində yeraltı dünya çoxqatlı quruluşa malik təsvir olunur. Mənbələrdə bu qatların sayı eyni deyil və müxtəlif ənənələrdə yeddi və ya doqquz qat kimi göstərilir."
+        },
+        {
+          "chapter": 8,
+          "passage": 9,
+          "text": "Bəzi rəvayətlərdə Erlikin yeraltı aləmdə dəmir və ya mis divarlı böyük sarayda yaşadığı bildirilir. Bu təsvirlər əsasən sonrakı Altay və Xakas folklorundan məlumdur."
+        },
+        {
+          "chapter": 8,
+          "passage": 10,
+          "text": "Erlikin övladları və köməkçiləri haqqında müxtəlif rəvayətlər mövcuddur. Onların sayı və vəzifələri türk xalqlarının mifoloji ənənələrinə görə fərqlənir."
+        },
+        {
+          "chapter": 8,
+          "passage": 11,
+          "text": "Qamlar trans mərasimləri zamanı xəstənin itmiş ruhunu geri qaytarmaq üçün simvolik olaraq yeraltı aləmə enirdilər. Bu səfərlərdə Erlik və ya onun ruhları ilə qarşılaşdıqlarına inanılırdı."
+        },
+        {
+          "chapter": 8,
+          "passage": 12,
+          "text": "Bəzi türk xalqlarında ağır xəstəliklərin Erlikin aləmi ilə əlaqəli olduğuna inanılırdı. Buna görə qamlar xüsusi mərasimlər keçirərək xəstənin ruhunu geri qaytarmağa çalışırdılar."
+        },
+        {
+          "chapter": 8,
+          "passage": 13,
+          "text": "Erlikin zahiri görünüşü haqqında vahid təsvir yoxdur. Müxtəlif rəvayətlərdə o, yaşlı kişi, qorxunc sifətli hökmdar və ya qaranlıq aləmin hökümdarı kimi müxtəlif formalarda təsvir edilir."
+        },
+        {
+          "chapter": 8,
+          "passage": 14,
+          "text": "Erlik haqqında zəngin mifoloji süjetlərin böyük hissəsi XIX–XX əsrlərdə Altay-Sayan bölgəsində qeydə alınmış şifahi ənənələrdən məlumdur. Buna görə bu rəvayətlər qədim Orxon dövrünün deyil, sonrakı türk mifoloji inkişafının mühüm hissəsi hesab olunur."
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "title": "Qamlar",
+      "info": "Qamların ruhlar aləmi ilə vasitəçiliyi, mərasimlərdəki rolu, trans təcrübələri, seçilmə prosesi və türk xalqları arasında qorunmuş ənənələri.",
+      "total_passages": 15,
+      "passages": [
+        {
+          "chapter": 9,
+          "passage": 1,
+          "text": "Qam (bəzi mənbələrdə kam və ya xam) qədim türk inancında insanlarla ruhlar aləmi arasında vasitəçilik edən müqəddəs şəxs idi. Bəzi mənbələrdə bu vəzifə üçün \"bögü\" sözü də işlədilir."
+        },
+        {
+          "chapter": 9,
+          "passage": 2,
+          "text": "Qam mərkəzləşdirilmiş dini qurumun nümayəndəsi deyildi. O, tayfanın mənəvi rəhbəri, müalicəçisi, məsləhətçisi və mərasim icraçısı kimi fəaliyyət göstərirdi."
+        },
+        {
+          "chapter": 9,
+          "passage": 3,
+          "text": "Qamların əsas vəzifələri xəstələri sağaltmaq, ruhlarla əlaqə qurmaq, ölənlərin ruhunu yola salmaq, fal açmaq və mühüm qərarlar öncəsi mərasimlər icra etmək idi."
+        },
+        {
+          "chapter": 9,
+          "passage": 4,
+          "text": "Bəzi türk xalqlarında qamların yağış diləmə, məhsuldarlıq və ov uğuru üçün keçirilən ayinlərə rəhbərlik etdikləri də qeyd olunur."
+        },
+        {
+          "chapter": 9,
+          "passage": 5,
+          "text": "Sonrakı Altay və Sibir ənənələrində ağ və qara qam anlayışına rast gəlinir. Bu bölgü bütün türk xalqlarında eyni şəkildə mövcud olmayıb."
+        },
+        {
+          "chapter": 9,
+          "passage": 6,
+          "text": "Ağ qamlar daha çox yuxarı dünyanın ruhları ilə, qara qamlar isə yeraltı aləmi və Erliklə əlaqəli mərasimlərlə bağlı hesab edilirdi. Bu bölgü yaxşı və pis anlayışını deyil, fərqli ruhlar aləmini ifadə edirdi."
+        },
+        {
+          "chapter": 9,
+          "passage": 7,
+          "text": "Qam trans vəziyyətinə davul və ya dəf çalmaq, ritmik hərəkətlər və xüsusi nəğmələr vasitəsilə daxil olurdu. Bu hal ruhlarla əlaqə qurmağın əsas vasitəsi sayılırdı."
+        },
+        {
+          "chapter": 9,
+          "passage": 8,
+          "text": "İnanca görə trans zamanı qamın ruhu müxtəlif aləmlərə səyahət edə bilir, itmiş ruhları axtarır və ya ruhlardan cavab gətirirdi."
+        },
+        {
+          "chapter": 9,
+          "passage": 9,
+          "text": "Qamın davulu adi musiqi aləti hesab olunmurdu. Bir çox ənənədə onun ruhlar aləminə aparan simvolik minik olduğu qəbul edilirdi."
+        },
+        {
+          "chapter": 9,
+          "passage": 10,
+          "text": "Qam geyimindəki metal lövhələr, zənglər, lentlər və digər bəzəklər qoruyucu və simvolik məna daşıyırdı. Onların müxtəlif ruhları və ya kosmik qatları təmsil etdiyinə inanılırdı."
+        },
+        {
+          "chapter": 9,
+          "passage": 11,
+          "text": "Qam olmaq adətən şəxsi seçim hesab edilmirdi. Bir çox ənənədə insanın ruhlar tərəfindən seçildiyinə və bu seçimin yuxular, xəstəlik və ya mənəvi sınaqlarla özünü göstərdiyinə inanılırdı."
+        },
+        {
+          "chapter": 9,
+          "passage": 12,
+          "text": "Seçilmiş namizəd adətən təcrübəli qamın yanında uzun müddət təlim keçir, mərasim qaydalarını və müqəddəs nəğmələri öyrənirdi. Bu təcrübə türk xalqlarına görə müxtəlif formalarda qorunmuşdur."
+        },
+        {
+          "chapter": 9,
+          "passage": 13,
+          "text": "Qamlar bəzi türk dövlətlərində xaqanlara məsləhət verir, yürüşlərdən və mühüm qərarlardan əvvəl mərasimlər keçirirdilər. Bununla belə onlar ayrıca dini idarəetmə qurumu təşkil etmirdilər."
+        },
+        {
+          "chapter": 9,
+          "passage": 14,
+          "text": "İslam, buddizm və xristianlığın yayılmasından sonra qamlıq ənənəsi bir çox bölgədə zəifləsə də, Altay, Tuva, Saxa və Monqolustan kimi ərazilərdə müəyyən formada qorunub saxlanmışdır."
+        },
+        {
+          "chapter": 9,
+          "passage": 15,
+          "text": "XX əsrdə xüsusilə Sovet hakimiyyəti dövründə qamlıq ciddi təqiblərə məruz qalmışdır. 1990-cı illərdən sonra isə bəzi türk xalqları arasında bu ənənəyə mədəni və dini irs kimi maraq yenidən artmağa başlamışdır."
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "title": "İbadət və dualar",
+      "info": "Məbədsiz, açıq havada ibadət ənənəsi, alqışlar (dualar), müqəddəs məkanlar, ovoo mərasimləri, od kultu və mövsümi ibadətlər.",
+      "total_passages": 13,
+      "passages": [
+        {
+          "chapter": 10,
+          "passage": 1,
+          "text": "Tenqriçilikdə ibadət üçün xüsusi məbəd, büt və ya heykəl tələb olunmurdu. Açıq səma Tenqrinin hökmranlığının rəmzi sayıldığı üçün ibadət əsasən təbiətin qoynunda yerinə yetirilirdi."
+        },
+        {
+          "chapter": 10,
+          "passage": 2,
+          "text": "Mərasimlər ən çox dağ zirvələrində, təpələrdə, müqəddəs ağacların yanında, çay və bulaq kənarlarında keçirilirdi. Bu məkanların göy və yer arasında mənəvi yaxınlıq yaratdığına inanılırdı."
+        },
+        {
+          "chapter": 10,
+          "passage": 3,
+          "text": "Tenqriyə dua edərkən insanlar adətən əllərini göyə qaldırır, üzlərini isə gündoğana və ya işığın gəldiyi istiqamətə çevirirdilər. Müxtəlif türk və monqol tayfalarında istiqamətlə bağlı fərqli ənənələr mövcud olmuşdur."
+        },
+        {
+          "chapter": 10,
+          "passage": 4,
+          "text": "Dualar qədim türk ənənəsində «alqış» adlanırdı. Onlar daha çox şükür, xeyir-dua, bərəkət, uğur və qorunma diləklərindən ibarət idi."
+        },
+        {
+          "chapter": 10,
+          "passage": 5,
+          "text": "Qədim müəlliflərin qeydlərində hun hökmdarlarının qələbədən sonra göyə üz tutaraq Tenqriyə təşəkkür etməsi təsvir edilir. Bu, hökmdarın uğuru şəxsi deyil, Tenqrinin lütfü kimi qəbul etdiyini göstərirdi."
+        },
+        {
+          "chapter": 10,
+          "passage": 6,
+          "text": "İbadətin mühüm hissələrindən biri təqdim mərasimləri idi. Süd, qımız, su və digər içkilərin bir hissəsi yerə və ya oda tökülərək Tenqriyə və müqəddəs ruhlara ehtiram göstərilirdi."
+        },
+        {
+          "chapter": 10,
+          "passage": 7,
+          "text": "Monqol və bəzi türk xalqlarında daş qalaqları – «ovoo» müqəddəs ziyarət yerləri hesab olunurdu. Yolçular oraya daş əlavə edir, mavi parça bağlayır və təqdimlər edirdilər."
+        },
+        {
+          "chapter": 10,
+          "passage": 8,
+          "text": "Ənənəyə görə ovoonun ətrafında saat əqrəbi istiqamətində üç dəfə dövrə vurmaq uğur və xeyir gətirən mərasim sayılırdı. Bu hərəkət günəşin göydəki hərəkətini simvolizə edirdi."
+        },
+        {
+          "chapter": 10,
+          "passage": 9,
+          "text": "Böyük ovoolar yalnız fərdi ibadət yeri deyildi. Müəyyən günlərdə tayfalar burada toplaşır, ümumi mərasimlər keçirir, qurbanlar təqdim edir və ictimai bayramlar təşkil edirdilər."
+        },
+        {
+          "chapter": 10,
+          "passage": 10,
+          "text": "Od və ocaq təmizləyici və müqəddəs qüvvə hesab olunurdu. Oda hörmətsizlik etmək, ocağı murdarlamaq və ya üstünə tullantı atmaq ağır günah sayılırdı."
+        },
+        {
+          "chapter": 10,
+          "passage": 11,
+          "text": "İbadət yalnız qamların vəzifəsi deyildi. Hər bir insan gündəlik həyatda Tenqriyə özü dua edə, şükür edə və ya sadə təqdim mərasimini yerinə yetirə bilərdi."
+        },
+        {
+          "chapter": 10,
+          "passage": 12,
+          "text": "Köçəri həyat tərzi ibadət formasına da təsir etmişdi. Yaz və payız köçləri, doğum, evlilik, ov mövsümü və digər mühüm hadisələr xüsusi mərasim və dualarla müşayiət olunurdu."
+        },
+        {
+          "chapter": 10,
+          "passage": 13,
+          "text": "Müasir dövrdə Monqolustan, Altay, Tuva və Qazaxıstanın bəzi bölgələrində ovoo ziyarətləri, mavi parça bağlama, süd səpmə və açıq havada edilən dualar mədəni və dini ənənə kimi yaşamaqda davam edir."
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "title": "Bayramlar və mövsümi mərasimlər",
+      "info": "Tenqriçilikdə ilin fəsilləri, təbiətin dövrləri və köçəri həyat tərzi ilə bağlı keçirilən əsas mərasimlər və bayramlar.",
+      "total_passages": 10,
+      "passages": [
+        {
+          "chapter": 11,
+          "passage": 1,
+          "text": "Tenqriçilikdə dini həyat təbiətin dövrləri ilə sıx bağlı idi. İlin fəsilləri, Günəşin hərəkəti, mal-qaranın vəziyyəti və köç vaxtları mühüm mərasimlərin keçirilməsinə səbəb olurdu."
+        },
+        {
+          "chapter": 11,
+          "passage": 2,
+          "text": "Yazın gəlişi yeni həyatın başlanğıcı hesab edilirdi. Qarın əriməsi, otlaqların yaşıllaşması və heyvanların bala verməsi münasibətilə ailələr və tayfalar birlikdə şənlik edir, Tenqriyə və Yer-Sub ruhlarına minnətdarlıqlarını bildirirdilər. Müasir Novruz bayramı ilə bəzi oxşarlıqlar göstərilsə də, bunlar eyni bayram hesab edilmir."
+        },
+        {
+          "chapter": 11,
+          "passage": 3,
+          "text": "Yay gündönümü bəzi türk və monqol ənənələrində ilin ən qüdrətli dövrü sayılırdı. Günəşin ən uzun müddət görünməsi həyatın, bolluğun və səmanın gücünün rəmzi kimi qəbul edilirdi."
+        },
+        {
+          "chapter": 11,
+          "passage": 4,
+          "text": "Qış gündönümü isə qaranlıq dövrün sona çatmasının başlanğıcı kimi qəbul olunurdu. Bəzi bölgələrdə od qalamaq, ocağın ətrafında toplaşmaq və dualar etmək ənənəsi mövcud idi."
+        },
+        {
+          "chapter": 11,
+          "passage": 5,
+          "text": "Yaz aylarında bolluq, sağlamlıq və sürülərin artması üçün süd, qımız və digər təqdimlər edilirdi. Bəzi bölgələrdə heyvan qurbanları da bu mövsümi mərasimlərin bir hissəsi idi."
+        },
+        {
+          "chapter": 11,
+          "passage": 6,
+          "text": "Payızda məhsulun və yay otlaqlarının uğurla başa çatması münasibətilə təşəkkür mərasimləri keçirilirdi. İnsanlar əldə olunan nemətlərə görə Tenqriyə və təbiət ruhlarına minnətdarlıq edirdilər."
+        },
+        {
+          "chapter": 11,
+          "passage": 7,
+          "text": "Köçəri həyat tərzinə uyğun olaraq yaz və payız köçləri sadəcə təsərrüfat hadisəsi deyil, həm də mənəvi mərasim hesab olunurdu. Köçdən əvvəl və sonra dualar edilir, ocağın bərəkəti üçün müxtəlif ayinlər icra olunurdu."
+        },
+        {
+          "chapter": 11,
+          "passage": 8,
+          "text": "Bu mərasimlərin əksəriyyəti müəyyən məbəddə deyil, açıq havada — müqəddəs dağlarda, çay kənarlarında, Ötüken kimi müqəddəs sayılan bölgələrdə və ya ovooların yanında keçirilirdi."
+        },
+        {
+          "chapter": 11,
+          "passage": 9,
+          "text": "Mərasimlər təkcə dini məqsəd daşımırdı. Onlar tayfaların bir araya gəlməsi, barışması, mühüm qərarların verilməsi, yarışların və şölenlərin keçirilməsi üçün də imkan yaradırdı."
+        },
+        {
+          "chapter": 11,
+          "passage": 10,
+          "text": "Qeyd etmək lazımdır ki, Tenqriçilikdə bütün türk xalqları üçün vahid dini təqvim mövcud olmayıb. Bayram və mövsümi mərasimlər yaşanılan coğrafiyaya, köç yollarına və yerli ənənələrə görə fərqlənirdi. Buna görə bu gün təsvir olunan mərasimlər müxtəlif türk və monqol xalqlarının ortaq tarixi irsinin ümumiləşdirilmiş mənzərəsidir."
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "title": "Qurban mərasimləri",
+      "info": "Tenqriçilikdə qurban anlayışı, təqdim mərasimləri, qanla bağlı qadağalar, heyvan qurbanları və icma mərasimləri.",
+      "total_passages": 14,
+      "passages": [
+        {
+          "chapter": 11,
+          "passage": 1,
+          "text": "Qurban Tenqriçilikdə mühüm ibadət formalarından biri idi. Lakin bütün müqəddəs qüvvələrə eyni növ qurban təqdim olunmurdu."
+        },
+        {
+          "chapter": 11,
+          "passage": 2,
+          "text": "Tenqrinin özünə adətən qan qurbanı deyil, süd, qımız, su və digər maye təqdimlər edilirdi. Bu təqdimlər qədim mənbələrdə libasiya kimi tanınır."
+        },
+        {
+          "chapter": 11,
+          "passage": 3,
+          "text": "Heyvan qurbanları daha çox Yer-Sub, Umay və bəzi bölgələrdə Erlik kimi ruhlara həsr olunurdu. Qurbanın növü mərasimin məqsədindən və yerli ənənədən asılı olaraq dəyişirdi."
+        },
+        {
+          "chapter": 11,
+          "passage": 4,
+          "text": "Göytürk dövründə Yer-Sub üçün keçirilən mərasimlər dövlət əhəmiyyətli hesab olunurdu. Onlar çay, göl və müqəddəs yerlərdə xalqın rifahı, bərəkət və hərbi uğur arzusu ilə icra edilirdi."
+        },
+        {
+          "chapter": 11,
+          "passage": 5,
+          "text": "Bəzi mərasimlərdə qırmızımtıl rəngli at və ya başqa qiymətli heyvanlar qurban verilirdi. At qədim türklər üçün ən dəyərli qurban heyvanlarından biri sayılırdı."
+        },
+        {
+          "chapter": 11,
+          "passage": 6,
+          "text": "Altay-Sayan ənənəsində Ülgen üçün ağ at qurbanı təqdim edilməsi haqqında rəvayətlər mövcuddur. Bu təsvirlər Orxon dövrünə deyil, sonrakı şifahi ənənələrə aiddir."
+        },
+        {
+          "chapter": 11,
+          "passage": 7,
+          "text": "Həmin rəvayətlərdə qamın qurban verilmiş atın ruhu vasitəsilə yuxarı aləmə yüksəldiyinə inanılırdı. Bu mərasim ruhlar aləmi ilə əlaqənin rəmzi hesab olunurdu."
+        },
+        {
+          "chapter": 11,
+          "passage": 8,
+          "text": "Altay bölgəsində xəstəliklərin Erliklə əlaqələndirildiyi inanclar mövcud idi. Buna görə bəzi mərasimlərdə onun qəzəbini yatırtmaq məqsədilə heyvan qurbanı təqdim edilirdi."
+        },
+        {
+          "chapter": 11,
+          "passage": 9,
+          "text": "Bəzi türk və monqol ənənələrində torpaq ruhlarına ağ toyuq, qoyun, öküz və ya balıq təqdim edilməsi haqqında məlumatlar qorunub saxlanmışdır. Bu adətlər bütün türk xalqları üçün vahid qayda hesab olunmur."
+        },
+        {
+          "chapter": 11,
+          "passage": 10,
+          "text": "Qurban mərasimlərində qanın torpağa axıdılması ilə bağlı ciddi qadağalar mövcud idi. Monqol ənənəsində bunun Yer ruhunu murdarladığına inanılırdı."
+        },
+        {
+          "chapter": 11,
+          "passage": 11,
+          "text": "Bu inanc səbəbindən həm heyvan kəsimində, həm də bəzi edam üsullarında qan axıtmamağa çalışılırdı. Monqol kəsim üsulu heyvanın qanını bədən daxilində saxlamağa əsaslanırdı."
+        },
+        {
+          "chapter": 11,
+          "passage": 12,
+          "text": "At qurbanı xüsusilə dəfn mərasimlərində mühüm yer tuturdu. İnanca görə at ölənin ruhunun o biri dünyaya yolunu asanlaşdırırdı."
+        },
+        {
+          "chapter": 11,
+          "passage": 13,
+          "text": "Qurban mərasimindən sonra heyvanın əti icma üzvləri arasında bölüşdürülür və ümumi şölen keçirilirdi. Beləliklə mərasim həm dini, həm də ictimai birlik funksiyası daşıyırdı."
+        },
+        {
+          "chapter": 11,
+          "passage": 14,
+          "text": "Qurban mərasimləri ilə bağlı müxtəlif qadağalar da mövcud idi. Ocağa hörmətsizlik etməmək, müqəddəs yerləri murdarlamamaq və bəzi hallarda iki od arasından keçərək təmizlənmək bu ənənələrin bir hissəsi sayılırdı."
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "title": "Tenqriçiliyin simvolları",
+      "info": "Tenqriçilikdə və qədim türk-monqol dünyagörüşündə mühüm yer tutan simvollar, onların mənaları və müxtəlif türk xalqlarındakı təzahürləri.",
+      "total_passages": 12,
+      "passages": [
+        {
+          "chapter": 18,
+          "passage": 1,
+          "text": "Mavi səma Tenqriçiliyin ən əsas simvoludur. Tenqri göylə əlaqələndirildiyi üçün mavi rəng ilahi hakimiyyəti, sonsuzluğu və kosmik nizamı ifadə edirdi. Göytürk adındakı \"göy\" sözü də həm rəngi, həm də səmanı bildirirdi."
+        },
+        {
+          "chapter": 18,
+          "passage": 2,
+          "text": "Dünya Ağacı (həyat ağacı) göylə, yerlə və yeraltı dünya arasında əlaqəni simvolizə edirdi. Sonrakı Altay və Sibir ənənələrində qamın ruhlar aləminə səyahəti zamanı bu ağacdan keçdiyi təsvir olunur. Müxtəlif türk xalqlarında bu ağac fərqli adlarla tanınır."
+        },
+        {
+          "chapter": 18,
+          "passage": 3,
+          "text": "Bozqurd qədim türklərdə mənşə, yolgöstərmə və qoruyuculuq rəmzi idi. Əfsanələrdə türk soyunun bozqurddan törədiyi və ya bozqurdun tayfalara yol göstərdiyi nəql olunur. Bu simvol daha çox etnik mənşə və dövlətçiliklə bağlıdır, birbaşa dini ibadət obyekti deyil."
+        },
+        {
+          "chapter": 18,
+          "passage": 4,
+          "text": "At köçəri həyatın və azadlığın əsas rəmzlərindən biri idi. O, həm gündəlik həyatın ayrılmaz hissəsi, həm də qurban və dəfn mərasimlərində müqəddəs heyvan kimi mühüm yer tuturdu."
+        },
+        {
+          "chapter": 18,
+          "passage": 5,
+          "text": "Qartal və digər iri yırtıcı quşlar göylə əlaqənin, uzaqgörənliyin və qüdrətin simvolu sayılırdı. Bəzi türk xalqlarında onların Tenqriyə yaxın quşlar olduğuna inanılırdı."
+        },
+        {
+          "chapter": 18,
+          "passage": 6,
+          "text": "Maral bəzi qədim türk və Sibir xalqlarının mifologiyasında müqəddəs heyvan hesab olunurdu. Xüsusilə mənşə əfsanələrində və kurqan sənətində maral təsvirlərinə tez-tez rast gəlinir."
+        },
+        {
+          "chapter": 18,
+          "passage": 7,
+          "text": "Günəş və Ay vaxtın axışını, kosmik tarazlığı və təbiətin dövri ritmini ifadə edən mühüm səma cisimləri idi. Bəzi türk xalqları onları müqəddəs hesab etsələr də, ümumilikdə Tenqri ilə eyniləşdirmirdilər."
+        },
+        {
+          "chapter": 18,
+          "passage": 8,
+          "text": "Od və ocaq ailə birliyinin, təmizlənmənin və müqəddəsliyin rəmzi idi. Ocağa hörmətsizlik yolverilməz sayılır, təmizlənmə mərasimlərində od mühüm rol oynayırdı."
+        },
+        {
+          "chapter": 18,
+          "passage": 9,
+          "text": "Ox və yay qədim türk döyüşçüsünün əsas nişanəsi olmaqla yanaşı, hakimiyyətin, qoruyuculuğun və xaqanlıq gücünün də rəmzi hesab olunurdu."
+        },
+        {
+          "chapter": 18,
+          "passage": 10,
+          "text": "Dairə və çevrə kainatın bütövlüyünü, səmanın sonsuzluğunu və təbiətdəki dövri hərəkəti ifadə edən simvol kimi müxtəlif mərasimlərdə və naxışlarda istifadə olunurdu."
+        },
+        {
+          "chapter": 18,
+          "passage": 11,
+          "text": "Doqquz rəqəmi qədim türk və monqol ənənələrində müqəddəs sayılırdı. Doqquz qat göy, doqquz budaq, doqquz təqdim və digər mərasim elementləri bu rəqəmin simvolik əhəmiyyətini göstərir."
+        },
+        {
+          "chapter": 18,
+          "passage": 12,
+          "text": "Bu simvolların hamısı bütün türk xalqlarında və bütün dövrlərdə eyni şəkildə mövcud olmayıb. Onların bəziləri Orxon dövrü mənbələrində, bəziləri isə sonrakı Altay, Sibir və monqol ənənələrində daha aydın şəkildə qorunub saxlanmışdır."
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "title": "Əxlaq və həyat prinsipləri",
+      "info": "Törü anlayışı, ədalət, məsuliyyət, qonaqpərvərlik, sədaqət, əcdad hörməti və Tenqriçilikdə düzgün həyat prinsipləri.",
+      "total_passages": 16,
+      "passages": [
+        {
+          "chapter": 12,
+          "passage": 1,
+          "text": "Tenqriçilikdə əxlaqın əsasını «törü» (törə) təşkil edirdi. Törü yazılı qanun deyil, nəsildən-nəslə ötürülən adət, hüquq və davranış qaydalarının bütöv sistemi idi."
+        },
+        {
+          "chapter": 12,
+          "passage": 2,
+          "text": "Qədim türklər törünü Tenqrinin qurduğu kosmik nizamın insan cəmiyyətindəki əksi hesab edirdilər. Cəmiyyətin rifahı bu nizama əməl edilməsindən asılı sayılırdı."
+        },
+        {
+          "chapter": 12,
+          "passage": 3,
+          "text": "Orxon kitabələrində insanın göy ilə yer arasında yaradıldığı bildirilir. Bu fikir insanın kainat qarşısında məsuliyyət daşıdığını ifadə edən əxlaqi prinsip kimi də qəbul olunur."
+        },
+        {
+          "chapter": 12,
+          "passage": 4,
+          "text": "Hakimiyyət şəxsi mülk deyil, Tenqrinin verdiyi etibar hesab olunurdu. Xaqan ədaləti qorumadıqda Tenqrinin bəxş etdiyi qutu itirə bilərdi."
+        },
+        {
+          "chapter": 12,
+          "passage": 5,
+          "text": "Bilgə Xaqanın kitabəsində xalqın zəifləməsinin səbəbi xarici düşmənlərdən çox daxili parçalanma və yanlış qərarlar kimi göstərilir. Bu yanaşma qədim türk siyasi düşüncəsində nadir özütənqid nümunəsidir."
+        },
+        {
+          "chapter": 12,
+          "passage": 6,
+          "text": "Kitabələrdə təvazökarlıq mühüm xüsusiyyət kimi görünür. Dövlətin gücü yalnız hərbi qüvvə ilə deyil, xalqın birliyi və qarşılıqlı etimadı ilə əlaqələndirilir."
+        },
+        {
+          "chapter": 12,
+          "passage": 7,
+          "text": "Ədalət törünün əsas prinsiplərindən biri idi. Həm hökmdar, həm də sadə insan düzgün və vicdanlı davranmağa borclu sayılırdı."
+        },
+        {
+          "chapter": 12,
+          "passage": 8,
+          "text": "Qonaqpərvərlik Tenqriçi cəmiyyətin müqəddəs dəyərlərindən idi. Kaşğarlı Mahmud qonağa hörmət göstərilməsini yüksək mənəvi borc kimi təsvir edir."
+        },
+        {
+          "chapter": 12,
+          "passage": 9,
+          "text": "Verilən sözə sadiq qalmaq böyük əxlaqi məsuliyyət hesab olunurdu. Andını pozan şəxs yalnız öz nüfuzunu deyil, bütün nəslinin şərəfini ləkələyən insan sayılırdı."
+        },
+        {
+          "chapter": 12,
+          "passage": 10,
+          "text": "Əcdadlara və yaşlılara hörmət həm ictimai qayda, həm də dini-mənəvi vəzifə idi. Ağsaqqalların sözü tayfa həyatında böyük nüfuza malik idi."
+        },
+        {
+          "chapter": 12,
+          "passage": 11,
+          "text": "Cəsarət, səbir, dözüm və nizam-intizam köçəri həyatın vacib keyfiyyətləri hesab olunurdu. Döyüşçünün şərəfi onun davranışı ilə ölçülürdü."
+        },
+        {
+          "chapter": 12,
+          "passage": 12,
+          "text": "Qadınlar qədim türk cəmiyyətində mühüm mövqeyə malik idi. Xatunların Umayla əlaqələndirilməsi onların ailə və dövlət həyatındakı nüfuzunu göstərirdi."
+        },
+        {
+          "chapter": 12,
+          "passage": 13,
+          "text": "İnsan təbiətin sahibi deyil, onun ayrılmaz hissəsi hesab olunurdu. Buna görə israfçılıqdan çəkinmək və canlı aləmə hörmətlə yanaşmaq əxlaqi borc sayılırdı."
+        },
+        {
+          "chapter": 12,
+          "passage": 14,
+          "text": "Monqol imperiyası dövründə Çingiz xanın Böyük Yasası köhnə köçəri hüquq ənənələrinin bir hissəsini sistemləşdirdi. Bir çox tədqiqatçılar bu qanunlarda qədim törü anlayışının təsirini görürlər."
+        },
+        {
+          "chapter": 12,
+          "passage": 15,
+          "text": "Bəzi alimlər törünü qədim Misirin «maat» və Hindistanın «dharma» anlayışları ilə müqayisə etsələr də, bunlar yalnız funksional bənzətmələrdir və eyni mənşəyə malik olduqları qəbul edilmir."
+        },
+        {
+          "chapter": 12,
+          "passage": 16,
+          "text": "Müasir Tenqriçilik hərəkatlarında bu prinsiplər təbiətin qorunması, insanın daxili tarazlığı və əcdad irsinə hörmət kimi yenidən şərh olunur. Bunlar qədim mətnlərin deyil, müasir dövrün izahları hesab edilir."
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "title": "Ölüm və axirət",
+      "info": "Ölümün keçid kimi anlaşılması, Uçmaq və Tamaq, dəfn adətləri, balbal və kurqanlar, yas mərasimləri.",
+      "total_passages": 19,
+      "passages": [
+        {
+          "chapter": 1,
+          "passage": 1,
+          "text": "Qədim türklərdə ölüm həyatın sonu deyil, ruhun bir aləmdən digərinə keçidi kimi qəbul edilirdi. Ölən insanın ruhunun varlığını davam etdirdiyinə inanılırdı."
+        },
+        {
+          "chapter": 1,
+          "passage": 2,
+          "text": "Bu baxış Ruh bölməsində qeyd olunan çoxqatlı ruh anlayışı ilə əlaqələndirilirdi. Ölüm zamanı ruhun müxtəlif qatlarının fərqli taleyə sahib ola biləcəyi düşünülürdü."
+        },
+        {
+          "chapter": 1,
+          "passage": 3,
+          "text": "Ölüm anlayışı bəzi türk mifoloji ənənələrində \"Kergek\" adlı qaçılmaz tale və zərurəti ifadə edən qüvvə ilə əlaqələndirilirdi. Bu motiv bütün türk xalqlarında eyni şəkildə yayılmamışdır."
+        },
+        {
+          "chapter": 1,
+          "passage": 4,
+          "text": "Bəzi Altay rəvayətlərində ölənin ruhunu digər dünyaya aparan varlıq \"Aldacı Xan\" adlanır. O, ölüm anında ruhu müşayiət edən mifoloji obraz kimi təsvir olunur."
+        },
+        {
+          "chapter": 1,
+          "passage": 5,
+          "text": "Ruhun göyə doğru \"uçaraq\" yüksəldiyinə inanılırdı. Buna görə qədim türk mətnlərində ölüm üçün bəzən \"uçdu\" ifadəsi işlədilirdi."
+        },
+        {
+          "chapter": 1,
+          "passage": 6,
+          "text": "Yaxşı əməl sahibi olanların ruhunun Uçmaq adlanan işıqlı aləmə çatacağına inanılırdı. Uçmaq bolluq, rahatlıq və sülh məkanı kimi təsvir edilirdi."
+        },
+        {
+          "chapter": 1,
+          "passage": 7,
+          "text": "Uçmaq anlayışı sonrakı dövrlərdə islamdakı cənnət anlayışı ilə eyniləşdirilsə də, qədim türk təsəvvüründə o, Tenqriçilik dünyagörüşünə məxsus ayrıca anlayış idi."
+        },
+        {
+          "chapter": 1,
+          "passage": 8,
+          "text": "Uçmağın qarşılığı Tamaq idi. Tamaq yeraltı aləm kimi təsəvvür olunur və sonrakı Altay ənənəsində Erlikin hakimiyyəti altında göstərilir."
+        },
+        {
+          "chapter": 1,
+          "passage": 9,
+          "text": "Bəzi Altay-Sibir rəvayətlərində göyün on yeddi, aşağı dünyanın isə yeddi və ya doqquz qatdan ibarət olduğu qeyd edilir. Bu qatların sayı Orxon kitabələrində göstərilmir."
+        },
+        {
+          "chapter": 1,
+          "passage": 10,
+          "text": "Dəfn zamanı ölən şəxs silahı, geyimi, bəzək əşyaları və gündəlik istifadə etdiyi əşyalarla birlikdə torpağa tapşırılırdı. Bu əşyaların o biri dünyada da lazım olacağı düşünülürdü."
+        },
+        {
+          "chapter": 1,
+          "passage": 11,
+          "text": "At qədim türklər üçün müqəddəs yoldaş sayıldığına görə bəzən sahibi ilə birlikdə dəfn edilirdi. Arxeoloji kurqanlarda bu ənənəni təsdiqləyən çoxlu tapıntılar aşkar olunub."
+        },
+        {
+          "chapter": 1,
+          "passage": 12,
+          "text": "Kurqanlar yalnız məzar deyil, ölənin cəmiyyətdəki mövqeyini göstərən xatirə abidələri idi. Onların ölçüsü və zənginliyi mərhumun nüfuzundan asılı olurdu."
+        },
+        {
+          "chapter": 1,
+          "passage": 13,
+          "text": "Döyüşçülərin məzarları yaxınlığında balbal adlanan daş heykəllər ucaldılırdı. Ənənəyə görə hər balbal döyüşçünün məğlub etdiyi bir düşməni simvolizə edirdi."
+        },
+        {
+          "chapter": 1,
+          "passage": 14,
+          "text": "Bəzi bölgələrdə əlində kasa tutan insan fiqurlu daş heykəllər – \"baba\" daşları da qoyulurdu. Bunlar xatirə və ehtiram simvolu hesab edilirdi."
+        },
+        {
+          "chapter": 1,
+          "passage": 15,
+          "text": "Yas mərasimləri zamanı üz cızmaq, saç kəsmək, ağı demək və qara geyinmək kimi adətlər geniş yayılmışdı. Bu davranışlar mərhumun itkisini açıq şəkildə ifadə edirdi."
+        },
+        {
+          "chapter": 1,
+          "passage": 16,
+          "text": "Tarixi mənbələrdə Attilanın və Kül Tiginin dəfni ilə bağlı atlıların mərasim dövrələri vurması və yas ayinləri qeyd olunur. Bu, dəfn mərasimlərinin dövlət səviyyəsində də böyük əhəmiyyət daşıdığını göstərir."
+        },
+        {
+          "chapter": 1,
+          "passage": 17,
+          "text": "Bəzi hallarda, xüsusilə mövsüm şəraiti dəfni gecikdirdikdə, cəsəd müvəqqəti qorunurdu. Skif, Hun və bəzi Göytürk kurqanlarında mumiyalanmış qalıqlar aşkar edilib."
+        },
+        {
+          "chapter": 1,
+          "passage": 18,
+          "text": "Ölünün ruhunun müəyyən müddət yaxınlıqda qala biləcəyinə inanıldığı üçün dəfndən sonra müxtəlif qoruyucu ayinlər və təmizlənmə mərasimləri keçirilirdi. Bu ayinlər həm yaşayanları, həm də ruhun rahatlığını qorumaq məqsədi daşıyırdı."
+        },
+        {
+          "chapter": 1,
+          "passage": 19,
+          "text": "Beləliklə, Tenqriçilikdə ölüm yoxluq deyil, təbiətin və kainat nizamının bir hissəsi olan keçid hesab edilirdi. Bədən Yerə qayıdır, ruh isə öz mənşəyinə doğru yolunu davam etdirirdi."
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "title": "Türk xaqanları və Tenqri",
+      "info": "Hun, Göytürk, Uyğur və Monqol xaqanlarının hakimiyyətini Tenqrinin iradəsi ilə əsaslandırması — Mete Xandan Çingiz Xana qədər davam edən legitimlik ənənəsi.",
+      "total_passages": 18,
+      "passages": [
+        {
+          "chapter": 1,
+          "passage": 1,
+          "text": "Türk və monqol dövlətçilik ənənəsində xaqanın hakimiyyətinin Tenqrinin iradəsi ilə verildiyinə inanılırdı. Hakimiyyət şəxsi mülk deyil, ilahi etimad hesab olunurdu."
+        },
+        {
+          "chapter": 1,
+          "passage": 2,
+          "text": "Bu etimadın əsasını əvvəlki bölmələrdə izah edilən \"qut\" anlayışı təşkil edirdi. Qutunu itirən hökmdarın hakimiyyət haqqını da itirdiyi düşünülürdü."
+        },
+        {
+          "chapter": 1,
+          "passage": 3,
+          "text": "Hakimiyyətin Tenqridən gəldiyi ideyası Hunlardan Monqol imperiyasına qədər min ildən artıq müddətdə müxtəlif dövlətlərdə qorunub saxlanmışdır. Bu fikir köçəri imperiyaların siyasi legitimliyinin əsas dayaqlarından idi."
+        },
+        {
+          "chapter": 1,
+          "passage": 4,
+          "text": "Bu anlayışın ən qədim nümunələrindən biri Hun (Xiongnu) imperiyasında görünür. Hun hökmdarının \"Şanyu\" titulunu Çin mənbələri göylə əlaqələndirirdi."
+        },
+        {
+          "chapter": 1,
+          "passage": 5,
+          "text": "E.ə. 209-cu ildə Mete Xan (Modu Çanyu) Hun tayfalarını birləşdirərək böyük imperiya yaratdı. Sonrakı türk dövlətçilik ənənəsində o, güclü hökmdar nümunəsi kimi xatırlandı."
+        },
+        {
+          "chapter": 1,
+          "passage": 6,
+          "text": "552-ci ildə Bumin Xaqan Juan-Juan hakimiyyətini məğlub edərək Birinci Göytürk Xaqanlığını qurdu. Bununla türk adı altında ilk böyük imperiya meydana gəldi."
+        },
+        {
+          "chapter": 1,
+          "passage": 7,
+          "text": "Göytürk hakimləri öz uğurlarını hərbi güclə yanaşı Tenqrinin köməyi ilə də izah edirdilər. Bu fikir Orxon kitabələrinin əsas mövzularından biridir."
+        },
+        {
+          "chapter": 1,
+          "passage": 8,
+          "text": "İlteriş Xaqan Çin hakimiyyətindən sonra türk tayfalarını yenidən birləşdirərək İkinci Göytürk Xaqanlığını qurdu. Onun adı \"eli yenidən quran\" mənasını ifadə edir."
+        },
+        {
+          "chapter": 1,
+          "passage": 9,
+          "text": "Bilgə Xaqan kitabəsində bildirilir ki, Türk Tenqrisi və müqəddəs Türk Yer-Subu türk xalqı yox olmasın deyə İlteriş Xaqanı və El Bilgə Xatunu hakimiyyətə gətirmişdir. Bu, ilahi legitimliyin ən açıq yazılı ifadələrindən biridir."
+        },
+        {
+          "chapter": 1,
+          "passage": 10,
+          "text": "Tonyukuk kitabəsində də qələbələrin və dövlətin qorunmasının Tenqrinin köməyi ilə mümkün olduğu vurğulanır. Beləliklə eyni ideya müxtəlif Orxon kitabələrində təkrarlanır."
+        },
+        {
+          "chapter": 1,
+          "passage": 11,
+          "text": "Qapağan Xaqan və Bilgə Xaqan dövründə də hakimiyyət Tenqrinin verdiyi qutun davamı kimi qəbul edilirdi. Xaqanın vəzifəsi törünü qorumaq və xalqı bir arada saxlamaq idi."
+        },
+        {
+          "chapter": 1,
+          "passage": 12,
+          "text": "Uyğur xaqanları da bu ənənəni davam etdirərək rəsmi titullarında \"Tenqridə Bolmış\" ifadəsini işlədirdilər. Bu titul hökmdarın ilahi iradə ilə hakimiyyətə gəldiyini bildirirdi."
+        },
+        {
+          "chapter": 1,
+          "passage": 13,
+          "text": "Bayançur Xan və Qutluq II kimi Uyğur xaqanlarının uzun titullarında Tenqri və bəzən Ay adı birlikdə çəkilir. Bu, ilahi mənşənin dövlət titulunun ayrılmaz hissəsinə çevrildiyini göstərir."
+        },
+        {
+          "chapter": 1,
+          "passage": 14,
+          "text": "Uyğur dövründə Mani dini qəbul edilsə də, Tenqri ilə bağlı titul və dövlətçilik ənənəsi tamamilə aradan qalxmadı. Köhnə siyasi legitimlik formulları istifadə olunmağa davam etdi."
+        },
+        {
+          "chapter": 1,
+          "passage": 15,
+          "text": "Monqol imperiyası dövründə Çingiz Xan da öz hakimiyyətini Əbədi Göyün iradəsi ilə əlaqələndirirdi. O, bütün xalqları birləşdirmək missiyasının Tenqridən gəldiyini bildirirdi."
+        },
+        {
+          "chapter": 1,
+          "passage": 16,
+          "text": "Monqol hökmdarlarının fərmanlarında tez-tez \"Mönkə Tenqrinin küçü ilə\" ifadəsi işlədilirdi. Bu, əvvəlki türk xaqanlarının legitimlik ənənəsinin davamı hesab olunur."
+        },
+        {
+          "chapter": 1,
+          "passage": 17,
+          "text": "Tenqriçilikdə xaqan ilahi varlıq hesab edilmirdi. O, Tenqrinin seçdiyi və xalq qarşısında məsuliyyət daşıyan hökmdar kimi qəbul olunurdu."
+        },
+        {
+          "chapter": 1,
+          "passage": 18,
+          "text": "Beləliklə Hun, Göytürk, Uyğur və Monqol dövlətlərində Tenqri ilə xaqan arasındakı əlaqə həm dini, həm də siyasi legitimliyin əsasını təşkil etmişdir. Bu ənənə əsrlər boyu türk-monqol dövlətçilik düşüncəsinin mühüm hissəsi olaraq qalmışdır."
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "title": "Tenqriçilik müxtəlif türk xalqlarında",
+      "info": "Tenqri inancının müxtəlif türk və monqol xalqlarında ortaq və fərqli xüsusiyyətləri.",
+      "total_passages": 10,
+      "passages": [
+        {
+          "chapter": 17,
+          "passage": 1,
+          "text": "Tenqriçilik bütün türk xalqlarında eyni formada mövcud olmayıb. Ortaq əsas prinsiplər qorunsa da, hər xalqın yaşadığı coğrafiya, tarixi və sonradan qəbul etdiyi dinlər bu inancın inkişafına fərqli təsir göstərib."
+        },
+        {
+          "chapter": 17,
+          "passage": 2,
+          "text": "Göytürklərdə Tenqriçilik dövlət ideologiyasının əsasını təşkil edirdi. Orxon kitabələrində Tenqri, Yer-Sub və qut anlayışları hakimiyyətin ilahi mənbəyi kimi təqdim olunur və bu dövr Tenqriçilik haqqında ən etibarlı yazılı məlumatları verir."
+        },
+        {
+          "chapter": 17,
+          "passage": 3,
+          "text": "Uyğurlar əvvəlcə Tenqriçilik ənənəsini davam etdirdilər. VIII əsrdə hakim dairələrin Mani dinini qəbul etməsindən sonra da Tenqri ilə bağlı titul və dövlətçilik ənənələrinin bir hissəsi uzun müddət qorunub saxlanıldı."
+        },
+        {
+          "chapter": 17,
+          "passage": 4,
+          "text": "Qırğızlarda Tenqriçilik uzun müddət şaman ənənələri ilə birlikdə yaşadı. Dağ, çay və əcdad ruhlarına hörmət, qamların fəaliyyəti və təbiətlə bağlı mərasimlər XIX əsrə qədər müşahidə olunurdu."
+        },
+        {
+          "chapter": 17,
+          "passage": 5,
+          "text": "Qazaxlarda islamın yayılmasından sonra da Tenqriçilikdən qalan bir çox adət yaşamaqda davam etdi. Təbiətə hörmət, ata-baba ruhlarının yad edilməsi və bəzi mövsümi mərasimlər xalq ənənəsinin tərkib hissəsinə çevrildi."
+        },
+        {
+          "chapter": 17,
+          "passage": 6,
+          "text": "Saxa (Yakut) xalqı qədim türk inanclarının ən zəngin qollarından birini qoruyub saxlamışdır. Üç kut anlayışı, Ayıı ruhları və Yay bayramı (Ysyax) bu ənənənin mühüm elementləri hesab olunur."
+        },
+        {
+          "chapter": 17,
+          "passage": 7,
+          "text": "Altay türkləri Tenqriçiliklə bağlı ən geniş şifahi mifoloji materialı qoruyub saxlayan xalqlardandır. Kayra Xan, Ülgen və Erlik haqqında ətraflı rəvayətlərin əksəriyyəti məhz Altay bölgəsində qeydə alınıb."
+        },
+        {
+          "chapter": 17,
+          "passage": 8,
+          "text": "Tuvalılarda qamlıq ənənəsi XX əsrə qədər nisbətən canlı şəkildə davam etmişdir. Sovet dövründə məhdudlaşdırılsa da, sonrakı illərdə yenidən canlanmağa başlamış və bu gün də bəzi mərasimlər icra olunur."
+        },
+        {
+          "chapter": 17,
+          "passage": 9,
+          "text": "Monqollarda Mönkə Tenqri (Əbədi Göy) inancı dövlət ideologiyasının əsas hissəsi idi. Ovoo mərasimləri, mavi rəngin müqəddəsliyi və Çingiz Xanın hakimiyyətini Tenqrinin iradəsi ilə əsaslandırması bu ənənənin mühüm nümunələridir."
+        },
+        {
+          "chapter": 17,
+          "passage": 10,
+          "text": "Bu gün Tenqriçilik müxtəlif xalqlarda fərqli səviyyədə qorunub saxlanılır. Bəzi yerlərdə o, dini ənənə kimi, bəzilərində isə əsasən mədəni irs, folklor və milli kimliyin bir hissəsi kimi yaşamaqdadır. Buna görə müasir Tenqriçilik vahid dini sistemdən çox, ortaq tarixi köklərə malik müxtəlif ənənələrin ümumi adı kimi qiymətləndirilir."
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "title": "Orxon yazıları",
+      "info": "Kül Tigin, Bilgə Xaqan və Tonyukuk abidələrinin kəşfi, oxunuşu, fiziki xüsusiyyətləri və məzmunu — qədim türk dilinin ən mühüm yazılı abidələri.",
+      "total_passages": 15,
+      "passages": [
+        {
+          "chapter": 15,
+          "passage": 1,
+          "text": "Orxon yazıları qədim türk dilində günümüzə gəlib çatan ən qədim və ən geniş həcmli yazılı abidələrdir. Onlar VIII əsrə aiddir və qədim türk run əlifbası ilə daş abidələr üzərinə həkk olunub."
+        },
+        {
+          "chapter": 15,
+          "passage": 2,
+          "text": "Abidələr Monqolustanın Orxon çayı vadisində yerləşir. Bu ərazi Göytürk xaqanlığının siyasi və mənəvi mərkəzi sayılan Ötüken bölgəsinə daxildir."
+        },
+        {
+          "chapter": 15,
+          "passage": 3,
+          "text": "Abidələr 1889-cu ildə rus səyyahı və tədqiqatçısı Nikolay Yadrintsev tərəfindən aşkar edildi. Sonradan Vasili Radlov onların ilk elmi nəşrlərini hazırladı."
+        },
+        {
+          "chapter": 15,
+          "passage": 4,
+          "text": "1893-cü ildə danimarkalı dilçi Vilhelm Tomsen qədim türk run əlifbasını oxumağa müvəffəq oldu. Çin dilindəki paralel mətnlər və müqayisəli dil araşdırmaları bu uğurda mühüm rol oynadı."
+        },
+        {
+          "chapter": 15,
+          "passage": 5,
+          "text": "Orxon yazılarının üç əsas abidəsi Kül Tigin, Bilgə Xaqan və Tonyukuk abidələridir. Kül Tigin və Bilgə Xaqan abidələri Xöşöö Tsaydam ərazisində bir-birinə yaxın yerləşir."
+        },
+        {
+          "chapter": 15,
+          "passage": 6,
+          "text": "Kül Tigin abidəsi 732-ci ildə Bilgə Xaqan tərəfindən qardaşı Kül Tiginin xatirəsinə ucaldılıb. Bu abidə ən yaxşı qorunmuş Orxon abidələrindən biridir."
+        },
+        {
+          "chapter": 15,
+          "passage": 7,
+          "text": "Bilgə Xaqan abidəsi isə 735-ci ildə onun vəfatından sonra ucaldılıb. Hər iki abidə daş tısbağa formalı postament üzərində yerləşdirilmiş iri daş sütunlardan ibarətdir."
+        },
+        {
+          "chapter": 15,
+          "passage": 8,
+          "text": "Abidələr yalnız yazılardan ibarət deyil. Onların üzərində Göytürk dövlət rəmzləri, bəzək naxışları və müxtəlif relyef təsvirləri də həkk olunub ki, bunlar dövrün incəsənəti və siyasi simvolikası haqqında məlumat verir."
+        },
+        {
+          "chapter": 15,
+          "passage": 9,
+          "text": "Kül Tigin və Bilgə Xaqan abidələrinin qədim türk mətnlərini Yolluğ Tigin qələmə alıb. Tonyukuk abidəsinin isə məzmununun onun öz göstərişləri ilə hazırlanması qəbul edilir."
+        },
+        {
+          "chapter": 15,
+          "passage": 10,
+          "text": "Kül Tigin və Bilgə Xaqan abidələrində qədim türkcə mətnlə yanaşı Çin dilində hissələr də mövcuddur. Tonyukuk abidəsi isə yalnız qədim türk dilində yazılıb."
+        },
+        {
+          "chapter": 15,
+          "passage": 11,
+          "text": "Abidələrdə Göytürk dövlətinin yaranması, Çin hakimiyyəti dövrü, xalqın yenidən birləşdirilməsi, yürüşlər və xaqanların fəaliyyəti təsvir olunur. Bununla yanaşı, dövlət idarəçiliyi, xalqın birliyi və Tenqriyə inam kimi mövzular da geniş yer tutur."
+        },
+        {
+          "chapter": 15,
+          "passage": 12,
+          "text": "Tonyukuk abidəsi digər iki abidədən fərqli olaraq başqa ərazidə yerləşir və təxminən 716–725-ci illərdə ucaldılıb. O, Göytürk dövlətinin baş müşaviri və sərkərdəsi Tonyukukun xidmətlərini əks etdirir."
+        },
+        {
+          "chapter": 15,
+          "passage": 13,
+          "text": "Tonyukuk abidəsi iki daş sütundan ibarətdir və mətn birinci şəxsin dilindən yazılıb. Bu xüsusiyyət onu qədim türk ədəbiyyatında nadir xatirə xarakterli mətnlərdən birinə çevirir."
+        },
+        {
+          "chapter": 15,
+          "passage": 14,
+          "text": "Orxon yazıları qədim türk tarixi, dili, dövlət quruluşu və Tenqriçilik haqqında ən etibarlı ilkin mənbələr hesab olunur. Bu gün həmin abidələr UNESCO-nun Dünya Yaddaşı proqramına daxil edilmiş mühüm tarixi irs nümunələrindəndir."
+        },
+        {
+          "chapter": 15,
+          "passage": 15,
+          "text": "Orxon bölgəsində Ongin, Küli Çor və digər kiçik run yazılı abidələr də aşkar edilib. Onlar əsas üç abidə qədər geniş olmasa da, Göytürk dövrünün dili və tarixi haqqında əlavə məlumat verir."
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "title": "Tenqriçilikdə heyvanlar",
+      "info": "Tenqriçilikdə heyvanların dini, mifoloji və simvolik mənaları — onların kosmologiyada, dövlətçilikdə, mərasimlərdə və gündəlik həyatda tutduğu yer.",
+      "total_passages": 12,
+      "passages": [
+        {
+          "chapter": 19,
+          "passage": 1,
+          "text": "Tenqriçilikdə heyvanlar yalnız təsərrüfat üçün istifadə olunan canlılar deyil, həm də ilahi nizamın və təbiətin ayrılmaz hissəsi hesab olunurdu. Müxtəlif heyvanlar müəyyən xüsusiyyətləri, ruhani gücləri və kosmik anlayışları simvolizə edirdi."
+        },
+        {
+          "chapter": 19,
+          "passage": 2,
+          "text": "At Tenqriçilikdə ən müqəddəs heyvanlardan biri sayılırdı. Köçəri həyatın əsas dayağı olmaqla yanaşı, o, insanın sadiq yoldaşı, azadlığın rəmzi və ruhun dünyalar arasında keçidinə kömək edən müqəddəs varlıq kimi qəbul edilirdi. Dəfn mərasimlərində atın sahibi ilə birlikdə basdırılması da bu inancın göstəricisidir."
+        },
+        {
+          "chapter": 19,
+          "passage": 3,
+          "text": "Bozqurd qədim türk mifologiyasında yolgöstərən və qoruyucu simvol kimi tanınırdı. Ən məşhur rəvayətlərdə türklərin əcdadının bozqurd tərəfindən xilas edilməsi və ya ona yol göstərilməsi təsvir olunur. Bozqurd daha çox xalqın mənşəyi və dövlətçilik ideyası ilə əlaqələndirilirdi."
+        },
+        {
+          "chapter": 19,
+          "passage": 4,
+          "text": "Qartal və digər iri yırtıcı quşlar göy aləminin, ucalığın və Tenqriyə yaxınlığın rəmzi hesab edilirdi. Onların yüksəkdə uçması səbəbindən bəzi ənənələrdə göylə yer arasında vasitəçi kimi qəbul olunduqları düşünülürdü."
+        },
+        {
+          "chapter": 19,
+          "passage": 5,
+          "text": "Maral (geyik) xüsusilə Altay və Sibir xalqlarının mifologiyasında müqəddəs heyvanlardan biri idi. Bəzi rəvayətlərdə o, tayfaların əcdadı, yolgöstərən və ya ruhları başqa aləmə aparan varlıq kimi təsvir olunur. Arxeoloji tapıntılarda maral təsvirlərinə tez-tez rast gəlinir."
+        },
+        {
+          "chapter": 19,
+          "passage": 6,
+          "text": "Ağaclarda yaşayan quşlar, xüsusilə qartal, şahin, qu quşu və bəzi digər quşlar Dünya Ağacı ilə əlaqələndirilirdi. Bəzi türk xalqlarının inanclarında bu quşların göy qatları arasında hərəkət etdiyi və ilahi xəbərləri gətirdiyi düşünülürdü."
+        },
+        {
+          "chapter": 19,
+          "passage": 7,
+          "text": "Ayı xüsusilə Şimali Asiya xalqlarının mifoloji ənənələrində böyük hörmət görürdü. Gücün, dözümlülüyün və meşənin sahibi kimi qəbul edilir, bəzi tayfalarda onun adını birbaşa çəkməkdən belə çəkinirdilər."
+        },
+        {
+          "chapter": 19,
+          "passage": 8,
+          "text": "İlan müxtəlif türk xalqlarında fərqli mənalar daşıyırdı. Bəzi ənənələrdə yeraltı aləmlə və Erliklə əlaqələndirilir, digərlərində isə evi və ocağı qoruyan ruhların simvolu hesab olunurdu. Buna görə ilana münasibət bütün türk xalqlarında eyni olmayıb."
+        },
+        {
+          "chapter": 19,
+          "passage": 9,
+          "text": "Qu quşu bəzi Altay və Yakut rəvayətlərində saflığın, gözəlliyin və ilahi mənşəyin rəmzidir. Bəzi yaradılış miflərində dünyanın yaranmasında iştirak edən müqəddəs quşlardan biri kimi xatırlanır."
+        },
+        {
+          "chapter": 19,
+          "passage": 10,
+          "text": "Heyvanların çoxu totem mənasında deyil, müəyyən xüsusiyyətlərin və ya ilahi nizamın simvolu kimi qəbul edilirdi. Buna görə Tenqriçilikdə heyvana sitayiş etməkdən çox, onun təbiətdəki yerinə və daşıdığı mənaya hörmət göstərilirdi."
+        },
+        {
+          "chapter": 19,
+          "passage": 11,
+          "text": "Arxeoloji tapıntılar — Pazırıq kurqanları, Orxon bölgəsi və digər qədim türk abidələri üzərində at, maral, qartal və digər heyvan təsvirlərinin geniş yayılması bu simvolizmin minilliklər boyu davam etdiyini göstərir."
+        },
+        {
+          "chapter": 19,
+          "passage": 12,
+          "text": "Qeyd etmək lazımdır ki, heyvanlarla bağlı inanclar bütün türk xalqlarında tam eyni olmayıb. Zaman, coğrafiya və yerli mədəniyyətlərin təsiri nəticəsində müxtəlif bölgələrdə fərqli heyvanlara xüsusi əhəmiyyət verilmiş, onların mifoloji rolları dəyişmişdir."
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "title": "Müqəddəs məkanlar",
+      "info": "Tenqriçilikdə müqəddəs hesab olunan dağlar, çaylar, meşələr və digər təbii məkanlar — onların dini, tarixi və mifoloji əhəmiyyəti.",
+      "total_passages": 11,
+      "passages": [
+        {
+          "chapter": 20,
+          "passage": 1,
+          "text": "Tenqriçilikdə xüsusi məbədlərdən daha çox təbiətin özü müqəddəs sayılırdı. Dağlar, meşələr, çaylar, göllər, bulaqlar və geniş çöllər Tenqrinin yaratdığı nizamın bir hissəsi kimi qəbul edilir, ibadət və mərasimlər çox vaxt məhz bu məkanlarda keçirilirdi."
+        },
+        {
+          "chapter": 20,
+          "passage": 2,
+          "text": "Ötüken qədim türklərin ən müqəddəs məkanı hesab olunurdu. Orxon vadisində yerləşən bu dağlıq-meşəlik bölgə Göytürk və Uyğur xaqanlıqlarının siyasi və mənəvi mərkəzi idi. Orxon kitabələrində dövlətin gücünün Ötükendən idarə olunmasının vacibliyi xüsusi vurğulanır."
+        },
+        {
+          "chapter": 20,
+          "passage": 3,
+          "text": "Orxon vadisi yalnız dövlətçilik baxımından deyil, həm də dini baxımdan böyük əhəmiyyət daşıyırdı. Kül Tigin, Bilgə Xaqan və Tonyukuk abidələrinin burada ucaldılması bu bölgənin müqəddəs statusunu göstərən ən mühüm tarixi sübutlardan biridir."
+        },
+        {
+          "chapter": 20,
+          "passage": 4,
+          "text": "Altay dağları türk və Altay xalqlarının mifologiyasında dünyanın müqəddəs bölgələrindən biri hesab olunur. Bir çox yaradılış rəvayətləri, qam ənənələri və Tenqriçi inanclar məhz bu ərazi ilə əlaqələndirilir."
+        },
+        {
+          "chapter": 20,
+          "passage": 5,
+          "text": "Baykal gölü xüsusilə Sibir türkləri və bəzi monqol xalqları üçün müqəddəs təbiət məkanı sayılırdı. Göl və onun ətrafı ruhların yaşadığı, təbiətin xüsusi qorunduğu yer kimi qəbul edilirdi."
+        },
+        {
+          "chapter": 20,
+          "passage": 6,
+          "text": "Burxan Xaldun dağı monqol Tenqriçilik ənənəsində ən müqəddəs dağlardan biridir. Rəvayətə görə Çingiz Xan həyatının müxtəlif dövrlərində bu dağa sığınmış, onu müqəddəs yer kimi ehtiramla yad etmiş və Tenqriyə burada dua etmişdir."
+        },
+        {
+          "chapter": 20,
+          "passage": 7,
+          "text": "Ümumiyyətlə yüksək dağ zirvələri göyə yaxın olduqları üçün Tenqriyə dua etmək və qurban mərasimləri keçirmək üçün ən münasib məkan hesab edilirdi. Bu səbəbdən müxtəlif türk xalqları yaşadıqları bölgələrdə fərqli dağları müqəddəs sayırdılar."
+        },
+        {
+          "chapter": 20,
+          "passage": 8,
+          "text": "Çaylar, bulaqlar və göllər Yer-Su ruhlarının təzahürü kimi qəbul edilirdi. Onların çirkləndirilməsi, murdarlanması və ya ehtiyatsız davranış bəzi inanclarda ruhlara hörmətsizlik hesab olunurdu."
+        },
+        {
+          "chapter": 20,
+          "passage": 9,
+          "text": "Müqəddəs ağacların və bulaqların yanında insanlar süd, qımız və digər maye təqdimlər edir, ağac budaqlarına parça bağlayır və xeyir-dua diləyirdilər. Bu adətlər xüsusilə sonrakı monqol və bəzi türk ənənələrində uzun müddət qorunub saxlanmışdır."
+        },
+        {
+          "chapter": 20,
+          "passage": 10,
+          "text": "Tenqriçilikdə müqəddəslik yalnız müəyyən bir məkana aid anlayış deyildi. İnsan təbiətin hər yerində Tenqrinin yaratdığı nizamı görə bilərdi. Buna görə də hər tayfanın və ya xalqın öz müqəddəs dağı, meşəsi, bulağı və ya çayı ola bilirdi."
+        },
+        {
+          "chapter": 20,
+          "passage": 11,
+          "text": "Bu gün Ötüken, Orxon vadisi, Altay dağları, Burxan Xaldun və digər tarixi məkanlar həm qədim türk-monqol irsinin, həm də Tenqriçilik tarixinin öyrənilməsi baxımından böyük əhəmiyyət daşıyır və bir çoxu milli və beynəlxalq səviyyədə qorunan mədəni irs nümunələri hesab olunur."
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "title": "Musiqi və müqəddəs alətlər",
+      "info": "Tenqriçilikdə musiqinin mənəvi və mərasim funksiyası, qamların istifadə etdiyi alətlər, qopuz, davul, dəf, qam nəğmələri, Tuva boğaz oxuması və səslə ruhlar aləmi arasında əlaqə haqqında məlumat.",
+      "total_passages": 12,
+      "passages": [
+        {
+          "chapter": 28,
+          "passage": 1,
+          "text": "Tenqriçilikdə musiqi yalnız əyləncə vasitəsi deyildi. O, ibadətin, qam ayinlərinin və insanla görünməyən aləm arasında əlaqənin mühüm hissəsi hesab olunurdu. Ritm və səs vasitəsilə qamın trans vəziyyətinə keçə bildiyinə inanılırdı."
+        },
+        {
+          "chapter": 28,
+          "passage": 2,
+          "text": "Qam mərasimlərində ən çox istifadə olunan alətlər davul və ya dəf tipli zərb alətləri idi. Təkrarlanan ritmlər mərasimin əsas hissəsini təşkil edir, həm qamın, həm də mərasim iştirakçılarının diqqətini mənəvi aləmə yönəltməyə xidmət edirdi."
+        },
+        {
+          "chapter": 28,
+          "passage": 3,
+          "text": "Davul (və ya dəf) bir çox türk və monqol xalqlarında müqəddəs əşya sayılırdı. Bəzi inanclara görə o, qamın ruhlar aləminə etdiyi mənəvi səyahətin simvolik miniyi idi və üzərində kainatı ifadə edən işarələr təsvir edilə bilərdi."
+        },
+        {
+          "chapter": 28,
+          "passage": 4,
+          "text": "Qopuz qədim türk dünyasının ən məşhur simli musiqi alətlərindən biridir. Ozanlar və dastançılar tərəfindən istifadə olunsa da, bəzi bölgələrdə qamların mərasimlərində də yer almışdır. Qopuz xüsusilə qəhrəmanlıq dastanlarının və müqəddəs rəvayətlərin ötürülməsində mühüm rol oynayıb."
+        },
+        {
+          "chapter": 28,
+          "passage": 5,
+          "text": "Qam nəğmələri xüsusi melodiyalar və təkrarlanan sözlərdən ibarət olurdu. Bu nəğmələr dua, ruhlara müraciət, şəfa istəyi və ya mərasimin məqsədinə uyğun şəkildə ifa edilirdi. Mətnlərin böyük hissəsi şifahi ənənə ilə nəsildən-nəslə ötürülmüşdür."
+        },
+        {
+          "chapter": 28,
+          "passage": 6,
+          "text": "Mərasimlər zamanı musiqi təkcə qam tərəfindən deyil, bəzən iştirakçılar tərəfindən də müşayiət edilirdi. Ritmik əl çalma, birlikdə oxunan nəğmələr və təkrarlanan səslər icma həmrəyliyini gücləndirən elementlər hesab olunurdu."
+        },
+        {
+          "chapter": 28,
+          "passage": 7,
+          "text": "Altay, Tuva və Monqolustan ənənələrində qamlar mərasim zamanı bəzən zəng, metal lövhəcik və müxtəlif səs çıxaran əşyalardan da istifadə edirdilər. Bu səslərin ruhların diqqətini cəlb etdiyinə və mərasimi qoruduğuna inanılırdı."
+        },
+        {
+          "chapter": 28,
+          "passage": 8,
+          "text": "Tuva və ətraf bölgələrdə inkişaf etmiş boğaz oxuması (xöömei) bu gün dünyanın ən tanınmış musiqi ənənələrindən biridir. Onun bütün növlərini Tenqriçiliklə birbaşa əlaqələndirmək düzgün olmasa da, təbiət səslərini təqlid etməsi və qədim köçəri mədəniyyətlə bağlılığı səbəbindən Tenqriçi ənənənin mühüm mədəni irsi hesab edilir."
+        },
+        {
+          "chapter": 28,
+          "passage": 9,
+          "text": "Musiqidə küləyin uğultusu, axan su, quş səsləri və at çapmasının ritmi kimi təbiət motivləri geniş yer tuturdu. Bu xüsusiyyət insanın təbiətin ayrılmaz hissəsi olması haqqında Tenqriçi dünyagörüşünü əks etdirirdi."
+        },
+        {
+          "chapter": 28,
+          "passage": 10,
+          "text": "Qədim türk ozanları qəhrəmanlıq dastanlarını, tayfa tarixini və əcdadların xatirəsini musiqi vasitəsilə qoruyurdular. Sonrakı dövrlərdə yaranmış Dədə Qorqud ənənəsi bu şifahi mədəniyyətin davamı kimi qiymətləndirilir, baxmayaraq ki, mövcud mətnlər artıq islamlaşmış dövrə aiddir."
+        },
+        {
+          "chapter": 28,
+          "passage": 11,
+          "text": "Bu musiqi ənənələrinin böyük hissəsi yazılı şəkildə deyil, ustaddan şagirdə şifahi yolla ötürüldüyü üçün müxtəlif türk xalqlarında melodiyalar, ifa üslubları və mərasim qaydaları fərqli inkişaf etmişdir."
+        },
+        {
+          "chapter": 28,
+          "passage": 12,
+          "text": "Müasir dövrdə Tuva, Altay, Monqolustan, Qazaxıstan və Qırğızıstanda qədim musiqi ənənələrinin bir hissəsi folklor kollektivləri və mədəniyyət festivalları vasitəsilə yaşadılır. Bunlar həm tarixi irsin qorunmasına, həm də Tenqriçiliklə əlaqəli mədəni elementlərin tanıdılmasına xidmət edir."
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "title": "Geyim və rəmzlər",
+      "info": "Tenqriçilikdə qam geyimi, müqəddəs rənglər, baş geyimləri, metal bəzəklər, quş lələkləri, tuğ və digər dini-mədəni rəmzlərin mənası.",
+      "total_passages": 12,
+      "passages": [
+        {
+          "chapter": 29,
+          "passage": 1,
+          "text": "Tenqriçilikdə geyim yalnız gündəlik istifadə üçün nəzərdə tutulmurdu. Xüsusilə qamların mərasim geyimləri mənəvi məna daşıyır, insanın ruhlar aləmi ilə əlaqəsini simvolizə edən müxtəlif elementlərlə bəzədilirdi."
+        },
+        {
+          "chapter": 29,
+          "passage": 2,
+          "text": "Qam geyimi müxtəlif türk xalqlarında fərqli görünsə də, ümumi xüsusiyyətlərə malik idi. O, adətən dəri və ya qalın parçadan hazırlanır, üzərinə metal lövhəciklər, zəncirlər, lentlər və müxtəlif rəmzi bəzəklər tikilirdi."
+        },
+        {
+          "chapter": 29,
+          "passage": 3,
+          "text": "Metal bəzəklərin yalnız dekorativ məqsəd daşımadığına inanılırdı. Mərasim zamanı onların çıxardığı səslərin pis ruhları uzaqlaşdırdığı və qamı qoruduğu düşünülürdü. Bu inanc xüsusilə Altay və Sayan bölgələrinin ənənələrində geniş yayılmışdır."
+        },
+        {
+          "chapter": 29,
+          "passage": 4,
+          "text": "Bir çox qam baş geyimində quş lələklərindən istifadə edirdi. Qartal, bayquş və digər iri quşların lələkləri göylə əlaqəni, ruhun yüksəlişini və mənəvi səyahəti simvolizə edən elementlər hesab olunurdu."
+        },
+        {
+          "chapter": 29,
+          "passage": 5,
+          "text": "Qam geyiminə tikilən uzun lentlər və ipliklər müxtəlif mənalar daşıyırdı. Bəzi ənənələrdə onlar Dünya Ağacının budaqlarını, digərlərində isə ruhlar aləminə aparan yolları simvolizə edirdi."
+        },
+        {
+          "chapter": 29,
+          "passage": 6,
+          "text": "Mavi rəng Tenqriçilikdə xüsusi əhəmiyyətə malik idi. Göyü və Kök Tenqrini simvolizə etdiyi üçün bayraqlarda, mərasim parçalarında və təqdim olunan lentlərdə tez-tez istifadə edilirdi. Bu ənənə xüsusilə monqol və bəzi türk xalqlarında bu gün də qorunub saxlanılır."
+        },
+        {
+          "chapter": 29,
+          "passage": 7,
+          "text": "Ağ rəng saflıq, xeyir-dua və sülhün rəmzi hesab olunurdu. Bəzi mərasimlərdə ağ heyvanların və ağ parçaların seçilməsi bu simvolik məna ilə əlaqələndirilirdi."
+        },
+        {
+          "chapter": 29,
+          "passage": 8,
+          "text": "Tuğ — at quyruğundan hazırlanan bayraq və ya hakimiyyət nişanı — qədim türk və monqol dövlətçilik ənənəsində mühüm rəmz idi. O, ilk növbədə siyasi və hərbi simvol olsa da, Tenqri tərəfindən verilmiş hakimiyyət anlayışı ilə əlaqələndirildiyi üçün dini-mədəni məna da qazanmışdı."
+        },
+        {
+          "chapter": 29,
+          "passage": 9,
+          "text": "Qədim xaqanların və sərkərdələrin geyimlərində günəş, dağ keçisi, quş və digər heyvan təsvirlərinə rast gəlinirdi. Bu fiqurlar dövlətin gücünü, qoruyucu qüvvələri və təbiətlə harmoniyanı ifadə edən simvollar idi."
+        },
+        {
+          "chapter": 29,
+          "passage": 10,
+          "text": "Qamın istifadə etdiyi hər bir əşya — davul, qopuz, əsə, güzgü və ya metal lövhəcik — sadəcə alət deyil, mərasimin ayrılmaz hissəsi hesab olunurdu. Onların hazırlanması və istifadəsi müəyyən ənənələrə uyğun həyata keçirilirdi."
+        },
+        {
+          "chapter": 29,
+          "passage": 11,
+          "text": "Tenqriçilikdə vahid dini geyim forması mövcud olmayıb. Geyimlərin görünüşü yaşanılan bölgəyə, tayfaya və dövrə görə dəyişib. Buna görə Altay, Yakut, Tuva və Monqol ənənələrində fərqli qam geyimləri formalaşmışdır."
+        },
+        {
+          "chapter": 29,
+          "passage": 12,
+          "text": "Bu gün muzeylərdə qorunan qam geyimləri, tuğlar və mərasim əşyaları Tenqriçilik dövrünün maddi mədəniyyət nümunələri kimi böyük tarixi əhəmiyyət daşıyır. Onlar qədim türk və monqol xalqlarının dini təsəvvürlərini, simvol dünyasını və estetik baxışlarını öyrənmək üçün əsas mənbələrdən hesab olunur."
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "title": "Tenqriçilik incəsənətdə",
+      "info": "Tenqriçi dünyagörüşünün qayaüstü rəsmlərdə, damğalarda, balballarda, daş abidələrdə, ornamentlərdə və digər maddi mədəniyyət nümunələrində əks olunması.",
+      "total_passages": 12,
+      "passages": [
+        {
+          "chapter": 30,
+          "passage": 1,
+          "text": "Tenqriçilik müqəddəs kitaba əsaslanan din olmadığından onun dünyagörüşü əsasən şifahi ənənə, mərasimlər və maddi mədəniyyət vasitəsilə nəsildən-nəslə ötürülmüşdür. Buna görə incəsənət qədim türk və monqol xalqlarının dini təsəvvürlərini anlamaqda mühüm mənbə hesab olunur."
+        },
+        {
+          "chapter": 30,
+          "passage": 2,
+          "text": "Qayaüstü rəsmlər (petroqliflər) Tenqriçilik dövrünün ən qədim sənət nümunələrindəndir. Altay, Sayan, Monqolustan, Qazaxıstan və Azərbaycanın Qobustan bölgəsində rast gəlinən petroqliflərdə ov səhnələri, günəş rəmzləri, atlılar və müxtəlif heyvan təsvirləri yer alır. Bu təsvirlərin hamısını dini məna ilə əlaqələndirmək mümkün olmasa da, onların bir hissəsinin qədim inanclarla bağlı olduğu qəbul edilir."
+        },
+        {
+          "chapter": 30,
+          "passage": 3,
+          "text": "Damğalar (tamğalar) qədim türk tayfalarının və nəsillərinin fərqləndirici nişanları idi. Onlar bayraqlarda, silahlarda, daşlarda, heyvanların üzərində və gündəlik əşyalarda istifadə olunurdu. Bəzi damğaların sonradan müqəddəs və qoruyucu rəmz kimi qəbul edildiyi düşünülür."
+        },
+        {
+          "chapter": 30,
+          "passage": 4,
+          "text": "Balballar Tenqriçilik dövrünün ən xarakterik daş abidələrindəndir. Onlar əsasən döyüşçülərin məzarlarının yaxınlığında ucaldılırdı. Bir çox tədqiqatçıya görə balballar ölənin həyatda məğlub etdiyi düşmənləri və ya onun şərəfinə ucaldılmış xatirə daşlarını ifadə edirdi."
+        },
+        {
+          "chapter": 30,
+          "passage": 5,
+          "text": "Balballardan fərqli olaraq insan fiqurlu daş heykəllər (baba daşları) ölən şəxsin xatirəsini yaşatmaq məqsədilə hazırlanırdı. Onların əllərində kasa və ya içki qabı təsvir olunması qədim dəfn və xatirə mərasimləri ilə əlaqələndirilir."
+        },
+        {
+          "chapter": 30,
+          "passage": 6,
+          "text": "Orxon abidələri yalnız tarixi mətn deyil, həm də incəsənət nümunəsidir. Daşların üzərindəki oyma yazılar, dağ keçisi rəmzləri, əjdaha təsvirləri və dekorativ elementlər Göytürk dövrünün yüksək daşişləmə sənətini nümayiş etdirir."
+        },
+        {
+          "chapter": 30,
+          "passage": 7,
+          "text": "Qədim türk incəsənətində 'heyvan üslubu' geniş yayılmışdı. Maral, qartal, canavar, at, dağ keçisi və digər heyvan fiqurları silahlarda, kəmərlərdə, zinət əşyalarında və at ləvazimatlarında işlənirdi. Bu təsvirlər həm estetik, həm də simvolik məna daşıyırdı."
+        },
+        {
+          "chapter": 30,
+          "passage": 8,
+          "text": "Ornamentlərdə dairə, spiral, günəş şüaları, ağac budaqları və həndəsi fiqurlar geniş istifadə olunurdu. Müasir tədqiqatçılar bu motivlərin bir hissəsini kainatın nizamı, həyat dövrü və təbiətlə harmoniya anlayışları ilə əlaqələndirirlər."
+        },
+        {
+          "chapter": 30,
+          "passage": 9,
+          "text": "Kurqanlardan tapılan qızıl, gümüş və tunc məmulatlar qədim türk sənətkarlığının yüksək səviyyəsini göstərir. Xüsusilə at qoşquları, silahlar və geyim bəzəkləri üzərində işlənmiş fiqurlar həm gündəlik, həm də mərasim məqsədi daşıyırdı."
+        },
+        {
+          "chapter": 30,
+          "passage": 10,
+          "text": "Qamların istifadə etdiyi davullar, qopuzlar, mərasim geyimləri və metal bəzəklər də maddi mədəniyyət nümunələri hesab olunur. Onların üzərində göy, Günəş, Dünya Ağacı və müxtəlif heyvan rəmzlərinə rast gəlinə bilər."
+        },
+        {
+          "chapter": 30,
+          "passage": 11,
+          "text": "Bu gün Tenqriçiliklə əlaqəli incəsənət nümunələri Monqolustan, Qazaxıstan, Qırğızıstan, Rusiya (Altay, Tuva, Xakasiya, Saxa), Çin və digər ölkələrin muzeylərində və açıq səma altında qorunan arxeoloji abidələrdə saxlanılır. Onlar qədim türk və monqol xalqlarının dünyagörüşünü öyrənmək üçün mühüm mənbələrdir."
+        },
+        {
+          "chapter": 30,
+          "passage": 12,
+          "text": "Müasir dövrdə qədim türk ornamentləri, damğaları, balbal motivləri və Tenqriçi simvollar rəssamlıqda, memarlıqda, heykəltəraşlıqda və milli dizaynda yenidən istifadə olunur. Bu nümunələr dini ayinlərdən daha çox tarixi və mədəni irsin yaşadılması məqsədi daşıyır."
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "title": "Qədim mətnlərdən seçilmiş sitatlar",
+      "info": "Orxon yazıları, Tonyukuk kitabəsi və İrk Bitiq kimi qədim türk mənbələrindən seçilmiş məşhur ifadələr və onların qısa izahları.",
+      "total_passages": 12,
+      "passages": [
+        {
+          "chapter": 22,
+          "passage": 1,
+          "text": "\"Yuxarıda mavi göy, aşağıda yağız yer yaradıldıqda, onların arasında insan oğlu yaradıldı.\" — Bilgə Xaqan kitabəsinin giriş hissəsi. Türk dünyagörüşünün ən məşhur cümlələrindən biridir."
+        },
+        {
+          "chapter": 22,
+          "passage": 2,
+          "text": "\"Türk Tenqrisi və müqəddəs Türk Yer-Suyu belə buyurdu...\" — Orxon kitabələrində dövlətin ilahi himayəsini ifadə edən məşhur söz."
+        },
+        {
+          "chapter": 22,
+          "passage": 3,
+          "text": "\"Tenqri güc verdiyi üçün...\" — Bilgə Xaqan və Tonyukuk kitabələrində qələbələrin Tenqrinin lütfü ilə əlaqələndirilməsi."
+        },
+        {
+          "chapter": 22,
+          "passage": 4,
+          "text": "\"Türk xalqı yox olmasın deyə atam İlteriş Xaqanı və anam El Bilgə Xatunu Tenqri taxta çıxardı.\" — Bilgə Xaqan kitabəsi."
+        },
+        {
+          "chapter": 22,
+          "passage": 5,
+          "text": "\"Ey türk bəyləri və xalqı, bunu eşidin!\" — Bilgə Xaqanın xalqına müraciəti."
+        },
+        {
+          "chapter": 22,
+          "passage": 6,
+          "text": "\"Ac xalqı doyurdum, yoxsul xalqı varlı etdim.\" — Bilgə Xaqan kitabəsində hökmdarın əsas vəzifəsi kimi göstərilən fikir."
+        },
+        {
+          "chapter": 22,
+          "passage": 7,
+          "text": "\"Tenqri yar olduğu üçün az qoşunla çox qoşunu məğlub etdik.\" — Tonyukuk kitabəsi."
+        },
+        {
+          "chapter": 22,
+          "passage": 8,
+          "text": "\"Gecə yatmadım, gündüz oturmadım; xalqım üçün çalışdım.\" — Bilgə Xaqan kitabəsində hökmdarın məsuliyyət anlayışı."
+        },
+        {
+          "chapter": 22,
+          "passage": 9,
+          "text": "\"Ötükendə otursan, dövlətini əbədi qoruyarsan.\" — Orxon kitabələrində Ötükenin əhəmiyyətini bildirən məşhur fikir."
+        },
+        {
+          "chapter": 22,
+          "passage": 10,
+          "text": "\"Ağıllı insan doğru yolu seçər və xeyir tapar.\" — İrk Bitiqdə rast gəlinən nəsihət xarakterli fikirlərdən biri."
+        },
+        {
+          "chapter": 22,
+          "passage": 11,
+          "text": "\"Pis əlamətlərdən qorxma, ağılla davran.\" — İrk Bitiqin ümumi məzmununu əks etdirən fal şərhlərindən biri."
+        },
+        {
+          "chapter": 22,
+          "passage": 12,
+          "text": "Orxon kitabələrinin əsas mesajı budur: dövlətin gücü Tenqrinin bəxş etdiyi qut, xalqın birliyi, törüyə əməl etmək və hökmdarın məsuliyyəti ilə qorunur."
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "title": "Tenqriçilikdə qadının yeri",
+      "info": "Tenqriçilikdə qadının dini, ictimai və ailə həyatı daxilində tutduğu yer — Umay inancı, xatunların nüfuzu, ana kultu və qadınların dövlətçilikdə rolu.",
+      "total_passages": 10,
+      "passages": [
+        {
+          "chapter": 23,
+          "passage": 1,
+          "text": "Tenqriçilikdə qadın cəmiyyətin mühüm üzvü hesab olunurdu. Qədim türk dövlətlərində qadının ailədə, ictimai həyatda və bəzən dövlət idarəçiliyində digər bir çox orta əsr cəmiyyətləri ilə müqayisədə daha yüksək mövqeyə malik olduğu müxtəlif tarixi mənbələrdə qeyd edilir."
+        },
+        {
+          "chapter": 23,
+          "passage": 2,
+          "text": "Qadının müqəddəsliyini ifadə edən əsas simvol Umay idi. Umay doğuşun, analığın, uşaqların və ailənin qoruyucusu hesab olunur, körpələrin sağlam böyüməsi və ailənin rifahı ilə əlaqələndirilirdi."
+        },
+        {
+          "chapter": 23,
+          "passage": 3,
+          "text": "Xaqanın həyat yoldaşı 'xatun' titulunu daşıyırdı. Xatun yalnız hökmdarın ailə üzvü deyil, dövlət mərasimlərində iştirak edən, diplomatik münasibətlərdə təmsil olunan və bəzi hallarda siyasi nüfuza malik şəxs idi."
+        },
+        {
+          "chapter": 23,
+          "passage": 4,
+          "text": "Göytürk və Uyğur dövrünə aid bəzi kitabələrdə və Çin salnamələrində xaqan və xatunun birlikdə yad edilməsi onların dövlət hakimiyyətində birgə simvolik rol oynadığını göstərir."
+        },
+        {
+          "chapter": 23,
+          "passage": 5,
+          "text": "Ana kultu Tenqriçi dünyagörüşünün mühüm hissələrindən biri idi. Ana yalnız ailənin deyil, nəslin davamını təmin edən və gələcək nəsilləri qoruyan müqəddəs şəxs kimi qəbul edilirdi."
+        },
+        {
+          "chapter": 23,
+          "passage": 6,
+          "text": "Tarixdə bəzi türk və monqol dövlətlərində qadınlar hökmdarın ölümündən sonra müvəqqəti olaraq dövlət idarəçiliyini həyata keçirmiş, elçiləri qəbul etmiş və siyasi qərarlarda iştirak etmişlər. Bununla belə, bu hal bütün dövlətlər və bütün dövrlər üçün ümumi qayda deyildi."
+        },
+        {
+          "chapter": 23,
+          "passage": 7,
+          "text": "Köçəri həyat tərzi qadınların gündəlik həyatda daha fəal iştirak etməsinə şərait yaradırdı. Onlar təsərrüfatın idarə olunması, mal-qaranın saxlanılması, köç zamanı təşkilati işlər və ailənin təmin olunmasında mühüm rol oynayırdılar."
+        },
+        {
+          "chapter": 23,
+          "passage": 8,
+          "text": "Qədim türk cəmiyyətlərində ailə və tayfa daxilində yaşlı qadınların fikrinə hörmət göstərilməsi geniş yayılmış ənənələrdən idi. Ağbirçəklər ailədaxili məsələlərdə və nəsil yaddaşının qorunmasında mühüm yer tuturdular."
+        },
+        {
+          "chapter": 23,
+          "passage": 9,
+          "text": "Mülkiyyət, miras və ailə hüquqları müxtəlif türk xalqları və dövrləri arasında fərqlənirdi. Buna görə qadınların hüquqi statusu haqqında bütün türk dünyasına aid vahid modeldən danışmaq elmi baxımdan düzgün hesab olunmur."
+        },
+        {
+          "chapter": 23,
+          "passage": 10,
+          "text": "Müasir tədqiqatçılar Tenqriçilikdə qadının mövqeyini qiymətləndirərkən dini inancları, köçəri həyat tərzini və tarixi dövlətçilik ənənələrini birlikdə nəzərə almağın vacibliyini vurğulayırlar. Bu yanaşma qadının cəmiyyətdəki rolunu daha dolğun anlamağa imkan verir."
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "title": "Tarixi mənbələr",
+      "info": "Orxon yazılarından İrk Bitiqə, Çin salnamələrindən Bizans mənbələrinə qədər Tenqriçilik haqqında bilgilərimizin əsaslandığı ilkin və elmi mənbələr.",
+      "total_passages": 18,
+      "passages": [
+        {
+          "chapter": 1,
+          "passage": 1,
+          "text": "Tenqriçilik haqqında biliklərimiz müxtəlif mənbələrə əsaslanır: qədim türk yazıları, qonşu xalqların salnamələri, arxeoloji tapıntılar və müasir elmi tədqiqatlar. Bu mənbələr birlikdə qədim türk dünyagörüşünü bərpa etməyə imkan verir."
+        },
+        {
+          "chapter": 1,
+          "passage": 2,
+          "text": "Ən mühüm ilkin mənbə Orxon yazılarıdır. Kül Tigin, Bilgə Xaqan və Tonyukuk kitabələri qədim türklərin öz dillərində yazdığı ən etibarlı tarixi mətnlər hesab olunur."
+        },
+        {
+          "chapter": 1,
+          "passage": 3,
+          "text": "Bu kitabələr təkcə siyasi hadisələri deyil, Tenqri, Yer-Sub, qut, törü və dövlət anlayışlarını da əks etdirir. Buna görə Tenqriçilik haqqında araşdırmaların əsas dayağı sayılır."
+        },
+        {
+          "chapter": 1,
+          "passage": 4,
+          "text": "İrk Bitiq (Fallar Kitabı) qədim türk run əlifbası ilə yazılmış tam şəkildə qorunmuş yeganə kitabdır. O, dini və mifoloji düşüncəni öyrənmək üçün mühüm mənbələrdən biridir."
+        },
+        {
+          "chapter": 1,
+          "passage": 5,
+          "text": "Əlyazma 1907-ci ildə Aurel Stayn tərəfindən Dunhuandakı Moqao mağaralarının Kitabxana Mağarasında aşkar edilmişdir. Hazırda British Library-də qorunur."
+        },
+        {
+          "chapter": 1,
+          "passage": 6,
+          "text": "İrk Bitiq 65 fal mətnindən ibarətdir. Buradakı heyvan simvolları, ruhlar və işarələr qədim türk mifoloji təsəvvürlərini əks etdirir."
+        },
+        {
+          "chapter": 1,
+          "passage": 7,
+          "text": "Əlyazmanın bəzi səhifələrinə sonradan çin dilində buddist mətnləri əlavə olunmuşdur. Bu əlavə mətnin sonrakı dövrdə yenidən istifadə edildiyini göstərir."
+        },
+        {
+          "chapter": 1,
+          "passage": 8,
+          "text": "XI əsrdə Kaşğarlı Mahmudun yazdığı \"Divani-Lüğat-it-Türk\" türk dillərinin ilk böyük lüğəti olmaqla yanaşı, qədim türk adətləri və inancları haqqında da qiymətli məlumat verir."
+        },
+        {
+          "chapter": 1,
+          "passage": 9,
+          "text": "Yusif Balasaqunlunun \"Qutadğu Bilig\" əsəri də qut, dövlət və hökmdarlıq anlayışlarını anlamaq üçün mühüm mənbələrdən biridir. Əsər islam dövründə yazılsa da, qədim türk siyasi düşüncəsinin izlərini qoruyur."
+        },
+        {
+          "chapter": 1,
+          "passage": 10,
+          "text": "Çin salnamələri Tenqriçilik haqqında ən qədim xarici məlumatları saxlayır. Hunlar, Göytürklər və Uyğurlar barədə geniş qeydlər əsasən bu mənbələr vasitəsilə günümüzə çatıb."
+        },
+        {
+          "chapter": 1,
+          "passage": 11,
+          "text": "Çin mənbələrində Tenqri adı müxtəlif formalarda, o cümlədən \"Çenli\" kimi yazılmışdır. Bu qeydlər Tenqri inancının eramızdan əvvəlki dövrlərə qədər uzandığını göstərir."
+        },
+        {
+          "chapter": 1,
+          "passage": 12,
+          "text": "Bizans tarixçiləri Menandr Protektor və digər müəlliflər Göytürklərlə diplomatik əlaqələri təsvir etmişlər. Onların qeydləri xaqan sarayının mərasimləri və dövlət quruluşu barədə əlavə məlumat verir."
+        },
+        {
+          "chapter": 1,
+          "passage": 13,
+          "text": "\"Monqolların Gizli Tarixi\" XIII əsr monqol dünyasının ən mühüm yazılı mənbəsidir. Əsərdə Tenqri və Çingiz Xanın hakimiyyətinin ilahi əsaslandırılması dəfələrlə vurğulanır."
+        },
+        {
+          "chapter": 1,
+          "passage": 14,
+          "text": "Ərəb və fars müəllifləri, xüsusilə İbn Fəzlan kimi səyyahlar türk xalqlarının adətləri, dəfn mərasimləri və inancları haqqında müşahidələrini yazıya almışlar. Bu qeydlər xarici müşahidəçi baxışını əks etdirir."
+        },
+        {
+          "chapter": 1,
+          "passage": 15,
+          "text": "Arxeoloji tapıntılar da Tenqriçilik haqqında biliklərin mühüm hissəsini təşkil edir. Kurqanlar, balballar, daş heykəllər və qurban izləri yazılı mənbələri tamamlayır."
+        },
+        {
+          "chapter": 1,
+          "passage": 16,
+          "text": "XIX və XX əsrlərdə Vilhelm Tomsen, Vasili Radlov, Abdulqadir İnan, Sergey Malov və digər türkoloqlar qədim mətnləri oxuyaraq elmi dövriyyəyə gətirmişlər. Müasir Tenqriçilik araşdırmaları böyük ölçüdə onların işlərinə əsaslanır."
+        },
+        {
+          "chapter": 1,
+          "passage": 17,
+          "text": "Altay, Tuva, Xakas və Saxa xalqları arasında toplanmış şifahi rəvayətlər qədim inancların sonrakı dövrlərdə qorunmuş formalarını göstərir. Lakin bu materiallar Orxon dövründən daha gec qeydə alındığı üçün ayrıca qiymətləndirilir."
+        },
+        {
+          "chapter": 1,
+          "passage": 18,
+          "text": "Tenqriçilik vahid müqəddəs kitaba malik olmadığı üçün onun tarixi müxtəlif mənbələrin müqayisəli öyrənilməsi ilə bərpa edilir. Hər mənbə fərqli dövrü və fərqli baxış bucağını əks etdirdiyindən birlikdə qiymətləndirilməsi vacibdir."
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "title": "Kosmologiyanın sxemi",
+      "info": "Tenqriçilikdə kainatın quruluşu — yuxarı, orta və aşağı dünya, Dünya Ağacı, göy qatları və ruhların aləmlər arasında hərəkəti haqqında ümumi təsəvvür.",
+      "total_passages": 12,
+      "passages": [
+        {
+          "chapter": 25,
+          "passage": 1,
+          "text": "Tenqriçilikdə kainat vahid bir sistem kimi təsəvvür edilirdi. Ən geniş yayılmış təsəvvürə görə kainat üç əsas hissədən ibarət idi: Yuxarı Dünya, Orta Dünya və Aşağı Dünya."
+        },
+        {
+          "chapter": 25,
+          "passage": 2,
+          "text": "Yuxarı Dünya göy aləmi hesab olunurdu. Burada Tenqri və bəzi ənənələrdə xeyirxah ruhlar yaşayırdı. Sonrakı Altay-Sayan mifologiyasında Ülgen də bu aləmin hökmdarı kimi təqdim olunur."
+        },
+        {
+          "chapter": 25,
+          "passage": 3,
+          "text": "Orta Dünya insanların, heyvanların və görünən təbiətin yaşadığı aləm idi. Dağlar, çaylar, meşələr və çöllər bu dünyanın tərkib hissəsi sayılır, onların hər birinin qoruyucu ruhlarının olduğuna inanılırdı."
+        },
+        {
+          "chapter": 25,
+          "passage": 4,
+          "text": "Aşağı Dünya yeraltı aləm kimi təsəvvür edilirdi. Bir çox Altay-Sayan ənənəsində Erlik bu dünyanın hökmdarı hesab olunur. Burada müxtəlif ruhların və ölən insanların bir hissəsinin yaşadığına inanılırdı."
+        },
+        {
+          "chapter": 25,
+          "passage": 5,
+          "text": "Bu üç aləmi bir-biri ilə Dünya Ağacı birləşdirirdi. Dünya Ağacı göylə yer arasında əlaqənin simvolu hesab olunur və müxtəlif türk xalqlarının mifologiyasında fərqli adlarla tanınır."
+        },
+        {
+          "chapter": 25,
+          "passage": 6,
+          "text": "Qamların mənəvi səyahətlərində Dünya Ağacı mühüm yer tuturdu. Mərasim zamanı qamın ruhunun bu ağac vasitəsilə yuxarı və ya aşağı aləmlərə keçdiyinə inanılırdı."
+        },
+        {
+          "chapter": 25,
+          "passage": 7,
+          "text": "Göyün qatlara bölünməsi haqqında müxtəlif ənənələr mövcuddur. Bəzi mənbələrdə yeddi, doqquz, on yeddi və ya daha çox göy qatından bəhs edilir. Bu rəqəmlər bütün türk xalqları üçün vahid qəbul edilməyib."
+        },
+        {
+          "chapter": 25,
+          "passage": 8,
+          "text": "Yeraltı dünyanın da müxtəlif qatlara bölündüyünü bildirən rəvayətlər mövcuddur. Xüsusilə Altay mifologiyasında Erlikin çoxqatlı yeraltı aləmdə hökm sürdüyü qeyd olunur."
+        },
+        {
+          "chapter": 25,
+          "passage": 9,
+          "text": "İnsan ruhunun həyat boyu və ölümdən sonra bu aləmlər arasında hərəkət edə bildiyinə inanılırdı. Qamların trans vəziyyətində etdiyi mənəvi səyahətlər də bu kosmoloji təsəvvürlə əlaqələndirilirdi."
+        },
+        {
+          "chapter": 25,
+          "passage": 10,
+          "text": "Quşlar, xüsusilə qartal və digər iri quşlar bəzən göy aləmi ilə əlaqənin rəmzi hesab olunurdu. At isə bəzi miflərdə ruhun aləmlər arasında hərəkət etməsinə kömək edən müqəddəs varlıq kimi təsvir edilirdi."
+        },
+        {
+          "chapter": 25,
+          "passage": 11,
+          "text": "Kosmoloji təsəvvürlər bütün türk və monqol xalqlarında eyni olmayıb. Üçlü dünya modeli geniş yayılmış olsa da, qatların sayı, ruhların yerləşməsi və ilahi varlıqların rolu müxtəlif bölgələrdə fərqli şəkildə izah olunub."
+        },
+        {
+          "chapter": 25,
+          "passage": 12,
+          "text": "Müasir tədqiqatçılar Tenqriçiliyin kosmologiyasını vahid sistemdən çox, ortaq əsaslara malik müxtəlif yerli ənənələrin məcmusu kimi qiymətləndirirlər. Buna görə də fərqli mənbələr arasında müəyyən uyğunsuzluqlar təbiidir."
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "title": "Tenqriçilik irsinin sonrakı dövrlərdə izi",
+      "info": "Türk xalqlarının sonrakı dini və mədəni həyatında qədim Tenqriçiliklə əlaqələndirilən ənənələr və onların elmi qiymətləndirilməsi.",
+      "total_passages": 10,
+      "passages": [
+        {
+          "chapter": 20,
+          "passage": 1,
+          "text": "Türk xalqlarının böyük hissəsi zamanla İslamı, xristianlığı və ya buddizmi qəbul etsə də, bəzi qədim adət və inanclar xalq mədəniyyətində yaşamağa davam etmişdir. Tədqiqatçılar bu ənənələrin bir qismini qədim Tenqriçilik və ümumilikdə Orta Asiyanın qədim təbiət inancları ilə əlaqələndirirlər."
+        },
+        {
+          "chapter": 20,
+          "passage": 2,
+          "text": "Təbiətə hörmət anlayışı bu gün də bir çox türk xalqının mədəniyyətində mühüm yer tutur. Müqəddəs dağlara, bulaqlara, böyük ağaclara və qədim məkanlara göstərilən ehtiram bəzi tarixçilər tərəfindən Tenqriçilik ənənəsinin davamı kimi qiymətləndirilir, lakin bu barədə yekdil fikir yoxdur."
+        },
+        {
+          "chapter": 20,
+          "passage": 3,
+          "text": "Müqəddəs sayılan ağaclara parça bağlama adəti Orta Asiya və Anadolunun müxtəlif bölgələrində bu gün də müşahidə olunur. Bir sıra etnoqraflar bunu qədim təbiət və ruh kultlarının izi hesab etsələr də, digər tədqiqatçılar bu ənənənin müxtəlif din və mədəniyyətlərin qarşılıqlı təsiri nəticəsində formalaşdığını bildirirlər."
+        },
+        {
+          "chapter": 20,
+          "passage": 4,
+          "text": "Ocağa hörmət və odun təmizləyici qüvvə hesab edilməsi türk xalqlarının folklorunda geniş yayılmışdır. Ocağın ailə birliyinin və bərəkətin rəmzi kimi qəbul edilməsi qədim inanclarla əlaqələndirilir, lakin bu motiv başqa xalqlarda da mövcuddur."
+        },
+        {
+          "chapter": 20,
+          "passage": 5,
+          "text": "Qonaqpərvərlik qədim türk cəmiyyətində mühüm əxlaqi dəyər idi və sonrakı dövrlərdə də qorunub saxlanmışdır. Bunun yalnız Tenqriçilikdən qaynaqlandığını söyləmək mümkün olmasa da, Orxon kitabələri və Kaşğarlı Mahmudun əsərləri bu ənənənin qədim köklərə malik olduğunu göstərir."
+        },
+        {
+          "chapter": 20,
+          "passage": 6,
+          "text": "At türk xalqlarının həyatında əsrlər boyu xüsusi yer tutmuşdur. Dəfn mərasimlərində, dastanlarda və xalq yaddaşında atın yüksək mövqeyi qədim köçəri mədəniyyətin və Tenqriçilik dövrünün davamlı xüsusiyyətlərindən biri kimi qiymətləndirilir."
+        },
+        {
+          "chapter": 20,
+          "passage": 7,
+          "text": "Novruz bayramının bəzi mərasimləri — təbiətin oyanmasının qeyd edilməsi, od ətrafında toplaşmaq və yeni mövsümün qarşılanması — bəzi tədqiqatçılar tərəfindən qədim Orta Asiya ənənələri ilə əlaqələndirilir. Bununla belə, Novruz müxtəlif xalqların və mədəniyyətlərin ortaq irsi olduğundan onu yalnız Tenqriçiliyə aid etmək düzgün hesab edilmir."
+        },
+        {
+          "chapter": 20,
+          "passage": 8,
+          "text": "Xalq təbabəti, bəzi qoruyucu ayinlər və qamlıq ənənəsinin müəyyən elementləri Altay, Tuva, Yakutiya və digər bölgələrdə uzun müddət yaşamağa davam etmişdir. Bu ənənələrin bir hissəsi müasir dövrdə etnoqrafik irs kimi öyrənilir."
+        },
+        {
+          "chapter": 20,
+          "passage": 9,
+          "text": "Bir çox qədim adət sonradan qəbul edilmiş dinlərin tərkibində yeni məna qazanmışdır. Buna görə bu gün müşahidə olunan xalq ənənələrinin hansı hissəsinin qədim Tenqriçilikdən, hansı hissəsinin isə sonrakı dini və mədəni təsirlərdən qaynaqlandığını hər zaman dəqiq müəyyən etmək mümkün olmur."
+        },
+        {
+          "chapter": 20,
+          "passage": 10,
+          "text": "Müasir tarixşünaslıq bu mövzuya ehtiyatla yanaşır. Elmi baxımdan ən doğru yanaşma, müəyyən bir adəti qəti şəkildə Tenqriçilikdən qalmış hesab etmək deyil, onun qədim türk və Orta Asiya inancları ilə mümkün əlaqəsini mövcud tarixi, arxeoloji və etnoqrafik sübutlar əsasında qiymətləndirməkdir."
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "title": "Müasir Tenqriçilik",
+      "info": "XX əsrin sonlarından etibarən müxtəlif ölkələrdə Tenqriçiliyin yenidən canlanması, müasir hərəkatlar və onların qədim inanc ilə əlaqəsi.",
+      "total_passages": 10,
+      "passages": [
+        {
+          "chapter": 21,
+          "passage": 1,
+          "text": "Müasir Tenqriçilik XX əsrin sonu və XXI əsrin əvvəllərində, xüsusilə Sovet İttifaqının dağılmasından sonra türk və monqol xalqları arasında yenidən maraq doğuran mədəni-dini hərəkat kimi formalaşmağa başladı. Bu hərəkat qədim Tenqri inancını olduğu kimi bərpa etməkdən daha çox, tarixi mənbələr və xalq ənənələri əsasında onu yenidən anlamağa çalışır."
+        },
+        {
+          "chapter": 21,
+          "passage": 2,
+          "text": "Bu gün vahid dünya Tenqriçi təşkilatı və ya bütün icmalar tərəfindən qəbul edilmiş ortaq dini rəhbərlik mövcud deyil. Müxtəlif ölkələrdə fəaliyyət göstərən qruplar Tenqriçiliyi fərqli şəkildə şərh edir, buna görə onların mərasimləri və baxışları da bir-birindən fərqlənə bilər."
+        },
+        {
+          "chapter": 21,
+          "passage": 3,
+          "text": "Qazaxıstanda Tenqriçilik əsasən milli-mədəni irs kimi araşdırılır və bəzi ictimai birliklər qədim türk dünyagörüşünün öyrənilməsi və tanıdılması istiqamətində fəaliyyət göstərirlər. Bununla yanaşı, ölkənin əsas dini İslam olaraq qalır."
+        },
+        {
+          "chapter": 21,
+          "passage": 4,
+          "text": "Qırğızıstanda da Tenqriçilik haqqında elmi tədqiqatlar, ictimai müzakirələr və mədəni təşəbbüslər mövcuddur. Bəzi qruplar qədim türk adət-ənənələrinin qorunmasını Tenqri irsinin davamı kimi qiymətləndirirlər."
+        },
+        {
+          "chapter": 21,
+          "passage": 5,
+          "text": "Saxa (Yakutiya) Respublikasında qədim Ayıı inancı və Tenqriçiliklə əlaqəli ənənələr bu gün də mədəni həyatın bir hissəsi kimi yaşamaqdadır. Xüsusilə Ysyax bayramı xalqın ən mühüm ənənəvi tədbirlərindən biri hesab olunur."
+        },
+        {
+          "chapter": 21,
+          "passage": 6,
+          "text": "Altay Respublikasında və Tuvada qamlıq (şamanlıq) ənənəsi ilə yanaşı Tenqri inancı da müəyyən dərəcədə qorunub saxlanılmışdır. Sovet dövründən sonra bu bölgələrdə qədim inancların öyrənilməsi və bəzi mərasimlərin yenidən keçirilməsi müşahidə olunur."
+        },
+        {
+          "chapter": 21,
+          "passage": 7,
+          "text": "Monqolustanda Əbədi Göy (Mönx Tenqri) anlayışı milli tarix və mədəniyyətin mühüm hissəsi hesab olunur. Ovoo mərasimləri, müqəddəs dağlara hörmət və bəzi ənənəvi ayinlər bu gün də dövlət tərəfindən mədəni irs kimi qorunur."
+        },
+        {
+          "chapter": 21,
+          "passage": 8,
+          "text": "Türkiyədə Tenqriçilik əsasən tarix, mədəniyyət və qədim türk dini irsi mövzularında araşdırılır. Bununla yanaşı, özünü Tenqriçi adlandıran kiçik icmalar və fərdi təşəbbüslər də mövcuddur, lakin onların vahid təşkilati quruluşu yoxdur."
+        },
+        {
+          "chapter": 21,
+          "passage": 9,
+          "text": "İnternet və sosial media müasir Tenqriçiliyin yayılmasında mühüm rol oynayıb. Müxtəlif ölkələrdən insanlar tarix, dil, mifologiya və qədim türk inancları haqqında məlumat paylaşır, virtual icmalar yaradır və elmi mənbələri müzakirə edirlər."
+        },
+        {
+          "chapter": 21,
+          "passage": 10,
+          "text": "Qeyd etmək lazımdır ki, müasir Tenqriçilik qədim Göytürk dövrünün inancının dəyişmədən qorunmuş forması hesab edilmir. Bugünkü hərəkatlar Orxon yazıları, qədim mənbələr, Altay-Sibir şifahi ənənələri və müasir elmi tədqiqatlar əsasında formalaşmış müxtəlif yanaşmaları əhatə edir. Buna görə müxtəlif Tenqriçi icmalar arasında inanclar və mərasimlər fərqlənə bilər."
+        }
+      ]
+    },
+    {
+      "chapter": 30,
+      "title": "Terminlər lüğəti",
+      "info": "Kitab boyunca istifadə olunan əsas Tenqriçilik terminlərinin qısa izahlı lüğəti.",
+      "total_passages": 31,
+      "passages": [
+        {
+          "chapter": 17,
+          "passage": 1,
+          "text": "Tenqri — Qədim türk-monqol inancında ali ilahi qüvvə, Göy Tanrı. Kainatın nizamını, taleyi və hakimiyyətin legitimliyini müəyyən edən əbədi qüvvə."
+        },
+        {
+          "chapter": 17,
+          "passage": 2,
+          "text": "Kök Tenqri — \"Mavi Göy Tenqri\" mənasını verən ifadə. Tenqrinin ilahi mahiyyətini adi səma anlayışından fərqləndirmək üçün işlədilir."
+        },
+        {
+          "chapter": 17,
+          "passage": 3,
+          "text": "Yer-Sub (Yer-Su) — Torpaq və su ilə bağlı kollektiv müqəddəs qüvvə və yerli qoruyucu ruhların ümumi adı."
+        },
+        {
+          "chapter": 17,
+          "passage": 4,
+          "text": "Umay (Umay Ana) — Doğuşu, körpələri və analığı qoruyan ilahə."
+        },
+        {
+          "chapter": 17,
+          "passage": 5,
+          "text": "Erlik (Erlik Xan) — Yeraltı dünyanın hökmdarı. Sonrakı Altay-Sayan ənənəsində ölüm və bəzi xəstəliklərlə də əlaqələndirilir."
+        },
+        {
+          "chapter": 17,
+          "passage": 6,
+          "text": "Ülgen — Sonrakı Altay-Sayan ənənəsində yuxarı dünyanın, işığın və xeyir qüvvələrinin hökmdarı."
+        },
+        {
+          "chapter": 17,
+          "passage": 7,
+          "text": "Kayra Xan (Tengere Kayra Xan) — Bəzi Altay rəvayətlərində yaradıcı ali varlıq, Ülgen və Erlikin atası hesab olunur."
+        },
+        {
+          "chapter": 17,
+          "passage": 8,
+          "text": "Qut — Tenqri tərəfindən insana, xüsusilə hökmdara verilən ilahi lütf, uğur və hakimiyyət haqqı."
+        },
+        {
+          "chapter": 17,
+          "passage": 9,
+          "text": "Törü (Törə) — Yazılı olmayan adət-hüquq və əxlaq sistemi."
+        },
+        {
+          "chapter": 17,
+          "passage": 10,
+          "text": "Qam (Kam) — İnsanlarla ruhlar aləmi arasında vasitəçilik edən mənəvi şəxs. Müasir ədəbiyyatda çox vaxt \"şaman\" adlandırılır."
+        },
+        {
+          "chapter": 17,
+          "passage": 11,
+          "text": "Ağ qam / Qara qam — Ağ qam əsasən yuxarı dünyanın, qara qam isə aşağı dünyanın ruhları ilə işləyən qam növləri."
+        },
+        {
+          "chapter": 17,
+          "passage": 12,
+          "text": "Bögü — Müdrik, bilici mənasını verən qədim türk sözü. Bəzi mənbələrdə qam mənasında da işlədilir."
+        },
+        {
+          "chapter": 17,
+          "passage": 13,
+          "text": "İye (İyeler) — Dağ, çay, meşə, ağac və digər təbiət obyektlərinin qoruyucu ruhları."
+        },
+        {
+          "chapter": 17,
+          "passage": 14,
+          "text": "Uçmaq — Yaxşı insanların ruhunun getdiyinə inanılan yuxarı dünya."
+        },
+        {
+          "chapter": 17,
+          "passage": 15,
+          "text": "Tamaq — Yeraltı dünya. Sonrakı ənənələrdə Erlikin hökm sürdüyü aləm kimi təsvir olunur."
+        },
+        {
+          "chapter": 17,
+          "passage": 16,
+          "text": "Aldacı Xan — Türk-altay mifologiyasında ölənin ruhunu aparan mifoloji varlıq."
+        },
+        {
+          "chapter": 17,
+          "passage": 17,
+          "text": "Kut-Sür (Üç kut) — Saxa (Yakut) ənənəsində insanın üç ruhdan ibarət olduğu haqqında təsəvvür."
+        },
+        {
+          "chapter": 17,
+          "passage": 18,
+          "text": "Sür — Saxa ənənəsində insanın ruh hissələrini birləşdirən həyat enerjisi."
+        },
+        {
+          "chapter": 17,
+          "passage": 19,
+          "text": "Ötüken — Orxon bölgəsində yerləşən müqəddəs dağlıq-meşəlik ərazi və qədim türk dövlətlərinin siyasi-mənəvi mərkəzi."
+        },
+        {
+          "chapter": 17,
+          "passage": 20,
+          "text": "Ovoo — Monqol ənənəsində dağ keçidlərində və təpələrdə qurulan daş qalağı, ibadət və təqdim yeri."
+        },
+        {
+          "chapter": 17,
+          "passage": 21,
+          "text": "Alqış — Tenqriçilikdə dua, xeyir-dua və minnətdarlıq ifadəsi."
+        },
+        {
+          "chapter": 17,
+          "passage": 22,
+          "text": "And — Verilən sözün müqəddəs hesab olunduğu əxlaqi öhdəlik."
+        },
+        {
+          "chapter": 17,
+          "passage": 23,
+          "text": "Balbal — Döyüşçü məzarı yanında qoyulan daş heykəl. Ənənəyə görə öldürülmüş düşməni simvolizə edir."
+        },
+        {
+          "chapter": 17,
+          "passage": 24,
+          "text": "Kurqan — Torpaq və ya daşdan hazırlanmış qədim dəfn təpəsi."
+        },
+        {
+          "chapter": 17,
+          "passage": 25,
+          "text": "Xaqan — Türk və bəzi monqol dövlətlərində ali hökmdar titulu."
+        },
+        {
+          "chapter": 17,
+          "passage": 26,
+          "text": "Xatun — Xaqanın həyat yoldaşı və ya yüksək statuslu qadın tituludur."
+        },
+        {
+          "chapter": 17,
+          "passage": 27,
+          "text": "Yasa (Böyük Yasa) — Çingiz Xana aid edilən qanun və idarəçilik qaydaları toplusu."
+        },
+        {
+          "chapter": 17,
+          "passage": 28,
+          "text": "Şölen — Qurban mərasimindən sonra icmanın birlikdə keçirdiyi mərasim yeməyi."
+        },
+        {
+          "chapter": 17,
+          "passage": 29,
+          "text": "Qonaqpərvərlik — Tenqriçi əxlaqın əsas dəyərlərindən biri hesab olunan qonağa hörmət və səxavət prinsipi."
+        },
+        {
+          "chapter": 17,
+          "passage": 30,
+          "text": "İrk Bitiq — IX əsrə aid qədim türk fal kitabı və run əlifbası ilə yazılmış yeganə tam kitab şəklində qorunmuş qədim türk əlyazması."
+        },
+        {
+          "chapter": 17,
+          "passage": 31,
+          "text": "Orxon yazıları — Kül Tigin, Bilgə Xaqan və Tonyukuk abidələrindən ibarət qədim türk run yazılı abidələri və Tenqriçilik haqqında ən mühüm ilkin mənbələr."
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "title": "Tenqriçilik haqqında yanlış təsəvvürlər",
+      "info": "Tenqriçilik haqqında geniş yayılmış yanlış fikirlər və onların tarixi mənbələr əsasında izahı.",
+      "total_passages": 10,
+      "passages": [
+        {
+          "chapter": 23,
+          "passage": 1,
+          "text": "Tenqriçilik çoxallahlı din hesab olunmamalıdır. Qədim türk mənbələrində Tenqri ali ilahi qüvvə kimi təqdim olunur. Yer-Sub, Umay və digər varlıqlar isə Tenqri ilə eyni səviyyədə tanrılar deyil, müxtəlif müqəddəs qüvvələr, ruhlar və ya ilahi varlıqlar kimi qəbul edilirdi."
+        },
+        {
+          "chapter": 23,
+          "passage": 2,
+          "text": "Bütün türk xalqları tarix boyu eyni Tenqriçilik formasına malik olmayıb. Orxon dövrü Göytürklərinin inancı ilə Altay, Saxa (Yakut), Tuva və Monqol ənənələri arasında oxşarlıqlar olduğu kimi, mühüm fərqlər də mövcuddur. Bu səbəbdən müxtəlif dövrlərin və bölgələrin inanclarını tam eyniləşdirmək düzgün deyil."
+        },
+        {
+          "chapter": 23,
+          "passage": 3,
+          "text": "Şamanizm ilə Tenqriçilik eyni anlayış deyil. Tenqriçilik qədim türk-monqol dini dünyagörüşünü ifadə edir, qamlıq (şamanlıq) isə bu inanc daxilində ruhlarla əlaqə quran dini-mənəvi təcrübə və peşədir. Hər Tenqriçi qam olmayıb və hər şaman ənənəsi də Tenqriçiliyə aid deyil."
+        },
+        {
+          "chapter": 23,
+          "passage": 4,
+          "text": "Erliki birbaşa Şeytanla eyniləşdirmək düzgün deyil. Erlik yeraltı dünyanın hökmdarı və ölüm aləmi ilə əlaqəli mifoloji varlıqdır. Sonrakı dövrlərdə bəzi tədqiqatçılar onu Şeytana bənzətsələr də, qədim türk mənbələrində bu eyniləşdirmə açıq şəkildə mövcud deyil."
+        },
+        {
+          "chapter": 23,
+          "passage": 5,
+          "text": "Ülgen bütün türk xalqlarının ortaq inanc fiquru olmayıb. Ülgen haqqında ətraflı rəvayətlər əsasən sonrakı Altay-Sayan şifahi ənənəsində formalaşıb. Orxon yazılarında isə onun adı çəkilmir."
+        },
+        {
+          "chapter": 23,
+          "passage": 6,
+          "text": "Tenqriçilik müqəddəs kitaba əsaslanan din olmayıb. Bu inanc əsasən şifahi ənənə, mərasimlər və nəsildən-nəslə ötürülən adətlər vasitəsilə yaşayıb. Orxon yazıları və digər qədim mətnlər dini kitab deyil, tarixi və siyasi abidələrdir."
+        },
+        {
+          "chapter": 23,
+          "passage": 7,
+          "text": "Tenqriçiliyin vahid dini mərkəzi, kilsəsi və ya bütün türk xalqlarını idarə edən ruhani rəhbərliyi olmayıb. Müxtəlif tayfa və dövlətlər ortaq əsas inancları paylaşsalar da, ibadət və mərasimlər yerli ənənələrə görə dəyişə bilirdi."
+        },
+        {
+          "chapter": 23,
+          "passage": 8,
+          "text": "Bu gün 'Tenqriçilik' adı altında təqdim olunan bütün fikir və mərasimlər qədim dövrə aid deyil. Müasir Tenqriçilik hərəkatlarının bir hissəsi qədim mənbələrə əsaslansa da, bir çox tətbiq və şərhlər müasir dövrdə formalaşdırılıb."
+        },
+        {
+          "chapter": 23,
+          "passage": 9,
+          "text": "Tenqriçilik vahid və dəyişməz bir sistem olmayıb. Təxminən iki min ilə yaxın müddətdə fərqli türk və monqol xalqları arasında inkişaf edib, digər din və mədəniyyətlərlə qarşılıqlı təsirdə olub və zamanla müxtəlif formalar alıb."
+        },
+        {
+          "chapter": 23,
+          "passage": 10,
+          "text": "Tenqriçilik haqqında nəticə çıxararkən Orxon yazıları, İrk Bitiq, Çin salnamələri, Bizans, ərəb və fars mənbələri, eləcə də müasir elmi tədqiqatlar birlikdə qiymətləndirilməlidir. Tək bir mənbəyə əsaslanmaq bu inancın tam mənzərəsini vermir."
+        }
+      ]
+    },
+    {
+      "chapter": 32,
+      "title": "Xronologiya",
+      "info": "Tenqriçilik və qədim türk dövlətləri ilə bağlı əsas tarixi hadisələrin qısa zaman ardıcıllığı.",
+      "total_passages": 15,
+      "passages": [
+        {
+          "chapter": 24,
+          "passage": 1,
+          "text": "e.ə. III əsr — Hun (Xiongnu) imperiyası formalaşmağa başlayır. Çin mənbələrində Tenqri inancına dair ən qədim qeydlər bu dövrə aid edilir."
+        },
+        {
+          "chapter": 24,
+          "passage": 2,
+          "text": "e.ə. 209 — Mete (Modu) Çanyu Hun imperiyasının hökmdarı olur və türk dövlətçilik tarixinin ən mühüm simalarından birinə çevrilir."
+        },
+        {
+          "chapter": 24,
+          "passage": 3,
+          "text": "552 — Bumin Xaqan Birinci Türk Xaqanlığını qurur. Tenqri hakimiyyət ideologiyası dövlət səviyyəsində açıq şəkildə görünür."
+        },
+        {
+          "chapter": 24,
+          "passage": 4,
+          "text": "630 — Birinci Türk Xaqanlığı süqut edir və türklərin bir hissəsi Çin hakimiyyəti altına keçir."
+        },
+        {
+          "chapter": 24,
+          "passage": 5,
+          "text": "682 — İlteriş Xaqan türkləri yenidən birləşdirərək İkinci Türk Xaqanlığını qurur."
+        },
+        {
+          "chapter": 24,
+          "passage": 6,
+          "text": "716–725 — Tonyukuk abidəsi ucaldılır. Bu, qədim türk dilində yazılmış ən mühüm tarixi mətnlərdən biridir."
+        },
+        {
+          "chapter": 24,
+          "passage": 7,
+          "text": "732 — Kül Tigin abidəsi ucaldılır."
+        },
+        {
+          "chapter": 24,
+          "passage": 8,
+          "text": "735 — Bilgə Xaqan abidəsi ucaldılır."
+        },
+        {
+          "chapter": 24,
+          "passage": 9,
+          "text": "744 — Uyğur Xaqanlığı qurulur və Tenqriçilik dövlət ideologiyasında öz yerini qoruyur."
+        },
+        {
+          "chapter": 24,
+          "passage": 10,
+          "text": "təxminən 1240 — 'Monqolların Gizli Tarixi' yazılır. Əsər Tenqri inancı və Çingiz Xanın hakimiyyət ideologiyası haqqında əsas mənbələrdən biridir."
+        },
+        {
+          "chapter": 24,
+          "passage": 11,
+          "text": "1206 — Çingiz Xan Böyük Monqol imperiyasını qurur və hakimiyyətini Əbədi Göyün (Mönkə Tenqri) iradəsi ilə əsaslandırır."
+        },
+        {
+          "chapter": 24,
+          "passage": 12,
+          "text": "1889 — Nikolay Yadrintsev Orxon yazılarını Monqolustanda yenidən kəşf edir."
+        },
+        {
+          "chapter": 24,
+          "passage": 13,
+          "text": "1893 — Vilhelm Tomsen Orxon əlifbasını uğurla oxuyur və qədim türk yazıları ilk dəfə tam başa düşülür."
+        },
+        {
+          "chapter": 24,
+          "passage": 14,
+          "text": "XX əsr — Türkoloqlar və tarixçilər Orxon yazıları, İrk Bitiq və digər mənbələr üzərində geniş elmi tədqiqatlar aparırlar."
+        },
+        {
+          "chapter": 24,
+          "passage": 15,
+          "text": "1990-cı illərdən sonra — Qazaxıstan, Qırğızıstan, Altay, Tuva, Saxa (Yakutiya), Monqolustan və digər bölgələrdə müasir Tenqriçilik hərəkatları yenidən canlanmağa başlayır."
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "title": "Tenqriçiliklə əlaqəli tarixi və mifoloji şəxsiyyətlər",
+      "info": "Tenqriçiliklə əlaqəli tarixi hökmdarlar, dövlət xadimləri və türk mifologiyasında mühüm yer tutan şəxsiyyətlər haqqında qısa məlumat.",
+      "total_passages": 12,
+      "passages": [
+        {
+          "chapter": 25,
+          "passage": 1,
+          "text": "Mete Xan (Modu Çanyu) Hun imperiyasının ən məşhur hökmdarı hesab olunur. E.ə. 209-cu ildə hakimiyyətə gələrək Hun tayfalarını birləşdirmiş, Tenqri iradəsi ilə idarə olunan hökmdar anlayışının ən qədim nümunələrindən biri kimi tanınmışdır."
+        },
+        {
+          "chapter": 25,
+          "passage": 2,
+          "text": "Bumin Xaqan 552-ci ildə Birinci Türk Xaqanlığını qurmuşdur. Onun hakimiyyəti ilə birlikdə Göytürk dövləti yaranmış və Tenqriyə əsaslanan dövlətçilik ideologiyası yeni mərhələyə qədəm qoymuşdur."
+        },
+        {
+          "chapter": 25,
+          "passage": 3,
+          "text": "İlteriş Xaqan (Aşina Qutluq) Çin hakimiyyəti dövründən sonra türkləri yenidən birləşdirərək 682-ci ildə İkinci Türk Xaqanlığını qurmuşdur. Orxon kitabələrində onun hakimiyyətə Tenqri və Türk Yer-Suyunun iradəsi ilə gətirildiyi bildirilir."
+        },
+        {
+          "chapter": 25,
+          "passage": 4,
+          "text": "Bilgə Xaqan Göytürk dövlətinin ən görkəmli hökmdarlarından biri idi. Onun adına ucaldılmış Orxon kitabəsi qədim türk dili, dövlətçilik anlayışı və Tenqriçilik haqqında əsas ilkin mənbələrdən biridir."
+        },
+        {
+          "chapter": 25,
+          "passage": 5,
+          "text": "Kül Tigin Bilgə Xaqanın qardaşı və Göytürk ordusunun məşhur sərkərdəsi idi. Onun şərəfinə ucaldılan kitabə qədim türk tarixinin və Tenqriçi dövlət anlayışının ən mühüm abidələrindən sayılır."
+        },
+        {
+          "chapter": 25,
+          "passage": 6,
+          "text": "Tonyukuk Göytürk xaqanlığının baş məsləhətçisi, sərkərdəsi və dövlət xadimi idi. Öz adına yazılmış kitabədə Tenqrinin türklərə qələbə və qüvvə verdiyini dəfələrlə vurğulayır."
+        },
+        {
+          "chapter": 25,
+          "passage": 7,
+          "text": "Bayançur Xan Uyğur Xaqanlığının qüdrətli hökmdarlarından biri olmuşdur. Onun rəsmi titulunda 'Tenqridə Bolmış' ifadəsinin işlədilməsi Tenqriçilik ənənəsinin Uyğur dövlətində də davam etdiyini göstərir."
+        },
+        {
+          "chapter": 25,
+          "passage": 8,
+          "text": "Çingiz Xan Böyük Monqol imperiyasının banisi idi. O, hakimiyyətini Əbədi Göyün (Mönkə Tenqri) iradəsi ilə əsaslandırır və rəsmi sənədlərində tez-tez 'Əbədi Göyün gücü ilə' ifadəsindən istifadə edirdi."
+        },
+        {
+          "chapter": 25,
+          "passage": 9,
+          "text": "Aşina Jiesheshuai Göytürk şahzadəsi idi. Çin mənbələrində onun Tan sülaləsinə qarşı uğursuz çevriliş cəhdi qeyd olunur. XX əsrdə yazıçı Nihal Atsız bu tarixi şəxs əsasında 'Kürşad' adlı ədəbi qəhrəman obrazını yaratmışdır. Buna görə 'Kürşad' adı qədim mənbələrdə deyil, müasir ədəbiyyatda məşhurlaşmışdır."
+        },
+        {
+          "chapter": 25,
+          "passage": 10,
+          "text": "Oğuz Xan türk mifologiyasının və dastan ənənəsinin ən məşhur hökmdar obrazıdır. Oğuznamələrdə türk tayfalarının əcdadı kimi təqdim olunur. Onun tarixi şəxs olub-olmaması məlum deyil, lakin türk mədəniyyətində böyük simvolik əhəmiyyət daşıyır."
+        },
+        {
+          "chapter": 25,
+          "passage": 11,
+          "text": "Alp Ər Tonqa qədim türk dastanlarında böyük hökmdar və qəhrəman kimi təsvir olunur. Fars mənbələrindəki Əfrasiyab obrazı ilə əlaqələndirilir. Tarixi şəxs olması qəti şəkildə sübut edilməsə də, türk qəhrəmanlıq ənənəsinin əsas simalarından biridir."
+        },
+        {
+          "chapter": 25,
+          "passage": 12,
+          "text": "Dədə Qorqud Oğuz dastanlarının müdrik ağsaqqalı və ozanı kimi tanınır. O, dini rəhbərdən çox hikmət sahibi, məsləhətçi və el ağsaqqalı obrazıdır. Dədə Qorqud kitabında qorunan ənənələrin bir hissəsi qədim türk dünyagörüşü və Tenqriçilik dövrünün mədəni irsini əks etdirir."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mətn → JSON Çevirici</title>
+<style>
+  :root{
+    --bg:#14181c;
+    --panel:#1b2126;
+    --panel-2:#20272d;
+    --border:#2c353c;
+    --text:#e7ecef;
+    --muted:#8ea0ab;
+    --accent:#4fb0a5;
+    --accent-2:#e0a458;
+    --danger:#d9704f;
+    --good:#5fb87a;
+    --mono:'SF Mono', 'Fira Code', Consolas, 'Courier New', monospace;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    min-height:100vh;
+  }
+  header{
+    padding:28px 32px 18px;
+    border-bottom:1px solid var(--border);
+  }
+  header h1{
+    margin:0 0 6px;
+    font-size:22px;
+    font-weight:700;
+    letter-spacing:-0.01em;
+  }
+  header p{
+    margin:0;
+    color:var(--muted);
+    font-size:14px;
+    line-height:1.5;
+    max-width:760px;
+  }
+  .wrap{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1px;
+    background:var(--border);
+  }
+  @media (max-width:900px){
+    .wrap{grid-template-columns:1fr;}
+  }
+  .col{
+    background:var(--bg);
+    display:flex;
+    flex-direction:column;
+    min-height:calc(100vh - 96px);
+  }
+  .col-head{
+    padding:16px 20px 10px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    flex-wrap:wrap;
+  }
+  .col-head h2{
+    margin:0;
+    font-size:13px;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    color:var(--muted);
+    font-weight:600;
+  }
+  .controls{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:0 20px 12px;
+    flex-wrap:wrap;
+  }
+  label.field{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    font-size:12.5px;
+    color:var(--muted);
+  }
+  input[type=number]{
+    width:64px;
+    background:var(--panel-2);
+    border:1px solid var(--border);
+    color:var(--text);
+    border-radius:6px;
+    padding:5px 8px;
+    font-size:13px;
+    font-family:var(--mono);
+  }
+  textarea{
+    flex:1;
+    width:100%;
+    resize:none;
+    background:var(--panel);
+    border:none;
+    border-top:1px solid var(--border);
+    color:var(--text);
+    padding:16px 20px;
+    font-family:var(--mono);
+    font-size:13px;
+    line-height:1.6;
+    outline:none;
+  }
+  textarea::placeholder{color:#4a5860;}
+  .btn-row{
+    display:flex;
+    gap:10px;
+    padding:14px 20px;
+    border-top:1px solid var(--border);
+    background:var(--panel);
+    flex-wrap:wrap;
+  }
+  button{
+    font-family:inherit;
+    font-size:13px;
+    font-weight:600;
+    padding:9px 16px;
+    border-radius:7px;
+    border:1px solid var(--border);
+    background:var(--panel-2);
+    color:var(--text);
+    cursor:pointer;
+    transition:background .15s, border-color .15s;
+  }
+  button:hover{background:#28313a;}
+  button.primary{
+    background:var(--accent);
+    border-color:var(--accent);
+    color:#0e1416;
+  }
+  button.primary:hover{background:#5ec2b6;}
+  button:disabled{opacity:.4; cursor:not-allowed;}
+  .summary{
+    padding:12px 20px;
+    border-top:1px solid var(--border);
+    background:var(--panel);
+    font-size:12.5px;
+    color:var(--muted);
+    max-height:160px;
+    overflow-y:auto;
+  }
+  .summary .row{
+    display:flex;
+    justify-content:space-between;
+    padding:4px 0;
+    border-bottom:1px dashed var(--border);
+  }
+  .summary .row:last-child{border-bottom:none;}
+  .summary .chnum{color:var(--accent-2); font-weight:600;}
+  .summary .warn{color:var(--danger);}
+  .summary .ok{color:var(--good);}
+  pre#output{
+    flex:1;
+    margin:0;
+    padding:16px 20px;
+    background:var(--panel);
+    border-top:1px solid var(--border);
+    overflow:auto;
+    font-family:var(--mono);
+    font-size:12.5px;
+    line-height:1.55;
+    white-space:pre-wrap;
+    word-break:break-word;
+  }
+  .empty-note{
+    color:var(--muted);
+    font-size:13px;
+    padding:20px;
+  }
+  .tag{
+    display:inline-block;
+    font-size:11px;
+    padding:2px 7px;
+    border-radius:10px;
+    background:var(--panel-2);
+    color:var(--muted);
+    border:1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Mətn → JSON Çevirici</h1>
+  <p>Bir və ya bir neçə fəslin mətnini aşağıya yapışdırın. Sistem fəsilləri və ayələri avtomatik ayıracaq, <code>+</code> və <code>*</code> işarələrini siləcək, artıq boşluqları təmizləyəcək — ancaq sözləri, cümlələri və durğu işarələrini <strong>olduğu kimi</strong> saxlayacaq. Heç bir söz dəyişdirilmir, sadəcə format təmizlənir.</p>
+</header>
+
+<div class="wrap">
+  <div class="col">
+    <div class="col-head">
+      <h2>Giriş mətni</h2>
+      <span class="tag" id="charCount">0 simvol</span>
+    </div>
+    <div class="controls">
+      <label class="field">
+        Başlanğıc fəsil №
+        <input type="number" id="startChapter" value="1" min="1">
+      </label>
+      <span class="tag">fəsil başlığı tapılmazsa istifadə olunur</span>
+    </div>
+    <textarea id="input" placeholder="Mətni buraya yapışdırın...
+
+Nümunə:
+6 cı fəsil
+1  Yehova Musaya dedi: «...»+
+2  Sonra Allah Musaya dedi: «...»+
+...
+
+16 cı fəsil
+1  Orada fərisilər...
+----------------------------------------------------------------
+(Fəsillər arasında bu cür başlıqlar və ya '----' ayırıcı xətlər avtomatik tanınır.)"></textarea>
+    <div class="btn-row">
+      <button class="primary" id="convertBtn">JSON-a çevir</button>
+      <button id="clearBtn">Təmizlə</button>
+    </div>
+    <div class="summary" id="summary">
+      <div class="empty-note">Nəticə xülasəsi burada görünəcək (hər fəsil üzrə ayə sayı).</div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="col-head">
+      <h2>JSON nəticə</h2>
+      <span class="tag" id="verseTotal">0 fəsil</span>
+    </div>
+    <div class="btn-row">
+      <button id="copyBtn" disabled>JSON-u kopyala</button>
+      <button id="downloadBtn" disabled>.json endir</button>
+    </div>
+    <pre id="output"><span class="empty-note">Çevrilmiş JSON burada görünəcək.</span></pre>
+  </div>
+</div>
+
+<script>
+(function(){
+  const input = document.getElementById('input');
+  const output = document.getElementById('output');
+  const summary = document.getElementById('summary');
+  const convertBtn = document.getElementById('convertBtn');
+  const clearBtn = document.getElementById('clearBtn');
+  const copyBtn = document.getElementById('copyBtn');
+  const downloadBtn = document.getElementById('downloadBtn');
+  const charCount = document.getElementById('charCount');
+  const verseTotal = document.getElementById('verseTotal');
+  const startChapterInput = document.getElementById('startChapter');
+
+  let lastResult = null;
+
+  input.addEventListener('input', () => {
+    charCount.textContent = input.value.length.toLocaleString('az') + ' simvol';
+  });
+
+  clearBtn.addEventListener('click', () => {
+    input.value = '';
+    charCount.textContent = '0 simvol';
+    output.innerHTML = '<span class="empty-note">Çevrilmiş JSON burada görünəcək.</span>';
+    summary.innerHTML = '<div class="empty-note">Nəticə xülasəsi burada görünəcək (hər fəsil üzrə ayə sayı).</div>';
+    verseTotal.textContent = '0 fəsil';
+    copyBtn.disabled = true;
+    downloadBtn.disabled = true;
+    lastResult = null;
+  });
+
+  copyBtn.addEventListener('click', () => {
+    if (!lastResult) return;
+    const text = JSON.stringify(lastResult, null, 2);
+    copyToClipboard(text).then(() => {
+      const old = copyBtn.textContent;
+      copyBtn.textContent = 'Kopyalandı ✓';
+      setTimeout(() => copyBtn.textContent = old, 1400);
+    }).catch(() => {
+      const old = copyBtn.textContent;
+      copyBtn.textContent = 'Kopyalanmadı — əl ilə seçin';
+      setTimeout(() => copyBtn.textContent = old, 2000);
+    });
+  });
+
+  function copyToClipboard(text) {
+    // Try the modern async Clipboard API first (works on https:// and
+    // most browsers when the page is served, not always when opened
+    // directly via file://).
+    if (navigator.clipboard && navigator.clipboard.writeText && window.isSecureContext) {
+      return navigator.clipboard.writeText(text);
+    }
+    // Fallback for file:// pages or older browsers: create a temporary
+    // textarea, select its content, and use the legacy execCommand.
+    return new Promise((resolve, reject) => {
+      try {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.left = '-9999px';
+        ta.style.top = '0';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, text.length);
+        const ok = document.execCommand('copy');
+        document.body.removeChild(ta);
+        if (ok) resolve(); else reject(new Error('execCommand copy failed'));
+      } catch (err) {
+        reject(err);
+      }
+    });
+  }
+
+  downloadBtn.addEventListener('click', () => {
+    if (!lastResult) return;
+    const blob = new Blob([JSON.stringify(lastResult, null, 2)], {type: 'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'fesiller.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  });
+
+  convertBtn.addEventListener('click', () => {
+    const raw = input.value;
+    if (!raw.trim()) {
+      output.innerHTML = '<span class="empty-note">Əvvəlcə mətn daxil edin.</span>';
+      return;
+    }
+    try {
+      const startChapter = parseInt(startChapterInput.value, 10) || 1;
+      const result = convertToChapters(raw, startChapter);
+      lastResult = result;
+      renderOutput(result);
+      renderSummary(result);
+      copyBtn.disabled = false;
+      downloadBtn.disabled = false;
+      verseTotal.textContent = result.length + (result.length === 1 ? ' fəsil' : ' fəsil');
+    } catch (e) {
+      output.innerHTML = '<span class="empty-note" style="color:var(--danger)">Xəta baş verdi: ' + escapeHtml(e.message) + '</span>';
+      console.error(e);
+    }
+  });
+
+  function renderOutput(result) {
+    const json = JSON.stringify(result, null, 2);
+    output.textContent = json;
+  }
+
+  function renderSummary(result) {
+    let html = '';
+    result.forEach(ch => {
+      const emptyVerses = ch.verses.filter(v => !v.text || !v.text.trim()).length;
+      const warnClass = emptyVerses > 0 ? 'warn' : 'ok';
+      html += `<div class="row"><span><span class="chnum">Fəsil ${ch.chapter}</span></span>`
+            + `<span class="${warnClass}">${ch.total_verses} ayə${emptyVerses ? ' · ' + emptyVerses + ' boş' : ''}</span></div>`;
+    });
+    summary.innerHTML = html || '<div class="empty-note">Heç bir fəsil tapılmadı.</div>';
+  }
+
+  function escapeHtml(s){
+    return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  // ---------- CORE PARSER ----------
+
+  // Detects a line that marks the start of a new chapter.
+  // Returns the chapter number if it's a header line, otherwise null.
+  function detectChapterHeader(line) {
+    const t = line.trim();
+    if (!t) return null;
+
+    // "46 cı fəsil", "1 ci fesil", "16cı fəsil", "14cü fəsil", with or without space/hyphen
+    let m = t.match(/^(\d{1,3})\s*-?\s*(ci|cı|cü|cu)?\s*f[əe]sil\b/i);
+    if (m) return parseInt(m[1], 10);
+
+    // "Fəsil 46"
+    m = t.match(/^f[əe]sil\s*(\d{1,3})\b/i);
+    if (m) return parseInt(m[1], 10);
+
+    // A line that is only a chapter number followed by a dash, e.g. "12 -"
+    m = t.match(/^(\d{1,3})\s*-\s*$/);
+    if (m) return parseInt(m[1], 10);
+
+    return null;
+  }
+
+  // Detects a pure separator line, e.g. "----------------------------------"
+  function isSeparatorLine(line) {
+    const t = line.trim();
+    return /^-{3,}$/.test(t);
+  }
+
+  function convertToChapters(rawText, startChapter) {
+    const lines = rawText.split(/\r\n|\r|\n/);
+
+    // Step 1: split the raw text into blocks, one per chapter.
+    // A new block starts whenever we hit a header line or a separator line.
+    const blocks = []; // { chapterNum: number|null, lines: [] }
+    let current = { chapterNum: null, lines: [] };
+    let sawAnyHeader = false;
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      const headerNum = detectChapterHeader(line);
+
+      if (headerNum !== null) {
+        sawAnyHeader = true;
+        if (current.lines.some(l => l.trim() !== '')) {
+          blocks.push(current);
+        }
+        current = { chapterNum: headerNum, lines: [] };
+        continue;
+      }
+
+      if (isSeparatorLine(line)) {
+        if (current.lines.some(l => l.trim() !== '')) {
+          blocks.push(current);
+          current = { chapterNum: null, lines: [] };
+        }
+        continue;
+      }
+
+      current.lines.push(line);
+    }
+    if (current.lines.some(l => l.trim() !== '')) {
+      blocks.push(current);
+    }
+
+    if (blocks.length === 0) {
+      throw new Error('Mətndə heç bir fəsil/ayə tapılmadı.');
+    }
+
+    // Step 2: assign chapter numbers to blocks that had no explicit header
+    // (fills in sequentially from startChapter, or continues from last known number).
+    let autoNum = startChapter;
+    blocks.forEach(b => {
+      if (b.chapterNum === null) {
+        b.chapterNum = autoNum;
+      }
+      autoNum = b.chapterNum + 1;
+    });
+
+    // Step 3: parse verses out of each block's text.
+    const chapters = blocks.map(b => {
+      const text = b.lines.join('\n');
+      const verses = parseVerses(text, b.chapterNum);
+      return {
+        chapter: b.chapterNum,
+        total_verses: verses.length,
+        verses: verses
+      };
+    });
+
+    return chapters;
+  }
+
+  // Parses a block of raw text into an ordered list of verses.
+  // Verse markers are numbers at the start of a "unit" followed by
+  // two or more spaces (the consistent convention in the source texts).
+  // We only accept a marker if its number continues the expected
+  // sequence (1, 2, 3, ...), which filters out incidental numbers
+  // that appear inside sentences.
+  function parseVerses(text, chapterNum) {
+    // Note: we deliberately do NOT consume the character before the digit
+    // in the regex itself. If we did, two back-to-back markers (e.g. an
+    // empty verse immediately followed by the next one, "4  5  ...")
+    // would have their shared boundary space "eaten" by the first match,
+    // making the second marker invisible. Instead we match the digit +
+    // trailing space(s) only, and separately peek at the preceding
+    // character (which is never consumed) to confirm a valid boundary.
+    //
+    // We use a single pass requiring only ONE-OR-MORE spaces after the
+    // digit (not strictly two). Real source texts are not always
+    // consistent about single vs. double spacing after verse numbers,
+    // so spacing alone is not a reliable signal. The real safety net is
+    // sequence validation below: a candidate is only accepted if it is
+    // exactly one more than the last accepted verse number, starting
+    // at 1. This correctly ignores incidental numbers inside verse
+    // text (quantities, weights, dates, etc.), because those almost
+    // never happen to equal precisely "the next verse number" at
+    // exactly the right moment in the document.
+    const candidates = [];
+    const re = /(\d{1,3})\s+/g;
+    let m;
+    while ((m = re.exec(text)) !== null) {
+      const before = text[m.index - 1];
+      const validBoundary = m.index === 0 || before === undefined || /[\s(]/.test(before);
+      if (validBoundary) {
+        candidates.push({
+          num: parseInt(m[1], 10),
+          start: m.index,
+          markerEnd: m.index + m[1].length + (m[0].length - m[1].length)
+        });
+      }
+    }
+
+    const accepted = acceptSequential(candidates);
+
+    if (accepted.length === 0) {
+      throw new Error('Fəsil ' + chapterNum + ' üçün ayə nömrələri tapılmadı.');
+    }
+
+    const verses = [];
+    for (let i = 0; i < accepted.length; i++) {
+      const cur = accepted[i];
+      const nextStart = (i + 1 < accepted.length) ? accepted[i + 1].start : text.length;
+      const raw = text.slice(cur.markerEnd, nextStart);
+      verses.push({
+        chapter: chapterNum,
+        verse: cur.num,
+        text: cleanVerseText(raw)
+      });
+    }
+    return verses;
+  }
+
+  // Keeps only candidates that form a strictly increasing sequence
+  // starting at 1 (each accepted number must equal previous + 1).
+  function acceptSequential(candidates) {
+    const accepted = [];
+    let expected = 1;
+    for (const c of candidates) {
+      if (c.num === expected) {
+        accepted.push(c);
+        expected++;
+      }
+    }
+    return accepted;
+  }
+
+  // Cleans formatting artifacts WITHOUT altering the actual wording
+  // and WITHOUT flattening the text into a single line:
+  // - removes '+' and '*' marks
+  // - collapses repeated horizontal whitespace (spaces/tabs) within
+  //   each line into single spaces, and trims each line
+  // - keeps line breaks exactly where they were (this matters for
+  //   poetic sections — e.g. Genesis 49, Exodus 15 — where each line
+  //   of a couplet is meant to stay on its own line, but it also just
+  //   preserves whatever paragraph structure the source text had for
+  //   ordinary prose)
+  // - collapses 3+ consecutive blank lines down to a single blank
+  //   line (removes accidental extra blank lines from copy-paste,
+  //   while still preserving an intentional paragraph break)
+  // - trims leading/trailing blank lines from the verse as a whole
+  function cleanVerseText(raw) {
+    return raw
+      .replace(/[+*]/g, '')
+      .split('\n')
+      .map(line => line.replace(/[ \t]+/g, ' ').trim())
+      .join('\n')
+      .replace(/\n{3,}/g, '\n\n')
+      .replace(/^\n+/, '')
+      .replace(/\n+$/, '')
+      .trim();
+  }
+
+})();
+</script>
+</body>
+</html>

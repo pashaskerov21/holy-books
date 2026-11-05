@@ -1,0 +1,364 @@
+{
+  "slug": "bibliya",
+  "name": "Bibliya",
+  "religion": "Xristianlıq",
+  "total_books": 66,
+  "testaments": [
+    {
+      "id": 1,
+      "slug": "ehdi-etiq",
+      "name": "Əhdi-Ətiq",
+      "name_en": "Old Testament",
+      "total_books": 39,
+      "categories": [
+        {
+          "id": 1,
+          "name": "Tövrat / Qanun kitabları",
+          "books": [
+            { "id": 1, "order": 1, "name": "Yaradılış", "name_en": "Genesis" },
+            { "id": 2, "order": 2, "name": "Çıxış", "name_en": "Exodus" },
+            {
+              "id": 3,
+              "order": 3,
+              "name": "Levililər",
+              "name_en": "Leviticus"
+            },
+            { "id": 4, "order": 4, "name": "Saylar", "name_en": "Numbers" },
+            { "id": 5, "order": 5, "name": "Təsniyə", "name_en": "Deuteronomy" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Tarixi kitablar",
+          "books": [
+            { "id": 6, "order": 6, "name": "Yeşua", "name_en": "Joshua" },
+            { "id": 7, "order": 7, "name": "Hakimlər", "name_en": "Judges" },
+            { "id": 8, "order": 8, "name": "Rut", "name_en": "Ruth" },
+            { "id": 9, "order": 9, "name": "1 Şamuel", "name_en": "1 Samuel" },
+            {
+              "id": 10,
+              "order": 10,
+              "name": "2 Şamuel",
+              "name_en": "2 Samuel"
+            },
+            {
+              "id": 11,
+              "order": 11,
+              "name": "1 Padşahlar",
+              "name_en": "1 Kings"
+            },
+            {
+              "id": 12,
+              "order": 12,
+              "name": "2 Padşahlar",
+              "name_en": "2 Kings"
+            },
+            {
+              "id": 13,
+              "order": 13,
+              "name": "1 Salnamələr",
+              "name_en": "1 Chronicles"
+            },
+            {
+              "id": 14,
+              "order": 14,
+              "name": "2 Salnamələr",
+              "name_en": "2 Chronicles"
+            },
+            { "id": 15, "order": 15, "name": "Ezra", "name_en": "Ezra" },
+            { "id": 16, "order": 16, "name": "Nehemya", "name_en": "Nehemiah" },
+            { "id": 17, "order": 17, "name": "Ester", "name_en": "Esther" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Poetik / Hikmət kitabları",
+          "books": [
+            { "id": 18, "order": 18, "name": "Əyyub", "name_en": "Job" },
+            { "id": 19, "order": 19, "name": "Zəbur", "name_en": "Psalms" },
+            {
+              "id": 20,
+              "order": 20,
+              "name": "Süleymanın Məsəlləri",
+              "name_en": "Proverbs"
+            },
+            {
+              "id": 21,
+              "order": 21,
+              "name": "Vaiz",
+              "name_en": "Ecclesiastes"
+            },
+            {
+              "id": 22,
+              "order": 22,
+              "name": "Nəğmələr Nəğməsi",
+              "name_en": "Song of Songs"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Peyğəmbərlər",
+          "subcategories": [
+            {
+              "id": 1,
+              "name": "Böyük peyğəmbərlər",
+              "books": [
+                {
+                  "id": 23,
+                  "order": 23,
+                  "name": "Yeşaya",
+                  "name_en": "Isaiah"
+                },
+                {
+                  "id": 24,
+                  "order": 24,
+                  "name": "Yeremya",
+                  "name_en": "Jeremiah"
+                },
+                {
+                  "id": 25,
+                  "order": 25,
+                  "name": "Ağılar",
+                  "name_en": "Lamentations"
+                },
+                {
+                  "id": 26,
+                  "order": 26,
+                  "name": "Hezekiel",
+                  "name_en": "Ezekiel"
+                },
+                { "id": 27, "order": 27, "name": "Daniel", "name_en": "Daniel" }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Kiçik peyğəmbərlər",
+              "books": [
+                { "id": 28, "order": 28, "name": "Hüşə", "name_en": "Hosea" },
+                { "id": 29, "order": 29, "name": "Yoel", "name_en": "Joel" },
+                { "id": 30, "order": 30, "name": "Amos", "name_en": "Amos" },
+                {
+                  "id": 31,
+                  "order": 31,
+                  "name": "Ovadya",
+                  "name_en": "Obadiah"
+                },
+                { "id": 32, "order": 32, "name": "Yunus", "name_en": "Jonah" },
+                { "id": 33, "order": 33, "name": "Mika", "name_en": "Micah" },
+                { "id": 34, "order": 34, "name": "Nahum", "name_en": "Nahum" },
+                {
+                  "id": 35,
+                  "order": 35,
+                  "name": "Habaqquq",
+                  "name_en": "Habakkuk"
+                },
+                {
+                  "id": 36,
+                  "order": 36,
+                  "name": "Sefanya",
+                  "name_en": "Zephaniah"
+                },
+                {
+                  "id": 37,
+                  "order": 37,
+                  "name": "Haqqay",
+                  "name_en": "Haggai"
+                },
+                {
+                  "id": 38,
+                  "order": 38,
+                  "name": "Zəkəriyyə",
+                  "name_en": "Zechariah"
+                },
+                {
+                  "id": 39,
+                  "order": 39,
+                  "name": "Malaki",
+                  "name_en": "Malachi"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "ehdi-cedid",
+      "name": "Əhdi-Cədid",
+      "name_en": "New Testament",
+      "total_books": 27,
+      "categories": [
+        {
+          "id": 1,
+          "name": "İncillər",
+          "books": [
+            { "id": 40, "order": 40, "name": "Matta", "name_en": "Matthew" },
+            { "id": 41, "order": 41, "name": "Mark", "name_en": "Mark" },
+            { "id": 42, "order": 42, "name": "Luka", "name_en": "Luke" },
+            { "id": 43, "order": 43, "name": "Yəhya", "name_en": "John" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Tarixi kitab",
+          "books": [
+            {
+              "id": 44,
+              "order": 44,
+              "name": "Həvarilərin İşləri",
+              "name_en": "Acts"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Məktublar",
+          "subcategories": [
+            {
+              "id": 1,
+              "name": "Pavelin məktubları",
+              "books": [
+                {
+                  "id": 45,
+                  "order": 45,
+                  "name": "Romalılara",
+                  "name_en": "Romans"
+                },
+                {
+                  "id": 46,
+                  "order": 46,
+                  "name": "1 Korinflilərə",
+                  "name_en": "1 Corinthians"
+                },
+                {
+                  "id": 47,
+                  "order": 47,
+                  "name": "2 Korinflilərə",
+                  "name_en": "2 Corinthians"
+                },
+                {
+                  "id": 48,
+                  "order": 48,
+                  "name": "Qalatiyalılara",
+                  "name_en": "Galatians"
+                },
+                {
+                  "id": 49,
+                  "order": 49,
+                  "name": "Efeslilərə",
+                  "name_en": "Ephesians"
+                },
+                {
+                  "id": 50,
+                  "order": 50,
+                  "name": "Filipililərə",
+                  "name_en": "Philippians"
+                },
+                {
+                  "id": 51,
+                  "order": 51,
+                  "name": "Koloslulara",
+                  "name_en": "Colossians"
+                },
+                {
+                  "id": 52,
+                  "order": 52,
+                  "name": "1 Saloniklilərə",
+                  "name_en": "1 Thessalonians"
+                },
+                {
+                  "id": 53,
+                  "order": 53,
+                  "name": "2 Saloniklilərə",
+                  "name_en": "2 Thessalonians"
+                },
+                {
+                  "id": 54,
+                  "order": 54,
+                  "name": "1 Timoteyə",
+                  "name_en": "1 Timothy"
+                },
+                {
+                  "id": 55,
+                  "order": 55,
+                  "name": "2 Timoteyə",
+                  "name_en": "2 Timothy"
+                },
+                { "id": 56, "order": 56, "name": "Tituya", "name_en": "Titus" },
+                {
+                  "id": 57,
+                  "order": 57,
+                  "name": "Filimona",
+                  "name_en": "Philemon"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Digər məktublar",
+              "books": [
+                {
+                  "id": 58,
+                  "order": 58,
+                  "name": "İbranilərə",
+                  "name_en": "Hebrews"
+                },
+                {
+                  "id": 59,
+                  "order": 59,
+                  "name": "Yaqubun",
+                  "name_en": "James"
+                },
+                {
+                  "id": 60,
+                  "order": 60,
+                  "name": "1 Peterin",
+                  "name_en": "1 Peter"
+                },
+                {
+                  "id": 61,
+                  "order": 61,
+                  "name": "2 Peterin",
+                  "name_en": "2 Peter"
+                },
+                {
+                  "id": 62,
+                  "order": 62,
+                  "name": "1 Yəhyanın",
+                  "name_en": "1 John"
+                },
+                {
+                  "id": 63,
+                  "order": 63,
+                  "name": "2 Yəhyanın",
+                  "name_en": "2 John"
+                },
+                {
+                  "id": 64,
+                  "order": 64,
+                  "name": "3 Yəhyanın",
+                  "name_en": "3 John"
+                },
+                {
+                  "id": 65,
+                  "order": 65,
+                  "name": "Yəhudanın",
+                  "name_en": "Jude"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Peyğəmbərlik kitabı",
+          "books": [
+            { "id": 66, "order": 66, "name": "Vəhy", "name_en": "Revelation" }
+          ]
+        }
+      ]
+    }
+  ]
+}
