@@ -8,7 +8,7 @@ import { ReadStatusIcon } from "@/components/read-status-icon";
 import { WishlistToggleButton } from "@/components/wishlist-toggle-button";
 import { countTextOccurrences, formatVerseText, verseTextToPlainText } from "@/lib/format-verse-text";
 import { toggleVersesReadThrough, useIsVerseRead } from "@/lib/read-status";
-import { getChapterProgress, setChapterProgress, setLastActiveBookSlug, setReadingProgress } from "@/lib/reading-progress";
+import { setChapterProgress, setLastActiveBookSlug, setReadingProgress } from "@/lib/reading-progress";
 import { toggleWishlist, useIsInWishlist } from "@/lib/wishlist";
 import type { QuranVerse } from "@/types/quran";
 
@@ -98,15 +98,28 @@ export function VerseReader({
   };
 
   useEffect(() => {
-    const verse = new URLSearchParams(window.location.search).get("verse");
+    const params = new URLSearchParams(window.location.search);
+    if (params.has("highlight")) return;
+    const verse = params.get("verse");
+    if (!verse) {
+      requestAnimationFrame(() => window.scrollTo(0, 0));
+      return;
+    }
     const target = verse === "last"
       ? verses[verses.length - 1]?.verse
-      : verse ? Number(verse) : getChapterProgress(book, chapterId) ?? undefined;
-    if (!target || target === verses[0]?.verse) return;
+      : Number(verse);
+    if (!target || !verses.some((item) => item.verse === target)) {
+      requestAnimationFrame(() => window.scrollTo(0, 0));
+      return;
+    }
+    if (target === verses[0]?.verse) {
+      requestAnimationFrame(() => window.scrollTo(0, 0));
+      return;
+    }
     requestAnimationFrame(() => {
       listRef.current?.querySelector<HTMLElement>(`[data-verse="${target}"]`)?.scrollIntoView({ block: "start" });
     });
-  }, [book, chapterId, verses]);
+  }, [verses]);
 
   useEffect(() => {
     const root = listRef.current;
