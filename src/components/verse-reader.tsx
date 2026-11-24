@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { CopyVerseButton } from "@/components/copy-verse-button";
+import { AudioPlayButton } from "@/components/audio-play-button";
 import { PageHeader } from "@/components/page-header";
 import { ReadStatusIcon } from "@/components/read-status-icon";
 import { WishlistToggleButton } from "@/components/wishlist-toggle-button";
@@ -24,6 +25,7 @@ interface VerseReaderProps {
   prevChapterId?: number | null;
   nextChapterId?: number | null;
   startVerse?: number;
+  audioUrl?: string;
 }
 
 export function VerseReader({
@@ -37,6 +39,7 @@ export function VerseReader({
   verses,
   prevChapterId = null,
   nextChapterId = null,
+  audioUrl,
 }: VerseReaderProps) {
   const listRef = useRef<HTMLElement>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
@@ -156,6 +159,8 @@ export function VerseReader({
           backHref={backHref}
           titleClassName="font-serif text-xl font-semibold text-foreground/90 sm:text-2xl"
           actions={(
+            <>
+            {audioUrl && <AudioPlayButton src={audioUrl} label={title} />}
             <button
               type="button"
               onClick={toggleSearch}
@@ -168,6 +173,7 @@ export function VerseReader({
                 {searchOpen ? <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" /> : <><circle cx="11" cy="11" r="7" /><path strokeLinecap="round" d="m21 21-4.3-4.3" /></>}
               </svg>
             </button>
+            </>
           )}
         />
         {searchOpen && (

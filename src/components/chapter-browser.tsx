@@ -121,6 +121,17 @@ export function ChapterBrowser({
           </div>
 
           <div className="ml-4 flex shrink-0 items-center gap-4">
+            <Link
+              href="/quran/audio"
+              aria-label="Audio siyahısı"
+              title="Audio siyahısı"
+              className="flex shrink-0 items-center justify-center rounded-full text-foreground/55 transition-colors duration-300 hover:text-foreground"
+            >
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-5 w-5">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M11 5 6 9H3v6h3l5 4V5Z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.5 8.5a5 5 0 0 1 0 7m3-10a9 9 0 0 1 0 13" />
+              </svg>
+            </Link>
             <button
             type="button"
             onClick={() => {

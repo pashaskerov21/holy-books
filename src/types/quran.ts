@@ -8,6 +8,7 @@ export interface QuranChapter {
   id: number;
   chapter: string;
   info: string;
+  audio?: string;
   verses: QuranVerse[];
 }
 

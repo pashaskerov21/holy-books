@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function QuranPage() {
+export default async function QuranPage() {
   const chapters = getAllChapters();
   const quran = getQuranInfo();
 

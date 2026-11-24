@@ -1,8 +1,9 @@
-const CACHE_VERSION = "v5";
+const CACHE_VERSION = "v6";
 const STATIC_CACHE = `static-${CACHE_VERSION}`;
 const PAGES_CACHE = `pages-${CACHE_VERSION}`;
+const AUDIO_CACHE = `audio-${CACHE_VERSION}`;
 
-const CORE_URLS = ["/", "/quran", "/incil", "/tovrat", "/tenqrizm"];
+const CORE_URLS = ["/", "/quran", "/quran/audio", "/incil", "/tovrat", "/tenqrizm"];
 
 const AZ_CHAR_MAP = { ə: "e", ı: "i", ö: "o", ü: "u", ş: "s", ç: "c", ğ: "g" };
 
@@ -12,6 +13,7 @@ function slugifyBookName(name) {
 
 async function getPrecacheUrls() {
   const urls = [...CORE_URLS];
+  const audioUrls = [];
 
   try {
     const infoRes = await fetch("/api/quran/info");
@@ -21,6 +23,18 @@ async function getPrecacheUrls() {
     }
   } catch {
     // quran info unreachable during install; chapters get cached on first visit instead
+  }
+
+  try {
+    const quranRes = await fetch("/api/quran");
+    const chapters = await quranRes.json();
+    for (const chapter of chapters ?? []) {
+      if (typeof chapter.audio !== "string" || !/^[\w-]+\.mp3$/i.test(chapter.audio)) continue;
+      urls.push(`/quran/audio/${chapter.id}`);
+      audioUrls.push(`/audio/quran/${chapter.audio}`);
+    }
+  } catch {
+    // audio files and player pages will be cached after first online use
   }
 
   try {
@@ -61,7 +75,7 @@ async function getPrecacheUrls() {
     // tenqrizm data unreachable during install; chapters get cached on first visit instead
   }
 
-  return urls;
+  return { urls, audioUrls };
 }
 
 // A page's HTML references the JS chunks it needs via <script src>. A plain
@@ -84,7 +98,8 @@ self.addEventListener("install", (event) => {
     (async () => {
       const pagesCache = await caches.open(PAGES_CACHE);
       const staticCache = await caches.open(STATIC_CACHE);
-      const urls = await getPrecacheUrls();
+      const audioCache = await caches.open(AUDIO_CACHE);
+      const { urls, audioUrls } = await getPrecacheUrls();
       const discoveredAssets = new Set();
 
       await Promise.all(
@@ -115,6 +130,19 @@ self.addEventListener("install", (event) => {
         }),
       );
 
+      for (let index = 0; index < audioUrls.length; index += 4) {
+        await Promise.all(audioUrls.slice(index, index + 4).map(async (audioUrl) => {
+          try {
+            const response = await fetch(audioUrl);
+            if (response.ok && response.status === 200) {
+              await audioCache.put(audioUrl, response);
+            }
+          } catch {
+            // this audio remains available online and can be cached on first use
+          }
+        }));
+      }
+
       await self.skipWaiting();
     })(),
   );
@@ -126,7 +154,7 @@ self.addEventListener("activate", (event) => {
       const keys = await caches.keys();
       await Promise.all(
         keys
-          .filter((key) => key !== STATIC_CACHE && key !== PAGES_CACHE)
+          .filter((key) => key !== STATIC_CACHE && key !== PAGES_CACHE && key !== AUDIO_CACHE)
           .map((key) => caches.delete(key)),
       );
       await self.clients.claim();
@@ -144,6 +172,15 @@ self.addEventListener("fetch", (event) => {
   if (url.pathname.startsWith("/_next/static/")) {
     event.respondWith(cacheFirst(request, STATIC_CACHE));
     return;
+  }
+
+  if (url.pathname.startsWith("/audio/quran/") && url.pathname.endsWith(".mp3")) {
+    event.respondWith(networkFirstAudio(request));
+    return;
+  }
+
+  if (url.pathname === "/quran" || url.pathname === "/quran/audio") {
+    event.waitUntil(cacheConfiguredAudios());
   }
 
   event.respondWith(networkFirst(request, PAGES_CACHE));
@@ -173,4 +210,81 @@ async function networkFirst(request, cacheName) {
     if (cached) return cached;
     throw new Error("offline and no cached response available");
   }
+}
+
+async function networkFirstAudio(request) {
+  const cache = await caches.open(AUDIO_CACHE);
+  const cached = await cache.match(request.url);
+
+  try {
+    const response = await fetch(request);
+    if (response.ok && response.status === 200) {
+      await cache.put(request.url, response.clone());
+    }
+    return response;
+  } catch {
+    if (cached) return audioResponseFromCache(request, cached);
+    return new Response("Audio is not available offline", {
+      status: 503,
+      headers: { "Content-Type": "text/plain; charset=utf-8" },
+    });
+  }
+}
+
+async function cacheConfiguredAudios() {
+  try {
+    const response = await fetch("/api/quran", { cache: "no-store" });
+    if (!response.ok) return;
+
+    const chapters = await response.json();
+    const audioUrls = (chapters ?? [])
+      .filter((chapter) => typeof chapter.audio === "string" && /^[\w-]+\.mp3$/i.test(chapter.audio))
+      .map((chapter) => `/audio/quran/${chapter.audio}`);
+    const cache = await caches.open(AUDIO_CACHE);
+
+    for (let index = 0; index < audioUrls.length; index += 4) {
+      await Promise.all(audioUrls.slice(index, index + 4).map(async (audioUrl) => {
+        if (await cache.match(audioUrl)) return;
+        const audioResponse = await fetch(audioUrl);
+        if (audioResponse.ok && audioResponse.status === 200) {
+          await cache.put(audioUrl, audioResponse);
+        }
+      }));
+    }
+  } catch {
+    // the saved audio remains available when this refresh cannot reach the network
+  }
+}
+
+async function audioResponseFromCache(request, cached) {
+  const range = request.headers.get("range");
+  if (!range) return cached;
+
+  const match = /^bytes=(\d*)-(\d*)$/.exec(range);
+  const blob = await cached.blob();
+  const size = blob.size;
+  if (!match || (!match[1] && !match[2])) {
+    return new Response(null, {
+      status: 416,
+      headers: { "Content-Range": `bytes */${size}`, "Accept-Ranges": "bytes" },
+    });
+  }
+
+  const suffixLength = match[1] ? null : Number(match[2]);
+  const start = suffixLength === null ? Number(match[1]) : Math.max(size - suffixLength, 0);
+  const requestedEnd = match[2] ? Number(match[2]) : size - 1;
+  const end = Math.min(requestedEnd, size - 1);
+  if (start >= size || start > end) {
+    return new Response(null, {
+      status: 416,
+      headers: { "Content-Range": `bytes */${size}`, "Accept-Ranges": "bytes" },
+    });
+  }
+
+  const headers = new Headers(cached.headers);
+  headers.set("Accept-Ranges", "bytes");
+  headers.set("Content-Range", `bytes ${start}-${end}/${size}`);
+  headers.set("Content-Length", String(end - start + 1));
+  headers.set("Content-Type", cached.headers.get("Content-Type") ?? "audio/mpeg");
+  return new Response(blob.slice(start, end + 1), { status: 206, headers });
 }

@@ -106,6 +106,7 @@ export default async function ChapterPage({
         prevChapterId={prevChapterId}
         nextChapterId={nextChapterId}
         startVerse={startVerse}
+        audioUrl={data.audio ? `/audio/quran/${data.audio}` : undefined}
       />
     </div>
   );
