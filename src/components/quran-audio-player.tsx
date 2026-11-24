@@ -1,7 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
 import { PageHeader } from "@/components/page-header";
 import { playAudioExclusively, releaseAudio } from "@/lib/audio-playback";
 
@@ -11,6 +10,14 @@ interface AudioTrack {
   src: string;
 }
 
+function formatAudioTime(seconds: number) {
+  if (!Number.isFinite(seconds) || seconds < 0) return "0:00";
+  const wholeSeconds = Math.floor(seconds);
+  const minutes = Math.floor(wholeSeconds / 60);
+  const remainingSeconds = String(wholeSeconds % 60).padStart(2, "0");
+  return `${minutes}:${remainingSeconds}`;
+}
+
 export function QuranAudioPlayer({
   tracks,
   initialIndex,
@@ -18,27 +25,25 @@ export function QuranAudioPlayer({
   tracks: AudioTrack[];
   initialIndex: number;
 }) {
-  const router = useRouter();
   const audioRef = useRef<HTMLAudioElement>(null);
   const cleanupTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const startedSourceRef = useRef<string | null>(null);
   const [trackIndex, setTrackIndex] = useState(initialIndex);
   const [isPlaying, setIsPlaying] = useState(true);
   const [repeatCurrent, setRepeatCurrent] = useState(false);
+  const [currentTime, setCurrentTime] = useState(0);
+  const [duration, setDuration] = useState(0);
   const track = tracks[trackIndex];
   const trackSrc = track?.src;
 
-  const moveToTrack = useCallback((index: number) => {
+  const moveToTrack = (index: number) => {
     const nextIndex = (index + tracks.length) % tracks.length;
     setTrackIndex(nextIndex);
     setIsPlaying(true);
-    router.replace(`/quran/audio/${tracks[nextIndex].id}`, { scroll: false });
-  }, [router, tracks]);
-
-  useEffect(() => {
-    setTrackIndex(initialIndex);
-    setIsPlaying(true);
-  }, [initialIndex]);
+    setCurrentTime(0);
+    setDuration(0);
+    window.history.replaceState(null, "", `/quran/audio/${tracks[nextIndex].id}`);
+  };
 
   useEffect(() => {
     const audio = audioRef.current;
@@ -49,6 +54,8 @@ export function QuranAudioPlayer({
     }
     if (startedSourceRef.current === trackSrc) return;
     startedSourceRef.current = trackSrc;
+    setCurrentTime(0);
+    setDuration(0);
     void playAudioExclusively(audio).then(setIsPlaying);
   }, [trackSrc]);
 
@@ -86,6 +93,14 @@ export function QuranAudioPlayer({
   };
 
   const toggleRepeatMode = () => setRepeatCurrent((repeat) => !repeat);
+
+  const seekTo = (value: string) => {
+    const nextTime = Number(value);
+    const audio = audioRef.current;
+    if (!audio || !Number.isFinite(nextTime)) return;
+    audio.currentTime = nextTime;
+    setCurrentTime(nextTime);
+  };
 
   if (!track) return null;
 
@@ -125,12 +140,34 @@ export function QuranAudioPlayer({
             src={trackSrc}
             preload="auto"
             onPlay={() => setIsPlaying(true)}
+            onLoadedMetadata={(event) => setDuration(event.currentTarget.duration || 0)}
+            onDurationChange={(event) => setDuration(event.currentTarget.duration || 0)}
+            onTimeUpdate={(event) => setCurrentTime(event.currentTarget.currentTime)}
             onPause={(event) => {
               setIsPlaying(false);
               releaseAudio(event.currentTarget);
             }}
             onEnded={handleEnded}
           />
+
+          <div className="mb-7">
+            <input
+              type="range"
+              min={0}
+              max={duration || 1}
+              step={0.1}
+              value={Math.min(currentTime, duration || 0)}
+              onChange={(event) => seekTo(event.target.value)}
+              disabled={!duration}
+              aria-label="Audio vaxtı"
+              aria-valuetext={`${formatAudioTime(currentTime)} / ${formatAudioTime(duration)}`}
+              className="h-2 w-full cursor-pointer accent-foreground disabled:cursor-default disabled:opacity-40"
+            />
+            <div className="mt-1 flex justify-between text-xs tabular-nums text-muted">
+              <span>{formatAudioTime(currentTime)}</span>
+              <span>{formatAudioTime(duration)}</span>
+            </div>
+          </div>
 
           <div className="flex items-center justify-center gap-8">
             <button type="button" onClick={() => moveToTrack(trackIndex - 1)} aria-label="Əvvəlki audio" className="flex h-12 w-12 items-center justify-center rounded-full text-foreground/75 transition-colors hover:bg-foreground/5 hover:text-foreground">

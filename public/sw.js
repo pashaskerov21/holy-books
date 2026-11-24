@@ -1,4 +1,4 @@
-const CACHE_VERSION = "v6";
+const CACHE_VERSION = "v7";
 const STATIC_CACHE = `static-${CACHE_VERSION}`;
 const PAGES_CACHE = `pages-${CACHE_VERSION}`;
 const AUDIO_CACHE = `audio-${CACHE_VERSION}`;
@@ -270,9 +270,10 @@ async function audioResponseFromCache(request, cached) {
     });
   }
 
-  const suffixLength = match[1] ? null : Number(match[2]);
-  const start = suffixLength === null ? Number(match[1]) : Math.max(size - suffixLength, 0);
-  const requestedEnd = match[2] ? Number(match[2]) : size - 1;
+  const isSuffixRange = !match[1];
+  const suffixLength = isSuffixRange ? Number(match[2]) : null;
+  const start = isSuffixRange ? Math.max(size - suffixLength, 0) : Number(match[1]);
+  const requestedEnd = isSuffixRange || !match[2] ? size - 1 : Number(match[2]);
   const end = Math.min(requestedEnd, size - 1);
   if (start >= size || start > end) {
     return new Response(null, {
