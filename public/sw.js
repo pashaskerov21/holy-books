@@ -36,7 +36,7 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("message", (event) => {
   if (event.data?.type === "CACHE_ALL") {
-    event.waitUntil(cacheAllContent());
+    event.waitUntil(cacheAllContent(event.source));
   }
 });
 
@@ -68,10 +68,11 @@ self.addEventListener("fetch", (event) => {
   }
 });
 
-async function cacheAllContent() {
+async function cacheAllContent(client) {
+  let failed = false;
   try {
     const response = await fetch("/api/offline-manifest", { cache: "no-store" });
-    if (!response.ok) return;
+    if (!response.ok) throw new Error("Offline manifest request failed");
 
     const manifest = await response.json();
     const pageUrls = [...CORE_URLS];
@@ -108,11 +109,11 @@ async function cacheAllContent() {
 
         await pagesCache.put(pageUrl, pageResponse.clone());
         const html = await pageResponse.text();
-        for (const match of html.matchAll(/<script[^>]+src="(\/_next\/static\/[^\"]+)"/g)) {
+        for (const match of html.matchAll(/<(?:script|link)[^>]+(?:src|href)="(\/_next\/static\/[^\"]+)"/g)) {
           assetUrls.add(match[1]);
         }
       } catch {
-        // Keep caching other content if one route is temporarily unavailable.
+        failed = true;
       }
     });
 
@@ -122,7 +123,7 @@ async function cacheAllContent() {
         const assetResponse = await fetch(assetUrl);
         if (assetResponse.ok) await staticCache.put(assetUrl, assetResponse);
       } catch {
-        // This asset can be fetched on the next manual offline download.
+        failed = true;
       }
     });
 
@@ -135,11 +136,13 @@ async function cacheAllContent() {
           await audioCache.put(audioUrl, audioResponse);
         }
       } catch {
-        // Audio that failed to download remains available online.
+        failed = true;
       }
     });
   } catch {
-    // A later manual request can retry if the manifest is unavailable.
+    failed = true;
+  } finally {
+    client?.postMessage({ type: "CACHE_ALL_RESULT", success: !failed });
   }
 }
 
