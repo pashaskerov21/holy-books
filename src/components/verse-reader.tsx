@@ -24,7 +24,6 @@ interface VerseReaderProps {
   verses: QuranVerse[];
   prevChapterId?: number | null;
   nextChapterId?: number | null;
-  startVerse?: number;
   audioUrl?: string;
 }
 

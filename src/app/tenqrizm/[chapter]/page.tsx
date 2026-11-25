@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { VerseReader } from "@/components/verse-reader";
-import { getChapterById, getTenqrizmInfo } from "@/lib/tenqrizm-data";
+import { getAllChapters, getChapterById, getTenqrizmInfo } from "@/lib/tenqrizm-data";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 interface TenqrizmChapterPageProps {
   params: Promise<{ chapter: string }>;
-  searchParams: Promise<{ verse?: string }>;
+}
+
+export function generateStaticParams() {
+  return getAllChapters().map((chapter) => ({ chapter: String(chapter.chapter) }));
 }
 
 export async function generateMetadata({
@@ -52,10 +55,8 @@ export async function generateMetadata({
 
 export default async function TenqrizmChapterPage({
   params,
-  searchParams,
 }: TenqrizmChapterPageProps) {
   const { chapter } = await params;
-  const { verse } = await searchParams;
   const chapterId = Number(chapter);
   const data = Number.isInteger(chapterId) ? getChapterById(chapterId) : undefined;
 
@@ -73,12 +74,6 @@ export default async function TenqrizmChapterPage({
     verse: passage.passage,
     text: passage.text,
   }));
-
-  const lastVerseNumber = verses[verses.length - 1].verse;
-  const requestedVerse = verse === "last" ? lastVerseNumber : Number(verse);
-  const startVerse = verses.some((v) => v.verse === requestedVerse)
-    ? requestedVerse
-    : verses[0].verse;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -112,7 +107,6 @@ export default async function TenqrizmChapterPage({
         verses={verses}
         prevChapterId={prevChapterId}
         nextChapterId={nextChapterId}
-        startVerse={startVerse}
       />
     </div>
   );

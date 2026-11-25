@@ -1,12 +1,20 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { VerseReader } from "@/components/verse-reader";
-import { getBookBySlug, getChapter, getTovratInfo } from "@/lib/tovrat-data";
+import { getAllBooks, getBookBySlug, getBookSlug, getChapter, getTovratInfo } from "@/lib/tovrat-data";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 interface TovratChapterPageProps {
   params: Promise<{ book: string; chapter: string }>;
-  searchParams: Promise<{ verse?: string }>;
+}
+
+export function generateStaticParams() {
+  return getAllBooks().flatMap((book) =>
+    book.chapters.map((chapter) => ({
+      book: getBookSlug(book),
+      chapter: String(chapter.chapter),
+    })),
+  );
 }
 
 export async function generateMetadata({
@@ -55,10 +63,8 @@ export async function generateMetadata({
 
 export default async function TovratChapterPage({
   params,
-  searchParams,
 }: TovratChapterPageProps) {
   const { book: bookSlug, chapter } = await params;
-  const { verse } = await searchParams;
   const bookData = getBookBySlug(bookSlug);
 
   if (!bookData) {
@@ -74,12 +80,6 @@ export default async function TovratChapterPage({
 
   const prevChapterId = getChapter(bookSlug, data.chapter - 1) ? data.chapter - 1 : null;
   const nextChapterId = getChapter(bookSlug, data.chapter + 1) ? data.chapter + 1 : null;
-
-  const lastVerseNumber = data.verses[data.verses.length - 1].verse;
-  const requestedVerse = verse === "last" ? lastVerseNumber : Number(verse);
-  const startVerse = data.verses.some((v) => v.verse === requestedVerse)
-    ? requestedVerse
-    : data.verses[0].verse;
 
   const basePath = `/tovrat/${bookSlug}`;
 
@@ -116,7 +116,6 @@ export default async function TovratChapterPage({
         verses={data.verses}
         prevChapterId={prevChapterId}
         nextChapterId={nextChapterId}
-        startVerse={startVerse}
       />
     </div>
   );

@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { IncilChapterBrowser } from "@/components/incil-chapter-browser";
-import { getBookBySlug } from "@/lib/incil-data";
+import { getAllBooks, getBookBySlug, getBookSlug } from "@/lib/incil-data";
 import { SITE_NAME } from "@/lib/site";
 
 interface IncilBookPageProps {
   params: Promise<{ book: string }>;
+}
+
+export function generateStaticParams() {
+  return getAllBooks().map((book) => ({ book: getBookSlug(book) }));
 }
 
 export async function generateMetadata({

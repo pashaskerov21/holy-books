@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { VerseReader } from "@/components/verse-reader";
-import { getChapterById, getQuranInfo } from "@/lib/quran-data";
+import { getAllChapters, getChapterById, getQuranInfo } from "@/lib/quran-data";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 interface ChapterPageProps {
   params: Promise<{ chapter: string }>;
-  searchParams: Promise<{ verse?: string }>;
+}
+
+export function generateStaticParams() {
+  return getAllChapters().map((chapter) => ({ chapter: String(chapter.id) }));
 }
 
 export async function generateMetadata({
@@ -53,10 +56,8 @@ export async function generateMetadata({
 
 export default async function ChapterPage({
   params,
-  searchParams,
 }: ChapterPageProps) {
   const { chapter } = await params;
-  const { verse } = await searchParams;
   const chapterId = Number(chapter);
   const data = Number.isInteger(chapterId) ? getChapterById(chapterId) : undefined;
 
@@ -66,12 +67,6 @@ export default async function ChapterPage({
 
   const prevChapterId = getChapterById(data.id - 1) ? data.id - 1 : null;
   const nextChapterId = getChapterById(data.id + 1) ? data.id + 1 : null;
-
-  const lastVerseNumber = data.verses[data.verses.length - 1].verse;
-  const requestedVerse = verse === "last" ? lastVerseNumber : Number(verse);
-  const startVerse = data.verses.some((v) => v.verse === requestedVerse)
-    ? requestedVerse
-    : data.verses[0].verse;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -105,7 +100,6 @@ export default async function ChapterPage({
         verses={data.verses}
         prevChapterId={prevChapterId}
         nextChapterId={nextChapterId}
-        startVerse={startVerse}
         audioUrl={data.audio ? `/audio/quran/${data.audio}` : undefined}
       />
     </div>

@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { TovratChapterBrowser } from "@/components/tovrat-chapter-browser";
-import { getBookBySlug } from "@/lib/tovrat-data";
+import { getAllBooks, getBookBySlug, getBookSlug } from "@/lib/tovrat-data";
 import { SITE_NAME } from "@/lib/site";
 
 interface TovratBookPageProps {
   params: Promise<{ book: string }>;
+}
+
+export function generateStaticParams() {
+  return getAllBooks().map((book) => ({ book: getBookSlug(book) }));
 }
 
 export async function generateMetadata({

@@ -2,6 +2,12 @@ import { notFound } from "next/navigation";
 import { QuranAudioPlayer } from "@/components/quran-audio-player";
 import { getAllChapters } from "@/lib/quran-data";
 
+export function generateStaticParams() {
+  return getAllChapters()
+    .filter((chapter) => chapter.audio)
+    .map((chapter) => ({ chapter: String(chapter.id) }));
+}
+
 export default async function QuranAudioPlayerPage({
   params,
 }: {
