@@ -1,129 +1,43 @@
-const CACHE_VERSION = "v8";
+const CACHE_VERSION = "v9";
 const STATIC_CACHE = `static-${CACHE_VERSION}`;
 const PAGES_CACHE = `pages-${CACHE_VERSION}`;
 const AUDIO_CACHE = `audio-${CACHE_VERSION}`;
 
 const CORE_URLS = ["/", "/quran", "/quran/audio", "/incil", "/tovrat", "/tenqrizm"];
 
-const AZ_CHAR_MAP = { ə: "e", ı: "i", ö: "o", ü: "u", ş: "s", ç: "c", ğ: "g" };
-
-function slugifyBookName(name) {
-  return name.toLowerCase().replace(/[əıöüşçğ]/g, (char) => AZ_CHAR_MAP[char] ?? char);
-}
-
-async function getPrecacheUrls() {
-  const urls = [...CORE_URLS];
-  const audioUrls = [];
-
-  try {
-    const manifestRes = await fetch("/api/offline-manifest");
-    if (!manifestRes.ok) throw new Error("offline manifest unavailable");
-    const manifest = await manifestRes.json();
-
-    for (const chapterId of manifest.quranChapterIds ?? []) {
-      urls.push(`/quran/${chapterId}`);
-    }
-    for (const track of manifest.audioTracks ?? []) {
-      if (typeof track.audio !== "string" || !/^[\w-]+\.mp3$/i.test(track.audio)) continue;
-      urls.push(`/quran/audio/${track.id}`);
-      audioUrls.push(`/audio/quran/${track.audio}`);
-    }
-    for (const book of manifest.incilBooks ?? []) {
-      urls.push(`/incil/${book.slug}`);
-      for (const chapterId of book.chapterIds ?? []) urls.push(`/incil/${book.slug}/${chapterId}`);
-    }
-    for (const book of manifest.tovratBooks ?? []) {
-      urls.push(`/tovrat/${book.slug}`);
-      for (const chapterId of book.chapterIds ?? []) urls.push(`/tovrat/${book.slug}/${chapterId}`);
-    }
-    for (const chapterId of manifest.tenqrizmChapterIds ?? []) {
-      urls.push(`/tenqrizm/${chapterId}`);
-    }
-  } catch {
-    // precache the core pages; other routes will be cached after first visit
-  }
-
-  return { urls, audioUrls };
-}
-
-// A page's HTML references the JS chunks it needs via <script src>. A plain
-// fetch() during install (unlike a real browser navigation) never triggers the
-// browser to load those chunks, so without this they'd only get cached the
-// first time someone actually visits that route online — meaning any
-// never-visited chapter would silently fail to hydrate offline (no swipe, no
-// buttons, no verse-position correction) even though its HTML was precached.
-function extractStaticAssetUrls(html) {
-  const urls = new Set();
-  const pattern = /<script[^>]+src="(\/_next\/static\/[^"]+)"/g;
-  for (const match of html.matchAll(pattern)) {
-    urls.add(match[1]);
-  }
-  return urls;
-}
-
 self.addEventListener("install", (event) => {
-  event.waitUntil(
-    (async () => {
-      const pagesCache = await caches.open(PAGES_CACHE);
-      const staticCache = await caches.open(STATIC_CACHE);
-      const audioCache = await caches.open(AUDIO_CACHE);
-      const { urls, audioUrls } = await getPrecacheUrls();
-      const discoveredAssets = new Set();
-
-      await runWithConcurrency(urls, 5, async (url) => {
-          try {
-            const response = await fetch(url);
-            if (!response.ok) return;
-
-            await pagesCache.put(url, response.clone());
-            const html = await response.text();
-            for (const assetUrl of extractStaticAssetUrls(html)) {
-              discoveredAssets.add(assetUrl);
-            }
-          } catch {
-            // this page will simply get cached on its first visit instead
-          }
-      });
-
-      await runWithConcurrency([...discoveredAssets], 6, async (assetUrl) => {
-          try {
-            const response = await fetch(assetUrl);
-            if (response.ok) await staticCache.put(assetUrl, response);
-          } catch {
-            // this asset will simply get cached on its first visit instead
-          }
-      });
-
-      for (let index = 0; index < audioUrls.length; index += 2) {
-        await Promise.all(audioUrls.slice(index, index + 2).map(async (audioUrl) => {
-          try {
-            const response = await fetch(audioUrl);
-            if (response.ok && response.status === 200) {
-              await audioCache.put(audioUrl, response);
-            }
-          } catch {
-            // this audio remains available online and can be cached on first use
-          }
-        }));
+  // Activate this lightweight worker immediately; only its six entry pages
+  // are fetched as part of installation.
+  self.skipWaiting();
+  event.waitUntil((async () => {
+    const cache = await caches.open(PAGES_CACHE);
+    await runWithConcurrency(CORE_URLS, 4, async (url) => {
+      try {
+        const response = await fetch(url);
+        if (response.ok) await cache.put(url, response);
+      } catch {
+        // A page can be cached after the first successful visit.
       }
-
-      await self.skipWaiting();
-    })(),
-  );
+    });
+  })());
 });
 
 self.addEventListener("activate", (event) => {
-  event.waitUntil(
-    (async () => {
-      const keys = await caches.keys();
-      await Promise.all(
-        keys
-          .filter((key) => key !== STATIC_CACHE && key !== PAGES_CACHE && key !== AUDIO_CACHE)
-          .map((key) => caches.delete(key)),
-      );
-      await self.clients.claim();
-    })(),
-  );
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(
+      keys
+        .filter((key) => key !== STATIC_CACHE && key !== PAGES_CACHE && key !== AUDIO_CACHE)
+        .map((key) => caches.delete(key)),
+    );
+    await self.clients.claim();
+  })());
+});
+
+self.addEventListener("message", (event) => {
+  if (event.data?.type === "CACHE_ALL") {
+    event.waitUntil(cacheAllContent());
+  }
 });
 
 self.addEventListener("fetch", (event) => {
@@ -131,7 +45,7 @@ self.addEventListener("fetch", (event) => {
   if (request.method !== "GET") return;
 
   const url = new URL(request.url);
-  if (url.origin !== self.location.origin) return;
+  if (url.origin !== self.location.origin || url.pathname.startsWith("/api/")) return;
 
   if (request.headers.has("RSC") || request.headers.get("accept")?.includes("text/x-component")) {
     return;
@@ -147,19 +61,87 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (url.pathname === "/quran/audio") {
-    event.waitUntil(cacheConfiguredAudios());
-  }
-
   if (request.mode === "navigate") {
     const updatePromise = fetchAndCachePage(request, PAGES_CACHE);
     event.waitUntil(updatePromise.then(() => undefined).catch(() => undefined));
     event.respondWith(staleWhileRevalidatePage(request, PAGES_CACHE, updatePromise));
-    return;
   }
-
-  event.respondWith(networkFirst(request, PAGES_CACHE));
 });
+
+async function cacheAllContent() {
+  try {
+    const response = await fetch("/api/offline-manifest", { cache: "no-store" });
+    if (!response.ok) return;
+
+    const manifest = await response.json();
+    const pageUrls = [...CORE_URLS];
+    const audioUrls = [];
+
+    for (const chapterId of manifest.quranChapterIds ?? []) {
+      pageUrls.push(`/quran/${chapterId}`);
+    }
+    for (const track of manifest.audioTracks ?? []) {
+      if (typeof track.audio !== "string" || !/^[\w-]+\.mp3$/i.test(track.audio)) continue;
+      pageUrls.push(`/quran/audio/${track.id}`);
+      audioUrls.push(`/audio/quran/${track.audio}`);
+    }
+    for (const book of manifest.incilBooks ?? []) {
+      pageUrls.push(`/incil/${book.slug}`);
+      for (const chapterId of book.chapterIds ?? []) pageUrls.push(`/incil/${book.slug}/${chapterId}`);
+    }
+    for (const book of manifest.tovratBooks ?? []) {
+      pageUrls.push(`/tovrat/${book.slug}`);
+      for (const chapterId of book.chapterIds ?? []) pageUrls.push(`/tovrat/${book.slug}/${chapterId}`);
+    }
+    for (const chapterId of manifest.tenqrizmChapterIds ?? []) {
+      pageUrls.push(`/tenqrizm/${chapterId}`);
+    }
+
+    const pagesCache = await caches.open(PAGES_CACHE);
+    const staticCache = await caches.open(STATIC_CACHE);
+    const assetUrls = new Set();
+
+    await runWithConcurrency(pageUrls, 5, async (pageUrl) => {
+      try {
+        const pageResponse = await fetch(pageUrl);
+        if (!pageResponse.ok) return;
+
+        await pagesCache.put(pageUrl, pageResponse.clone());
+        const html = await pageResponse.text();
+        for (const match of html.matchAll(/<script[^>]+src="(\/_next\/static\/[^\"]+)"/g)) {
+          assetUrls.add(match[1]);
+        }
+      } catch {
+        // Keep caching other content if one route is temporarily unavailable.
+      }
+    });
+
+    await runWithConcurrency([...assetUrls], 6, async (assetUrl) => {
+      try {
+        if (await staticCache.match(assetUrl)) return;
+        const assetResponse = await fetch(assetUrl);
+        if (assetResponse.ok) await staticCache.put(assetUrl, assetResponse);
+      } catch {
+        // This asset can be fetched on the next manual offline download.
+      }
+    });
+
+    const audioCache = await caches.open(AUDIO_CACHE);
+    await runWithConcurrency(audioUrls, 2, async (audioUrl) => {
+      try {
+        if (await audioCache.match(audioUrl)) return;
+        const audioResponse = await fetch(audioUrl);
+        if (audioResponse.ok && audioResponse.status === 200) {
+          await audioCache.put(audioUrl, audioResponse);
+        }
+      } catch {
+        // Audio that failed to download remains available online.
+      }
+    });
+  } catch {
+    // A later manual request can retry if the manifest is unavailable.
+  }
+}
 
 async function runWithConcurrency(items, limit, task) {
   let nextIndex = 0;
@@ -180,41 +162,6 @@ async function cacheFirst(request, cacheName) {
   const response = await fetch(request);
   if (response.ok) cache.put(request, response.clone());
   return response;
-}
-
-async function networkFirst(request, cacheName) {
-  const cache = await caches.open(cacheName);
-
-  try {
-    const response = await fetch(request);
-    if (response.ok) cache.put(request, response.clone());
-    return response;
-  } catch {
-    const cached =
-      (await cache.match(request)) ||
-      (await cache.match(request, { ignoreSearch: true }));
-    if (cached) return cached;
-    throw new Error("offline and no cached response available");
-  }
-}
-
-async function networkFirstAudio(request) {
-  const cache = await caches.open(AUDIO_CACHE);
-  const cached = await cache.match(request.url);
-
-  try {
-    const response = await fetch(request);
-    if (response.ok && response.status === 200) {
-      await cache.put(request.url, response.clone());
-    }
-    return response;
-  } catch {
-    if (cached) return audioResponseFromCache(request, cached);
-    return new Response("Audio is not available offline", {
-      status: 503,
-      headers: { "Content-Type": "text/plain; charset=utf-8" },
-    });
-  }
 }
 
 async function cacheFirstAudio(request) {
@@ -251,31 +198,6 @@ async function staleWhileRevalidatePage(request, cacheName, updatePromise) {
     (await cache.match(request)) ||
     (await cache.match(request, { ignoreSearch: true }));
   return cached || updatePromise;
-}
-
-async function cacheConfiguredAudios() {
-  try {
-    const response = await fetch("/api/offline-manifest", { cache: "no-store" });
-    if (!response.ok) return;
-
-    const manifest = await response.json();
-    const audioUrls = (manifest.audioTracks ?? [])
-      .filter((track) => typeof track.audio === "string" && /^[\w-]+\.mp3$/i.test(track.audio))
-      .map((track) => `/audio/quran/${track.audio}`);
-    const cache = await caches.open(AUDIO_CACHE);
-
-    for (let index = 0; index < audioUrls.length; index += 2) {
-      await Promise.all(audioUrls.slice(index, index + 2).map(async (audioUrl) => {
-        if (await cache.match(audioUrl)) return;
-        const audioResponse = await fetch(audioUrl);
-        if (audioResponse.ok && audioResponse.status === 200) {
-          await cache.put(audioUrl, audioResponse);
-        }
-      }));
-    }
-  } catch {
-    // the saved audio remains available when this refresh cannot reach the network
-  }
 }
 
 async function audioResponseFromCache(request, cached) {

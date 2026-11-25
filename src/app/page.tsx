@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { PageHeader } from "@/components/page-header";
 import { BookCard } from "@/components/book-card";
+import { OfflineDownloadButton } from "@/components/offline-download-button";
 import { getQuranInfo } from "@/lib/quran-data";
 import { getIncilInfo } from "@/lib/incil-data";
 import { getTovratInfo } from "@/lib/tovrat-data";
@@ -114,6 +115,7 @@ export default function Home() {
       />
 
       <main className="flex flex-1 flex-col px-5 pb-16 sm:px-10">
+        <OfflineDownloadButton />
         <div className="flex flex-col">
           {books.map((book) => (
             <BookCard key={book.href} {...book} />
